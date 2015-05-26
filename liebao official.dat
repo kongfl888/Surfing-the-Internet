@@ -1,0 +1,4569 @@
+![Liebao Adblock Rule]
+!Title:猎豹规则（拦截网页、运营商广告）
+!Author:猎豹安全浏览器
+!Updated:2014-2-11 20:00
+!Version:1.0
+!Description:猎豹安全浏览器官方过滤规则
+!Url:http://dl.liebao.cn/adblock/adfilter.dat
+
+
+!Temp 临时规则
+mat1.gtimg.com/sports/hd2009/loadingAs3.swf	$w
+*.163.com/special/*.xml	$w
+static.115img.com/static/delivery*.html	$w
+*g.aa.sdo.com/?method=GetVersion*	$w
+!/.*:\/\/pole\.6rooms\.com\/adpolestar\/.*.swf$/	$w
+!for video skip
+st.vq.ku6.cn	$w
+!dwtracking.sdo.com	$w
+interface.kankanews.com/kkapi/adxmlconverter3.php	$w
+/^http:\/\/.*\/track\./	$w
+cb.baidu.com/ecom	$w,$d=baomihua.com
+cb.baidu.com/ecom	$w,$d=qzone.qq.com
+/img1\.126\.net\/channel\d\/.*\.swf$/	$w
+*	$w,$d=sign.t.qq.com
+d1.sina.com.cn/shh/201303letv/js/countDown.js	$w
+all.vic.sina.com.cn/201303letv/	$w
+pv.7fgame.com	$w
+*_ad/*	$w,$d=focus.cn
+/\/images\/ad\//	$w,$d=noahedu.com
+counter?	$w,$d=58.com
+VzPlayerMx.swf?	$w,$d=cztv.com
+*.js	$w,$d=tim.it
+web.2144.cn	$w
+js.player.cntv.cn/creator/yinshi_bg_ad.js	$w
+tansuo.cntv.cn	$w
+udctrack.2011.05.06.js	$w,$d=ynet.com
+tudouui.com	$w
+/:\/\/([^\/]+\.)?cbjs\.baidu\.com/	$d=baidu.com,$w
+
+
+!video white
+qq.com	$w,$d=v.qq.com
+.ifengimg.com	$w,$d=v.ifeng.com
+stadig.ifeng.com/media.js	$w,$d=v.ifeng.com
+webafp	$w,$d=v.pptv.com
+.megajoy.com	$w,$d=joy.cn
+luckstatic.v1.cn	$w,$d=v1.cn
+pfp.sina.com.cn	$d=video.sina.com.cn,$w
+dcads.sina.com.cn	$d=video.sina.com.cn,$w
+d1.sina.com.cn	$d=video.sina.com.cn,$w
+xunlei.com	$w,$d=kankan.com
+sandai.net	$w,$d=kankan.com
+PPLivePlugin.swf	$w
+v-56.com	$w,$d=56.com
+.56.com/*/adBox/	$w,$d=56.com
+56.com/js/promo/	$w,$d=56.com
+acs.56.com	$w,$d=56.com
+56imgs.com/images/tuiguang/	$w,$d=56.com
+val*.atm.youku.com	$w
+!atm.youku.com	$w,$d=youku.com
+!static.youku.com	$w,$d=youku.com
+aty.sohu.com	$w
+*.mp4	$w,$d=tv.sohu.com
+
+
+!Stat
+cnzz.com	$w
+!cnzz.net	$w
+hm.baidu.com/h.js	$w
+linekong.com	$w
+*	$w,$d=p.yiqifa.com
+tajs.qq.com/stats	$w
+qzonestyle.gtimg.cn/*/stat.js	$w
+analy.qq.com	$w
+hm.baidu.com	$w	$w
+click.hm.baidu.com	$w
+wa.hm.baidu.com	$w
+crs.baidu.com	$w
+
+
+!White List
+ad_close	$w
+app.union.cntv.cn	$w
+tcss.qq.com/icon/	$w,$t=image
+://p.yiqifa.com/	$w
+discuz.gtimg.cn/cloud/scripts/discuz_tips.js	$w
+*open_login.php*	$w
+click.union.360buy.com	$w
+chrome-extension://	$w
+chrome://	$w
+liebao://	$w
+favicon.ico	$w
+/.*\.css$/	$w
+*/logo/*	$w
+a.5d6d.com	$w
+union.bokecc.com	$w
+pic.top100.cn/AdImg	$w
+shangcuwang.com/ads/	$w
+*/search/*	$w
+*/so_*/*	$w
+/\/counts\./	$w
+liebao.cn	$w,$d=bbs.liebao.cn
+ijinshan.com	$w,$d=bbs.liebao.cn
+tcss.qq.com	$w,$d=bbs.liebao.cn
+discuz.gtimg.cn/cloud/scripts/discuz_tips.js	$w,$d=bbs.liebao.cn
+.acs86.com/FrameWork/AFP/AFP_new.swf	$w
+.acs86.com/crossdomain.xml	$w
+.gov.cn	$w
+jquery	$t=script,$w
+pingan.com.cn	$w,$d=pingan.com.cn
+openapi.qzone.qq.com	$w
+qzonestyle.gtimg.cn/open/store	$w,$d=qq.com
+file.market.xiaomi.com	$w
+.gtimg.com/new_js/count.js	$w
+cbjs.baidu.com/js/m.js	$w
+www.hantinghotels.com	$d=htinns.com,$w
+*	$w,$d=51ecshop.com
+xunlei.com	$w,$d=niu.xunlei.com
+ijinshan.com	$w
+duba.net	$w
+www.liebao.cn	$w
+*	$w,$d=show.qq.com
+*	$w,$d=haoma.qq.com
+*	$w,$d=jisha.cn
+unstat.baidu.com/bdun.bsc	$w
+.kongzhong.com/new_lottery/*/js/tc.js	$w,$d=kongzhong.com
+sjsj-client.wanwan4399.com/www_sjsj/resource/secondloading/	$w
+.baixing.com/fabu/	$w
+baidu.com	$w,$d=liebao.cn
+4008823823.com.cn	$w,$d=4008823823.com.cn
+huaweidevice.com	$w,$d=huaweidevice.com
+goodjobs.cn	$w,$d=goodjobs.cn
+.sinaimg.cn/video/deco/*/js/videolist.js	$w
+xiaomi.com	$w
+pingfore.qq.com/pingd?dm=*&url=/download.shtml	$w
+/:\/\/([^\/]+\.)?pingjs\.qq\.com/	$w
+/:\/\/([^\/]+\.)?isdspeed\.qq\.com/	$w
+atm.youku.com/tdcm/adcontrol	$w
+*	$w,$d=fight.pet.qq.com
+lenovo.com.cn	$w,$d=lenovo.com.cn
+*	$w,$d=kf.qq.com
+/ad_ge.flv	$w
+mopimg.cn/dc/tttj.js	$w
+*	$d=game.weibo.com,$w
+damai.cn	$w,$d=damai.cn
+login.sdo.com	$w
+index.baidu.com/images	$w
+*	$w,$d=static.tianya.cn
+static.tianya.cn/city	$w
+stat.tianya.cn/cityid	$w
+cop.innercop.qzone.yingyong	$w
+*	$w,$d=tuiguang.baidu.com
+*.*	$d=gouwuke.com,$w
+js.player.cntv.cn	$w
+track.cupid.iqiyi.com/tracking	$w
+91wan.com	$w,$d=79u.com
+.jpg	$w,$d=efuton.com
+img.uu1001.cn	$w,$d=ncdiscovery.com
+down.ali213.net/js/pop.js	$w
+17zwd.com	$w,$d=17zwd.com
+r.aicaicdn.com/min/b=js&f=commons	$w
+show.qidian.com/images/tuiguang	$w
+91wan.com	$w,$d=79u.com
+.jpg	$w,$d=efuton.com
+img.uu1001.cn	$w,$d=ncdiscovery.com
+down.ali213.net/js/pop.js	$w
+17zwd.com	$w,$d=17zwd.com
+r.aicaicdn.com/min/b=js&f=commons	$w
+show.qidian.com/images/tuiguang	$w
+mbabycare.com	$w
+yiqifa.com	$w,$d=zhezhekan.com
+qq.com	$w,$d=mq.qq.com
+*	$w,$d=guanjia.qq.com
+hao123img.com	$w
+ganji.com/findjob/send_resume.php	$w
+play.mytv365.com/baiduAdplayerV1.1.swf?	$w
+hao123	$w,$d=hao123.com
+
+!shop list
+dangdang.com	$d=dangdang.com,$w
+ddimg.cn	$d=dangdang.com,$w
+wbiao.cn	$w,$d=wbiao.cn
+liwai.com	$w,$d=liwai.com
+eogoo.com	$w,$d=eogoo.com
+wangfujing.com	$w,$d=wangfujing.com
+gemcube.net	$w,$d=gemcube.net
+*	$w,$d=1688.com
+
+
+!POPUP WHITE LIST BEGIN
+*	$w,$d=liebao.cn
+*	$w,$d=ijinshan.com
+*	$w,$d=jd.com
+*	$w,$d=secoo.com
+*	$d=51buy.com,$w
+*	$d=duba.net,$w
+*	$d=duba.com,$w
+*	$w,$d=f.xunlei.com
+*	$w,$d=cloud.kugou.com
+*	$w,$d=beiwaionline.com
+*	$w,$d=edu.cn
+*	$w,$d=beidou.baidu.com
+*	$w,$d=qunar.com
+*	$w,$d=cnzz.com
+*	$w,$d=vsigo.cn
+*	$d=camel.com.cn,$w
+*	$d=so.com,$w
+*	$d=ihush.com,$w
+*	$d=tootoo.cn,$w
+*	$d=alibaba.com,$w
+*	$d=alibaba.cn,$w
+*	$d=etao.com,$w
+*	$d=xoyo.com,$w
+*	$d=bocd.com.cn,$w
+*	$d=ahrcu.com,$w
+*	$d=miui.com,$w
+*	$d=12306.cn,$w
+*	$d=139shop.com,$w
+*	$d=msfunds.com.cn,$w
+*	$d=vjia.com,$w
+*	$d=mail.qq.com,$w
+*	$d=buy.qq.com,$w
+*	$d=chong.qq.com,$w
+*	$d=click.linktech.cn,$w
+*	$d=xiaomi.cn,$w
+*	$d=alimama.com,$w
+*	$d=ccb.com.cn,$w
+*	$d=www.google.com,$w
+*	$d=www.google.com.hk,$w
+*	$d=www.baidu.com,$w
+*	$d=www.soso.com,$w
+*	$d=www.sogou.com,$w
+*	$d=bing.com,$w
+*	$d=www.youdao.com,$w
+*	$d=hnair.com,$w
+*	$d=51job.com,$w
+*	$d=365h.com,$w
+*	$d=dealnews.com,$w
+*	$d=fanli.qq.com,$w
+*	$d=fuwu.yahoo.cn,$w
+*	$d=hk.auctions.yahoo.com,$w
+*	$d=hush-shop.com,$w
+*	$d=jianghu.taobao.com,$w
+*	$d=link.flowercn.com,$w
+*	$d=shop.tompda.com,$w
+*	$d=t.58.com,$w
+*	$d=t.dianping.com,$w
+*	$d=tuan.27.cn,$w
+*	$d=tuan.baihuo.com,$w
+*	$d=ctrip.com,$w
+*	$d=tuan.elong.com,$w
+*	$d=tuan.lafaso.com,$w
+*	$d=tuan.qq.com,$w
+*	$d=tuan.ttomb.com,$w
+*	$d=tuan.yoka.com,$w
+*	$d=vancl.com,$w
+*	$d=17ya.com,$w
+*	$d=21fox.com,$w
+*	$d=21goo.com,$w
+*	$d=22shop.com,$w
+*	$d=24quan.com,$w
+*	$d=2688.com,$w
+*	$d=360buy.com,$w
+*	$d=5173.com,$w
+*	$d=51fanli.com,$w
+*	$d=55tuan.com,$w
+*	$d=91zhengpin.com,$w
+*	$d=ccb.com,$w
+*	$d=99read.com,$w
+*	$d=aimer.com.cn,$w
+*	$d=amazon.cn,$w
+*	$d=amazon.com,$w
+*	$d=artrade.com,$w
+*	$d=awotuan.com,$w
+*	$d=baihuo.com,$w
+*	$d=bearbuy.com.cn,$w
+*	$d=best1.com,$w
+*	$d=biotherm.com.cn,$w
+*	$d=bookuu.com,$w
+*	$d=buy007.com,$w
+*	$d=checkoo.com,$w
+*	$d=china-pub.com,$w
+*	$d=cn.tesco.com,$w
+*	$d=cn.tesco.com,$w
+*	$d=cocotuan.com,$w
+*	$d=cosme-de.com,$w
+*	$d=cosme-de.com,$w
+*	$d=danawa.com.cn,$w
+*	$d=dazhongdianqi.com.cn,$w
+*	$d=didatuan.com,$w
+*	$d=eachnet.com,$w
+*	$d=ebay.com,$w
+*	$d=egou.com,$w
+*	$d=etam.com.cn,$w
+*	$d=fanhuan.com,$w
+*	$d=fantong.com,$w
+*	$d=ftuan.com,$w
+*	$d=gantuan.com,$w
+*	$d=gaopeng.com,$w
+*	$d=go.cn,$w
+*	$d=gome.com.cn,$w
+*	$d=guopi.com,$w
+*	$d=haotehui.com,$w
+*	$d=happigo.com,$w
+*	$d=hitao.com,$w
+*	$d=ilucking.com,$w
+*	$d=itry.cn,$w
+*	$d=jumei.com,$w
+*	$d=juqi.com,$w
+*	$d=lamiu.com,$w
+*	$d=lashou.com,$w
+*	$d=letao.com,$w
+*	$d=leyou.com,$w
+*	$d=leyou.com.cn,$w
+*	$d=lijiababy.com.cn,$w
+*	$d=liketry.com,$w
+*	$d=liketuan.com,$w
+*	$d=loogoo.com,$w
+*	$d=m18.com,$w
+*	$d=manzuo.com,$w
+*	$d=mbaobao.com,$w
+*	$d=meilishuo.com,$w
+*	$d=meituan.com,$w
+*	$d=miqi.cn,$w
+*	$d=mogujie.com,$w
+*	$d=mopou.com,$w
+*	$d=mpdaogou.com,$w
+*	$d=newegg.com.cn,$w
+*	$d=no5.com.cn,$w
+*	$d=nuomi.com,$w
+*	$d=okaybuy.com.cn,$w
+*	$d=okbuy.com,$w
+*	$d=ouku.com,$w
+*	$d=paipai.com,$w
+*	$d=phdelivery.com.cn,$w
+*	$d=pztuan.com,$w
+*	$d=qianpin.com,$w
+*	$d=qianxun.com,$w
+*	$d=quwan.com,$w
+*	$d=rayi.cn,$w
+*	$d=redbaby.com.cn,$w
+*	$d=salala.com.cn,$w
+*	$d=sg.com.cn,$w
+*	$d=shede.com,$w
+*	$d=shhbm.com,$w
+*	$d=sino78.com,$w
+*	$d=sinobuy.cn,$w
+*	$d=smarter.com.cn,$w
+*	$d=suning.com,$w
+*	$d=tao3c.com,$w
+*	$d=tao800.com,$w
+*	$d=taobao.com,$w
+*	$d=taojieke.com,$w
+*	$d=tmall.com,$w
+*	$d=tnice.com,$w
+*	$d=togj.com,$w
+*	$d=tuan800.com,$w
+*	$d=tuanp.com,$w
+*	$d=uniqlo.cn,$w
+*	$d=vancl.com,$w
+*	$d=vipshop.com,$w
+*	$d=wl.cn,$w
+*	$d=womai.com,$w
+*	$d=wooha.com,$w
+*	$d=woyo.com,$w
+*	$d=xiaozhuren.com,$w
+*	$d=xinshangmeng.com,$w
+*	$d=xiu.com,$w
+*	$d=yihaodian.com,$w
+*	$d=yijia.com,$w
+*	$d=yongle.com.cn,$w
+*	$d=yougou.com,$w
+*	$d=zbird.com,$w
+*	$d=bj.s.leho.com,$w
+*	$d=bank.pingan.com,$w
+*	$d=dandongbank.com,$w
+*	$d=95599.cn,$w
+*	$d=ebank.lj-bank.com,$w
+*	$d=ebank.pzhccb.com,$w
+*	$d=hdcb.cn,$w
+*	$d=qsxh.com,$w
+*	$d=4001961200.com,$w
+*	$d=95559.com.cn,$w
+*	$d=95559.sh.cn,$w
+*	$d=96033.cn,$w
+*	$d=961111.cn,$w
+*	$d=961200.net,$w
+*	$d=abchina.com,$w
+*	$d=abnamro.com,$w
+*	$d=adbc.com.cn,$w
+*	$d=bankcomm.com,$w
+*	$d=bankcz.cn,$w
+*	$d=bankgz.com,$w
+*	$d=bankofamerica.com,$w
+*	$d=bankofbbg.com,$w
+*	$d=bankofbeijing.com.cn,$w
+*	$d=bankofdl.com,$w
+*	$d=bankoffs.com.cn,$w
+*	$d=bankofliaoyang.net,$w
+*	$d=bankofluoyang.com.cn,$w
+*	$d=bankofrizhao.com.cn,$w
+*	$d=bankofshanghai.com,$w
+*	$d=banksinopac.com.tw,$w
+*	$d=beeb.com.cn,$w
+*	$d=bjrcb.com,$w
+*	$d=bmo.com,$w
+*	$d=bnpparibas.com,$w
+*	$d=bnu.com.mo,$w
+*	$d=bnymellon.com,$w
+*	$d=boc.cn,$w
+*	$d=bocd.com.cn,$w
+*	$d=bochk.com,$w
+*	$d=bocmacau.com,$w
+*	$d=boimc.com.cn,$w
+*	$d=bop.com.tw,$w
+*	$d=bot.com.tw,$w
+*	$d=bsb.com.cn,$w
+*	$d=bxccb.com,$w
+*	$d=cathaybk.com.tw,$w
+*	$d=cbhb.com.cn,$w
+*	$d=cbzz.com.cn,$w
+*	$d=ccabchina.com,$w
+*	$d=ccb.com,$w
+*	$d=ccb.comcn,$w
+*	$d=ccbhk.com,$w
+*	$d=cccb-bank.net,$w
+*	$d=cdb.com.cn,$w
+*	$d=cebbank.com,$w
+*	$d=cgbchina.com.cn,$w
+*	$d=cgnb.cn,$w
+*	$d=chb.com.tw/,$w
+*	$d=chbank.com,$w
+*	$d=chengdebank.com,$w
+*	$d=chinatrust.com.tw,$w
+*	$d=chiyubank.com,$w
+*	$d=cib.com.cn,$w
+*	$d=citibank.com.cn,$w
+*	$d=citibank.com.hk,$w
+*	$d=citibank.com.tw,$w
+*	$d=citibank.com,$w
+*	$d=citicbankintl.com,$w
+*	$d=cmbchina.com,$w
+*	$d=comerica.com,$w
+*	$d=cosmosbank.com.tw,$w
+*	$d=cotabank.com.tw,$w
+*	$d=cqcbank.com,$w
+*	$d=cqrcb.com,$w
+*	$d=cscb.cn,$w
+*	$d=csrcbank.com,$w
+*	$d=czbank.com,$w
+*	$d=czcb.com.cn,$w
+*	$d=dahsing.com,$w
+*	$d=dongguanbank.cn,$w
+*	$d=drcbank.com,$w
+*	$d=dtccb.com,$w
+*	$d=dyccb.com,$w
+*	$d=dyccb.net,$w
+*	$d=dzbchina.com,$w
+*	$d=ecitic.com,$w
+*	$d=ecitic.combank,$w
+*	$d=egbank.com.cn,$w
+*	$d=entiebank.com.tw,$w
+*	$d=erdosrcb.com,$w
+*	$d=esunbank.com.tw,$w
+*	$d=eximbank.gov.cn,$w
+*	$d=firstbank.com.tw,$w
+*	$d=fjhaxh.com,$w
+*	$d=fjhxbank.com,$w
+*	$d=fubon.com,$w
+*	$d=fubonbank.com.hk,$w
+*	$d=fudian-bank.com,$w
+*	$d=fuxinbank.com,$w
+*	$d=gdb.com.cn,$w
+*	$d=gsrcu.com*,$w
+*	$d=guilinbank.com.cn,$w
+*	$d=gzcb.com.cn,$w
+*	$d=hangseng.com,$w
+*	$d=hbxh.com.cn,$w
+*	$d=hccb.com.cn,$w
+*	$d=hfrcbc.com,$w
+*	$d=hkbchina.com,$w
+*	$d=hkbea.com.cn,$w
+*	$d=hncb.com.tw,$w
+*	$d=hnnx.com,$w
+*	$d=hrbb.com.cn,$w
+*	$d=hrbcb.com.cn,$w
+*	$d=hsbank.com.cn,$w
+*	$d=hsbc.com,$w
+*	$d=hsnx.com,$w
+*	$d=hxb.com.cn,$w
+*	$d=hzbank.com.cn,$w
+*	$d=hzccb.net,$w
+*	$d=icbc.com.cn,$w
+*	$d=jccbank.com.cn,$w
+*	$d=jhccb.com.cn,$w
+*	$d=jhrcb.org.cn,$w
+*	$d=jinzhoubank.com,$w
+*	$d=jjbank.net,$w
+*	$d=jlbank.com.cn,$w
+*	$d=jlnls.com,$w
+*	$d=jn-bank.com,$w
+*	$d=jsbchina.cn,$w
+*	$d=jshbank.com,$w
+*	$d=jsnx.net,$w
+*	$d=jtnsh.com,$w
+*	$d=jtnx.com,$w
+*	$d=jxccb.com,$w
+*	$d=jybank.com.cn,$w
+*	$d=jzbank.cn,$w
+*	$d=jzcbank.com,$w
+*	$d=klb.cn,$w
+*	$d=ksrcb.cn,$w
+*	$d=landbank.com.tw,$w
+*	$d=lccb.com.cn,$w
+*	$d=lsbankchina.com,$w
+*	$d=lsbchina.com,$w
+*	$d=lsccb.com,$w
+*	$d=lusobank.com.mo,$w
+*	$d=lzbank.com,$w
+*	$d=lzccb.cn,$w
+*	$d=lzccb.com,$w
+*	$d=masrcb.com,$w
+*	$d=megabank.com.tw,$w
+*	$d=mevas.com,$w
+*	$d=mintaibank.com,$w
+*	$d=nbcb.cn,$w
+*	$d=nbcb.com.cn,$w
+*	$d=nbe.com.eg,$w
+*	$d=ncb.com.hk,$w
+*	$d=nccbank.com.cn,$w
+*	$d=njcb.com.cn,$w
+*	$d=orix.com.hk,$w
+*	$d=pbc.gov.cn,$w
+*	$d=pdscb.com,$w
+*	$d=pingan.com,$w
+*	$d=pnrcc.com,$w
+*	$d=psbc.com,$w
+*	$d=pybank.cn,$w
+*	$d=qdccb.com,$w
+*	$d=qlbchina.com,$w
+*	$d=qsbank.cc,$w
+*	$d=qzccbank.com,$w
+*	$d=rhebank.com,$w
+*	$d=sccb.com.cn,$w
+*	$d=scrcu.com.cn,$w
+*	$d=sdb.com.cn,$w
+*	$d=sdebank.com,$w
+*	$d=shacombank.com.hk,$w
+*	$d=shengjingbank.com.cn,$w
+*	$d=smxbank.com,$w
+*	$d=spdb.com.cn,$w
+*	$d=spdbccc.com.cn,$w
+*	$d=srbank.cn,$w
+*	$d=srcb.com,$w
+*	$d=standardchartered.com.cn,$w
+*	$d=standardchartered.com.hk,$w
+*	$d=standardchartered.com,$w
+*	$d=sxccb.com,$w
+*	$d=sxnx.cn,$w
+*	$d=sycred.com,$w
+*	$d=syrcb.net,$w
+*	$d=taccb.com.cn,$w
+*	$d=taifungbank.com,$w
+*	$d=taisangbank.com.hk,$w
+*	$d=taishinbank.com.tw,$w
+*	$d=tbb.com.tw,$w
+*	$d=tcbank.com.tw,$w
+*	$d=tcbbank.com.tw,$w
+*	$d=tccb.com.cn,$w
+*	$d=tcrcb.com,$w
+*	$d=tielingcb.com,$w
+*	$d=tjbhb.com,$w
+*	$d=ts-bank.cn,$w
+*	$d=tzbank.com,$w
+*	$d=ubot.com.tw,$w
+*	$d=uccb.com.cn,$w
+*	$d=wellsfargo.com,$w
+*	$d=wfccb.com,$w
+*	$d=whbmac.com,$w
+*	$d=whccb.com,$w
+*	$d=whrcbank.com,$w
+*	$d=whyzrcb.com,$w
+*	$d=winglungbank.com.hk,$w
+*	$d=wjrcb.com,$w
+*	$d=worldbank.org,$w
+*	$d=wrcb.com.cn,$w
+*	$d=wzcb.com.cn,$w
+*	$d=xacbank.com.cn,$w
+*	$d=xccbank.com,$w
+*	$d=xhrcc.com,$w
+*	$d=xib.com.cn,$w
+*	$d=xmccb.com,$w
+*	$d=xtbank.com,$w
+*	$d=xtccb.com.cn,$w
+*	$d=xtls.com.cn,$w
+*	$d=xxssh.com,$w
+*	$d=xybank.net,$w
+*	$d=ybccb.com,$w
+*	$d=yccb.net,$w
+*	$d=ycccb.com,$w
+*	$d=ykcb.com,$w
+*	$d=ylxh.com,$w
+*	$d=ytcb.com,$w
+*	$d=zdrcb.com,$w
+*	$d=zjcbank.com,$w
+*	$d=zjkccb.com,$w
+*	$d=zjtlcb.com,$w
+*	$d=zmdbank.cn,$w
+*	$d=zrcbank.com,$w
+*	$d=zyccb.com,$w
+*	$d=zzbank.cn,$w
+*	$d=xxrcb.com,$w
+*	$d=americanexpress.com,$w
+*	$d=bocionline.com,$w
+*	$d=icbcasia.com,$w
+*	$d=hsbc.com.hk,$w
+*	$d=chinapay.com,$w
+*	$d=hsbc.com.cn,$w
+*	$d=unionpay.com,$w
+*	$d=zj96596.com,$w
+*	$d=cbrc.gov.cn,$w
+*	$d=bocichina.com,$w
+*	$d=bankofnanyang.com,$w
+*	$d=bank-of-tianjin.com.cn,$w
+*	$d=bankofchangsha.com,$w
+*	$d=bank-of-china.com,$w
+*	$d=cmbc.com.cn,$w
+*	$d=paypal.com,$w
+*	$d=money.183.com.cn,$w
+*	$d=alipay.com,$w
+*	$d=chinapay.com,$w
+*	$d=zihexin.com,$w
+*	$d=tenpay.com,$w
+*	$d=yeepay.com,$w
+*	$d=99bill.com,$w
+*	$d=ttyfund.com,$w
+*	$d=shengpay.com,$w
+*	$d=qiandai.com,$w
+*	$d=easipay.net,$w
+*	$d=gnete.com,$w
+*	$d=ips.com,$w
+*	$d=smartpay.com.cn,$w
+*	$d=lakala.com,$w
+*	$d=shfft.com,$w
+*	$d=soopay.net,$w
+*	$d=mobo360.com,$w
+*	$d=ruift.com,$w
+*	$d=beijing.com.cn,$w
+*	$d=chinabank.com.cn,$w
+*	$d=chinapnr.com,$w
+*	$d=baifubao.com,$w
+*	$d=tenpay.com,$w
+*	$d=alipay.com,$w
+*	$d=shopin.net,$w
+*	$d=10086.cn,$w
+!POPUP WHITE LIST END
+
+!POPUP INFOBAR TIPS BEGIN
+!POPUP INFOBAR TIPS END
+
+!POPUP INFOBAR TIPS BINSTALL BEGIN
+!POPUP INFOBAR TIPS BINSTALL END
+
+
+!third-party rule
+linezing.com	$w,$d=linezing.com
+xdwan.com	$w,$d=xdwan.com
+3234.com	$d=3234.com,$w
+allyes.com	$d=allyes.com,$w
+198game.com	$w,$d=198game.com
+a.youdao.com	$w,$d=a.youdao.com
+alimama.cn	$w,$d=alimama.cn
+alimama.com	$w,$d=alimama.com
+pub.htwisdom.com	$w,$d=pub.htwisdom.com
+jpunion.com	$w,$d=jpunion.com
+wit.qq.com	$w,$d=wit.qq.com
+u17.com	$w,$d=u17.com
+un.so.gougou.com	$w,$d=un.so.gougou.com
+cop.my.sandai.net	$w,$d=cop.my.sandai.net
+jsunion.kankan.xunlei.com	$w,$d=jsunion.kankan.xunlei.com
+gouwu.vip.xunlei.com	$w,$d=gouwu.vip.xunlei.com
+ct10000.com	$w,$d=ct10000.com
+ct10000.com	$w,$d=189.cn
+189.cn	$w,$d=189.cn
+kdly.net	$w,$d=kdly.net
+100tjs.com	$w,$d=100tjs.com
+114zhaofang.com	$w,$d=114zhaofang.com
+116b.com	$w,$d=116b.com
+234y.com	$w,$d=234y.com
+web.7k7k.com	$w,$d=web.7k7k.com
+arpg2.com	$w,$d=arpg2.com
+resmkt.dipan.com	$w,$d=resmkt.dipan.com
+game3896.com	$w,$d=game3896.com
+xp3366.com	$w,$d=xp3366.com
+xp9365.com	$w,$d=xp9365.com
+9vcpc.cn	$w,$d=9vcpc.cn
+f.9vcpm.cn	$w,$d=f.9vcpm.cn
+v.9vcpp.cn	$w,$d=v.9vcpp.cn
+9vcpp.com	$w,$d=9vcpp.com
+cpm9v.cn	$w,$d=cpm9v.cn
+v.cpp9v.cn	$w,$d=v.cpp9v.cn
+000wan.com	$w,$d=000wan.com
+001union.com	$w,$d=001union.com
+007.mx	$w,$d=007.mx
+100tone.com	$w,$d=100tone.com
+100fenlm.cn	$w,$d=100fenlm.cn
+code.100Goo.com	$w,$d=code.100Goo.com
+11125.in	$w,$d=11125.in
+1133.cc	$w,$d=1133.cc
+114.com.cn	$w,$d=114.com.cn
+114la.com	$w,$d=114la.com
+114lm.com	$w,$d=114lm.com
+115.238.103.82	$w,$d=115.238.103.82
+116b.com	$w,$d=116b.com
+118114.cn	$w,$d=118114.cn
+155game.com	$w,$d=155game.com
+17kuxun.com	$w,$d=17kuxun.com
+js.17ol.org	$w,$d=js.17ol.org
+122.com.tw	$w,$d=122.com.tw
+129game.com	$w,$d=129game.com
+178gg.com	$w,$d=178gg.com
+17leyi.com	$w,$d=17leyi.com
+17pps.com	$w,$d=17pps.com
+code.u.18dx.com	$w,$d=code.u.18dx.com
+1gou.com	$w,$d=1gou.com
+1lo0.net	$w,$d=1lo0.net
+2a.com	$w,$d=2a.com
+21union.com	$w,$d=21union.com
+25888.in	$w,$d=25888.in
+2bj.cc	$w,$d=2bj.cc
+334700.com	$w,$d=334700.com
+3393.com	$w,$d=3393.com
+33hy.com	$w,$d=33hy.com
+333wan.com	$w,$d=333wan.com
+360kaixin.com	$w,$d=360kaixin.com
+365tc.com	$w,$d=365tc.com
+u1346.37117.com	$w,$d=u1346.37117.com
+37cs.com	$w,$d=37cs.com
+37cpm.com	$w,$d=37cpm.com
+37dz.com	$w,$d=37dz.com
+37ha.com	$w,$d=37ha.com
+p.37lai.com	$w,$d=p.37lai.com
+cs.37see.com	$w,$d=cs.37see.com
+3975.com	$w,$d=3975.com
+3975lm.com	$w,$d=3975lm.com
+3gpz.net	$w,$d=3gpz.net
+3munion.net	$w,$d=3munion.net
+460.com.cn	$w,$d=460.com.cn
+5151ad.com	$w,$d=5151ad.com
+51link.com	$w,$d=51link.com
+51wan.com	$w,$d=51wan.com
+5228167.com	$w,$d=5228167.com
+523688.com	$w,$d=523688.com
+52cpm.com	$w,$d=52cpm.com
+55620.com	$w,$d=55620.com
+5566ad.com	$w,$d=5566ad.com
+565882.com	$w,$d=565882.com
+58ar.com	$w,$d=58ar.com
+www.59.cn	$w,$d=www.59.cn
+click.5j.com	$w,$d=click.5j.com
+5uad.com	$w,$d=5uad.com
+658526.com	$w,$d=658526.com
+6721.com	$w,$d=6721.com
+6693.cc	$w,$d=6693.cc
+6dad.com	$w,$d=6dad.com
+6788787.com	$w,$d=6788787.com
+70e.com	$w,$d=70e.com
+70yx.com	$w,$d=70yx.com
+74lm.com	$w,$d=74lm.com
+7555.net	$w,$d=7555.net
+p.777wyx.com	$w,$d=p.777wyx.com
+778669.com	$w,$d=778669.com
+7794.com	$w,$d=7794.com
+7794lm.com	$w,$d=7794lm.com
+77go.com	$w,$d=77go.com
+77union.cn	$w,$d=77union.cn
+789un.com	$w,$d=789un.com
+7k7k.com	$w,$d=7k7k.com
+7stk.com	$w,$d=7stk.com
+7pk.com	$w,$d=7pk.com
+81813.com	$w,$d=81813.com
+82816.com	$w,$d=82816.com
+84232.com	$w,$d=84232.com
+84422.com	$w,$d=84422.com
+8601098.com	$w,$d=8601098.com
+88210212.com	$w,$d=88210212.com
+885ad.com	$w,$d=885ad.com
+8le8le.com	$w,$d=8le8le.com
+8peng.com	$w,$d=8peng.com
+90hao.com	$w,$d=90hao.com
+913h6.cn	$w,$d=913h6.cn
+9165.net	$w,$d=9165.net
+js.91tiger.com	$w,$d=js.91tiger.com
+91wan.com	$w,$d=91wan.com
+92cg.com	$w,$d=92cg.com
+9519.net	$w,$d=9519.net
+js.968870.com	$w,$d=js.968870.com
+98766.com	$w,$d=98766.com
+991go.com	$w,$d=991go.com
+999d.com	$w,$d=999d.com
+9cpm.com	$w,$d=9cpm.com
+res.9dzc.com	$w,$d=res.9dzc.com
+9ead.com	$w,$d=9ead.com
+9wad.com	$w,$d=9wad.com
+9wee.com	$w,$d=9wee.com
+a3p4.com	$w,$d=a3p4.com
+aaalian.com	$w,$d=aaalian.com
+acs86.com	$w,$d=acs86.com
+ad-plus.cn	$w,$d=ad-plus.cn
+link.ad966.com	$w,$d=link.ad966.com
+adcenter.conn.tw	$w,$d=adcenter.conn.tw
+adhai.com	$w,$d=adhai.com
+adkongjian.com	$w,$d=adkongjian.com
+admaster.com.cn	$w,$d=admaster.com.cn
+admin6.com	$w,$d=admin6.com
+adnets.cn	$w,$d=adnets.cn
+adpower.cn	$w,$d=adpower.cn
+adqoo.com	$w,$d=adqoo.com
+ads001.com	$w,$d=ads001.com
+ads80.com	$w,$d=ads80.com
+adsage.com	$w,$d=adsage.com
+adsame.com	$w,$d=adsame.com
+adsbro.com	$w,$d=adsbro.com
+adsue.com	$w,$d=adsue.com
+adszui.com	$w,$d=adszui.com
+adunioncode.com	$w,$d=adunioncode.com
+adver.com.tw	$w,$d=adver.com.tw
+advprotraffic.com	$w,$d=advprotraffic.com
+adwww.cn	$w,$d=adwww.cn
+adyeye.com	$w,$d=adyeye.com
+adyun.com	$w,$d=adyun.com
+adzhu.com	$w,$d=adzhu.com
+a1click.aiqun.com	$w,$d=a1click.aiqun.com
+aiweb.tw	$w,$d=aiweb.tw
+aldm88.com	$w,$d=aldm88.com
+algj-27dy.cn	$w,$d=algj-27dy.cn
+allyesky.cn	$w,$d=allyesky.cn
+arpg2.com	$w,$d=arpg2.com
+artxun.com	$w,$d=artxun.com
+at918.com	$w,$d=at918.com
+advooe.com	$w,$d=advooe.com
+baizoon.com	$w,$d=baizoon.com
+blcx.com	$w,$d=blcx.com
+blogad.com.tw	$w,$d=blogad.com.tw
+bloggerads.net	$w,$d=bloggerads.net
+blogupp.com	$w,$d=blogupp.com
+bmw100.cn	$w,$d=bmw100.cn
+bolebank.com	$w,$d=bolebank.com
+boosj.com	$w,$d=boosj.com
+btnibbler.com	$w,$d=btnibbler.com
+buzz-time.com.cn	$w,$d=buzz-time.com.cn
+channelray.com	$w,$d=channelray.com
+chanet.com.cn	$w,$d=chanet.com.cn
+chenjingli.com	$w,$d=chenjingli.com
+chinaih.com	$w,$d=chinaih.com
+job.chinesenow.org	$w,$d=job.chinesenow.org
+chitika.com	$w,$d=chitika.com
+hk.chinesegamer.net	$w,$d=hk.chinesegamer.net
+click.com	$w,$d=click.com
+cnxad.com	$w,$d=cnxad.com
+adm.cnzz.net	$w,$d=adm.cnzz.net
+cocoren.com	$w,$d=cocoren.com
+qa.colorful.cn	$w,$d=qa.colorful.cn
+cpa56.com	$w,$d=cpa56.com
+cpm360.com	$w,$d=cpm360.com
+cpmadworld.com	$w,$d=cpmadworld.com
+cpvm.net	$w,$d=cpvm.net
+crazymike.tw	$w,$d=crazymike.tw
+csbew.com	$w,$d=csbew.com
+d9ad.com	$w,$d=d9ad.com
+daoyoudao.com	$w,$d=daoyoudao.com
+diangao.com	$w,$d=diangao.com
+diankee.com	$w,$d=diankee.com
+dilingling.com	$w,$d=dilingling.com
+dingge.cc	$w,$d=dingge.cc
+resmkt.dipan.com	$w,$d=resmkt.dipan.com
+displink.com	$w,$d=displink.com
+diyiunion.com	$w,$d=diyiunion.com
+dmclick.cn	$w,$d=dmclick.cn
+dotmore.com.tw	$w,$d=dotmore.com.tw
+doubleadv.com	$w,$d=doubleadv.com
+doublemax.net	$w,$d=doublemax.net
+u.www.duba.net	$w,$d=u.www.duba.net
+dyunion.net	$w,$d=dyunion.net
+egooad.com	$w,$d=egooad.com
+esearches.com.tw	$w,$d=esearches.com.tw
+etopad.com	$w,$d=etopad.com
+ezsaving.com	$w,$d=ezsaving.com
+feesee.com	$w,$d=feesee.com
+tg.feixue.com	$w,$d=tg.feixue.com
+fk5.com	$w,$d=fk5.com
+flashads.cn	$w,$d=flashads.cn
+flashwing.net	$w,$d=flashwing.net
+flunion.cn	$w,$d=flunion.cn
+game3896.com	$w,$d=game3896.com
+gamecps.com	$w,$d=gamecps.com
+gameone.com	$w,$d=gameone.com
+resource.gamediad.com	$w,$d=resource.gamediad.com
+games32.cn	$w,$d=games32.cn
+game3737.com	$w,$d=game3737.com
+banner.gametower.com.tw	$w,$d=banner.gametower.com.tw
+gocsgo.com	$w,$d=gocsgo.com
+gohappy.com.tw	$w,$d=gohappy.com.tw
+googleadsl.com	$w,$d=googleadsl.com
+gsdwj.com	$w,$d=gsdwj.com
+guobie.com	$w,$d=guobie.com
+guoshipartners.com	$w,$d=guoshipartners.com
+hauchi.com.tw	$w,$d=hauchi.com.tw
+hdtworld.com	$w,$d=hdtworld.com
+heima8.com	$w,$d=heima8.com
+heroclick.cn	$w,$d=heroclick.cn
+heziyou.com	$w,$d=heziyou.com
+housefun.com.tw	$w,$d=housefun.com.tw
+hoyiad.com	$w,$d=hoyiad.com
+huiten99.com	$w,$d=huiten99.com
+huoli.com	$w,$d=huoli.com
+i-power.hk	$w,$d=i-power.hk
+i-qianming.cn	$w,$d=i-qianming.cn
+icast.cn	$w,$d=icast.cn
+ifocus.cn	$w,$d=ifocus.cn
+u.*.iciba.com	$w,$d=u.*.iciba.com
+t.iloveyouxi.com	$w,$d=t.iloveyouxi.com
+u.imop.com	$w,$d=u.imop.com
+insenz.com	$w,$d=insenz.com
+is686.com	$w,$d=is686.com
+ishare.tw	$w,$d=ishare.tw
+izptech.com	$w,$d=izptech.com
+jdunion.com	$w,$d=jdunion.com
+down.jialichuang.com	$w,$d=down.jialichuang.com
+jidian5.com	$w,$d=jidian5.com
+jiling0432.info	$w,$d=jiling0432.info
+jingpi.net	$w,$d=jingpi.net
+jingwei.net	$w,$d=jingwei.net
+jinniu168.com	$w,$d=jinniu168.com
+jinzhao99.com	$w,$d=jinzhao99.com
+juandou.com	$w,$d=juandou.com
+jugao.com	$w,$d=jugao.com
+junnew.com	$w,$d=junnew.com
+u.juyouxi.com	$w,$d=u.juyouxi.com
+jzunion.com	$w,$d=jzunion.com
+kairing.com	$w,$d=kairing.com
+kcld.net	$w,$d=kcld.net
+keydot.net	$w,$d=keydot.net
+keyrun.cn	$w,$d=keyrun.cn
+keytui.com	$w,$d=keytui.com
+keyyou.net	$w,$d=keyyou.net
+kfwan.com	$w,$d=kfwan.com
+koowo.com	$w,$d=koowo.com
+kucent.com	$w,$d=kucent.com
+kuqi.com	$w,$d=kuqi.com
+cluclick.leshu.com	$w,$d=cluclick.leshu.com
+linekong.com	$w,$d=linekong.com
+love12.tw	$w,$d=love12.tw
+maxreturn.cn	$w,$d=maxreturn.cn
+mediav.com	$w,$d=mediav.com
+miaozhen.com	$w,$d=miaozhen.com
+molidao.com	$w,$d=molidao.com
+myad.cn	$w,$d=myad.cn
+myiee.com	$w,$d=myiee.com
+mylovewebs.com	$w,$d=mylovewebs.com
+i.na7.cc	$w,$d=i.na7.cc
+naqigs.com	$w,$d=naqigs.com
+u-link.nbb.tw	$w,$d=u-link.nbb.tw
+u1th.com	$w,$d=u1th.com
+netgy.com	$w,$d=netgy.com
+newwang.com	$w,$d=newwang.com
+niux88.com	$w,$d=niux88.com
+niwota.com	$w,$d=niwota.com
+now.cn	$w,$d=now.cn
+nznbl.com	$w,$d=nznbl.com
+oeya.com	$w,$d=oeya.com
+oizu.com	$w,$d=oizu.com
+ok8848.com	$w,$d=ok8848.com
+onetad.com	$w,$d=onetad.com
+oounion.com	$w,$d=oounion.com
+pagechoice.net	$w,$d=pagechoice.net
+pee.cn	$w,$d=pee.cn
+e.phpwind.com	$w,$d=e.phpwind.com
+lianjie.phpwind.com	$w,$d=lianjie.phpwind.com
+pixelinteractivemedia.com	$w,$d=pixelinteractivemedia.com
+ppunion.com	$w,$d=ppunion.com
+prohost.com.tw	$w,$d=prohost.com.tw
+q150.com	$w,$d=q150.com
+image.qndown.com	$w,$d=image.qndown.com
+qi-yue.com	$w,$d=qi-yue.com
+qiyou.com	$w,$d=qiyou.com
+qizhao.com	$w,$d=qizhao.com
+qling.com	$w,$d=qling.com
+qq61.com	$w,$d=qq61.com
+qq937.com	$w,$d=qq937.com
+quantui.com	$w,$d=quantui.com
+qutaotao.com	$w,$d=qutaotao.com
+360.rbc.cn	$w,$d=360.rbc.cn
+redu.com	$w,$d=redu.com
+redu-click.com	$w,$d=redu-click.com
+author.richi.cc	$w,$d=author.richi.cc
+bg.richmouse.com	$w,$d=bg.richmouse.com
+samboc.com	$w,$d=samboc.com
+scupio.com	$w,$d=scupio.com
+c.sfilm.com	$w,$d=c.sfilm.com
+sharele.cn	$w,$d=sharele.cn
+shendu.cc	$w,$d=shendu.cc
+shenduchuanmei.com	$w,$d=shenduchuanmei.com
+shouyibao.com	$w,$d=shouyibao.com
+sitemaji.com	$w,$d=sitemaji.com
+skycn.org.cn	$w,$d=skycn.org.cn
+snyu.com	$w,$d=snyu.com
+soo-boo.com	$w,$d=soo-boo.com
+soua.com	$w,$d=soua.com
+js.ssrj.net	$w,$d=js.ssrj.net
+star8.net	$w,$d=star8.net
+c.subo.me	$w,$d=c.subo.me
+svem.cc	$w,$d=svem.cc
+sxtengchuang.cn	$w,$d=sxtengchuang.cn
+szvr.com	$w,$d=szvr.com
+tanx.com	$w,$d=tanx.com
+taotaosou.com	$w,$d=taotaosou.com
+tazhao.com	$w,$d=tazhao.com
+tenoad.com	$w,$d=tenoad.com
+adsame.tianjimedia.com	$w,$d=adsame.tianjimedia.com
+tiaosa.cn	$w,$d=tiaosa.cn
+tjj.com	$w,$d=tjj.com
+tksense.com	$w,$d=tksense.com
+twcczhu.com	$w,$d=twcczhu.com
+twm.com.tw	$w,$d=twm.com.tw
+js.tjq.com	$w,$d=js.tjq.com
+tttccc.net	$w,$d=tttccc.net
+tuigoo.com	$w,$d=tuigoo.com
+tuike.cn	$w,$d=tuike.cn
+tuite8.com	$w,$d=tuite8.com
+txjy2008.com	$w,$d=txjy2008.com
+ubcpm.com	$w,$d=ubcpm.com
+uctrac.com	$w,$d=uctrac.com
+ugooo.cc	$w,$d=ugooo.cc
+ujoin.net	$w,$d=ujoin.net
+ulink.cc	$w,$d=ulink.cc
+union009.com	$w,$d=union009.com
+union178.com	$w,$d=union178.com
+unionbig.com	$w,$d=unionbig.com
+unioncpm.com	$w,$d=unioncpm.com
+unionsky.cn	$w,$d=unionsky.cn
+unionsky2.cn	$w,$d=unionsky2.cn
+unionli.com	$w,$d=unionli.com
+unionwk.com	$w,$d=unionwk.com
+unlitui.com	$w,$d=unlitui.com
+uu06.com	$w,$d=uu06.com
+img.uu1001.cn	$w,$d=img.uu1001.cn
+uucall.com	$w,$d=uucall.com
+uuzu.com	$w,$d=uuzu.com
+urlad.com.tw	$w,$d=urlad.com.tw
+v5ad.com	$w,$d=v5ad.com
+vadcast.com	$w,$d=vadcast.com
+v-links.net	$w,$d=v-links.net
+vipads.cn	$w,$d=vipads.cn
+s.vipcnzz.com	$w,$d=s.vipcnzz.com
+uucm.cn	$w,$d=uucm.cn
+vjia.com	$w,$d=vjia.com
+vodone.cn	$w,$d=vodone.cn
+wanliuliang.com	$w,$d=wanliuliang.com
+wauee.com	$w,$d=wauee.com
+web933.com	$w,$d=web933.com
+wiseie.com	$w,$d=wiseie.com
+woniu666.com	$w,$d=woniu666.com
+wqzyt.net	$w,$d=wqzyt.net
+wy31.com	$w,$d=wy31.com
+wyunion.com	$w,$d=wyunion.com
+v.xi666.com	$w,$d=v.xi666.com
+xiaoangel.com	$w,$d=xiaoangel.com
+xixianad.com	$w,$d=xixianad.com
+xp3366.com	$w,$d=xp3366.com
+xsu.cc	$w,$d=xsu.cc
+xt918.com	$w,$d=xt918.com
+code.xwadv.com	$w,$d=code.xwadv.com
+y2126.com	$w,$d=y2126.com
+yczpw.com	$w,$d=yczpw.com
+yimeiads.com	$w,$d=yimeiads.com
+ylunion.com	$w,$d=ylunion.com
+yigao.com	$w,$d=yigao.com
+yigouw.com	$w,$d=yigouw.com
+yiqifa.com	$w,$d=yiqifa.com
+yiqiwin.com	$w,$d=yiqiwin.com
+yocc.net	$w,$d=yocc.net
+youxitui.net	$w,$d=youxitui.net
+youxjia.com	$w,$d=youxjia.com
+youzhi.cc	$w,$d=youzhi.cc
+yoyi.com.cn	$w,$d=yoyi.com.cn
+yoyi.tv	$w,$d=yoyi.tv
+yoyocm.com	$w,$d=yoyocm.com
+ysm-advertising.tw	$w,$d=ysm-advertising.tw
+ytunion.com	$w,$d=ytunion.com
+yuunion.com	$w,$d=yuunion.com
+yxcpm.com	$w,$d=yxcpm.com
+yy32.com	$w,$d=yy32.com
+zdy.cc	$w,$d=zdy.cc
+ze5.com	$w,$d=ze5.com
+zfjiu.com	$w,$d=zfjiu.com
+zhanzhang.net	$w,$d=zhanzhang.net
+zhanzhangle.com	$w,$d=zhanzhangle.com
+zhiad.com	$w,$d=zhiad.com
+50bang.org	$w,$d=50bang.org
+css.aliyun.com	$w,$d=css.aliyun.com
+blog104.com	$w,$d=blog104.com
+blogtw.net	$w,$d=blogtw.net
+dw.cbsi.com.cn	$w,$d=dw.cbsi.com.cn
+cnzz.com	$w,$d=cnzz.com
+cms.grandcloud.cn	$w,$d=cms.grandcloud.cn
+gridsum.com	$w,$d=gridsum.com
+cdn.hiido.cn	$w,$d=cdn.hiido.cn
+hotrank.com.tw	$w,$d=hotrank.com.tw
+irs09.com	$w,$d=irs09.com
+jiankongbao.com	$w,$d=jiankongbao.com
+phpstat.com	$w,$d=phpstat.com
+sitebot.cn	$w,$d=sitebot.cn
+sitestates.com	$w,$d=sitestates.com
+sitetag.us	$w,$d=sitetag.us
+top-bloggers.com	$w,$d=top-bloggers.com
+tovery.net	$w,$d=tovery.net
+twcount.com	$w,$d=twcount.com
+look.urs.tw	$w,$d=look.urs.tw
+vdoing.com	$w,$d=vdoing.com
+wrating.com	$w,$d=wrating.com
+101m3.com	$w,$d=101m3.com
+103092804.com	$w,$d=103092804.com
+10pipsaffiliates.com	$w,$d=10pipsaffiliates.com
+1100i.com	$w,$d=1100i.com
+188server.com	$w,$d=188server.com
+18clicks.com	$w,$d=18clicks.com
+199.102.225.178	$w,$d=199.102.225.178
+209.222.8.217	$w,$d=209.222.8.217
+247realmedia.com	$w,$d=247realmedia.com
+2mdn.net	$w,$d=2mdn.net
+2mdn.net	$w,$d=2mdn.net
+360ads.com	$w,$d=360ads.com
+360yield.com	$w,$d=360yield.com
+365sbaffiliates.com	$w,$d=365sbaffiliates.com
+3rdads.com	$w,$d=3rdads.com
+43plc.com	$w,$d=43plc.com
+4affiliate.net	$w,$d=4affiliate.net
+4dsply.com	$w,$d=4dsply.com
+600z.com	$w,$d=600z.com
+777seo.com	$w,$d=777seo.com
+7search.com	$w,$d=7search.com
+87.230.102.24	$w,$d=87.230.102.24
+888media.net	$w,$d=888media.net
+888medianetwork.com	$w,$d=888medianetwork.com
+888promos.com	$w,$d=888promos.com
+a433.com	$w,$d=a433.com
+aa.voice2page.com	$w,$d=aa.voice2page.com
+abtracker.us	$w,$d=abtracker.us
+accuserveadsystem.com	$w,$d=accuserveadsystem.com
+acf-webmaster.net	$w,$d=acf-webmaster.net
+acronym.com	$w,$d=acronym.com
+actiondesk.com	$w,$d=actiondesk.com
+activedancer.com	$w,$d=activedancer.com
+ad-balancer.net	$w,$d=ad-balancer.net
+ad-delivery.net	$w,$d=ad-delivery.net
+ad-flow.com	$w,$d=ad-flow.com
+ad-server.co.za	$w,$d=ad-server.co.za
+ad-sponsor.com	$w,$d=ad-sponsor.com
+ad20.net	$w,$d=ad20.net
+ad2games.com	$w,$d=ad2games.com
+ad4game.com	$w,$d=ad4game.com
+adaction.se	$w,$d=adaction.se
+adaos-ads.net	$w,$d=adaos-ads.net
+adap.tv	$w,$d=adap.tv
+adap.tv	$w,$d=adap.tv
+adbard.net	$w,$d=adbard.net
+adbasket.net	$w,$d=adbasket.net
+adblade.com	$w,$d=adblade.com
+adboost.com	$w,$d=adboost.com
+adbrite.com	$w,$d=adbrite.com
+adbroo.com	$w,$d=adbroo.com
+adbull.com	$w,$d=adbull.com
+adbureau.net	$w,$d=adbureau.net
+adbutler.com	$w,$d=adbutler.com
+adcash.com	$w,$d=adcash.com
+adcastplus.net	$w,$d=adcastplus.net
+adcde.com	$w,$d=adcde.com
+adcentriconline.com	$w,$d=adcentriconline.com
+adchap.com	$w,$d=adchap.com
+adchemical.com	$w,$d=adchemical.com
+adclickmedia.com	$w,$d=adclickmedia.com
+adcloud.net	$w,$d=adcloud.net
+adcolo.com	$w,$d=adcolo.com
+adcru.com	$w,$d=adcru.com
+addaim.com	$w,$d=addaim.com
+adecn.com	$w,$d=adecn.com
+adengage.com	$w,$d=adengage.com
+adf01.net	$w,$d=adf01.net
+adfactory88.com	$w,$d=adfactory88.com
+adform.net	$w,$d=adform.net
+adfrog.info	$w,$d=adfrog.info
+adfrontiers.com	$w,$d=adfrontiers.com
+adfunkyserver.com	$w,$d=adfunkyserver.com
+adfusion.com	$w,$d=adfusion.com
+adgalax.com	$w,$d=adgalax.com
+adgardener.com	$w,$d=adgardener.com
+adgatemedia.com	$w,$d=adgatemedia.com
+adgear.com	$w,$d=adgear.com
+adgent007.com	$w,$d=adgent007.com
+adgine.net	$w,$d=adgine.net
+adgitize.com	$w,$d=adgitize.com
+adgorithms.com	$w,$d=adgorithms.com
+adgroups.com	$w,$d=adgroups.com
+adhese.be	$w,$d=adhese.be
+adhese.com	$w,$d=adhese.com
+adhese.net	$w,$d=adhese.net
+adhitzads.com	$w,$d=adhitzads.com
+adhostingsolutions.com	$w,$d=adhostingsolutions.com
+adicate.com	$w,$d=adicate.com
+adimise.com	$w,$d=adimise.com
+adimpact.com	$w,$d=adimpact.com
+adimperia.com	$w,$d=adimperia.com
+adinterax.com	$w,$d=adinterax.com
+adireland.com	$w,$d=adireland.com
+adisfy.com	$w,$d=adisfy.com
+adisn.com	$w,$d=adisn.com
+adition.com	$w,$d=adition.com
+adjal.com	$w,$d=adjal.com
+adjug.com	$w,$d=adjug.com
+adjuggler.com	$w,$d=adjuggler.com
+adjuggler.net	$w,$d=adjuggler.net
+adk2.com	$w,$d=adk2.com
+adkick.net	$w,$d=adkick.net
+adknowledge.com	$w,$d=adknowledge.com
+adkonekt.com	$w,$d=adkonekt.com
+adlayer.net	$w,$d=adlayer.net
+adlegend.com	$w,$d=adlegend.com
+adlink.net	$w,$d=adlink.net
+adlisher.com	$w,$d=adlisher.com
+adloaded.com	$w,$d=adloaded.com
+admagnet.net	$w,$d=admagnet.net
+admamba.com	$w,$d=admamba.com
+adman.gr	$w,$d=adman.gr
+admarketplace.net	$w,$d=admarketplace.net
+admaya.in	$w,$d=admaya.in
+admedia.com	$w,$d=admedia.com
+admeld.com	$w,$d=admeld.com
+admeta.com	$w,$d=admeta.com
+admitad.com	$w,$d=admitad.com
+admixer.net	$w,$d=admixer.net
+admpads.com	$w,$d=admpads.com
+admzn.com	$w,$d=admzn.com
+adnectar.com	$w,$d=adnectar.com
+adnet-media.net	$w,$d=adnet-media.net
+adnet.biz	$w,$d=adnet.biz
+adnet.com	$w,$d=adnet.com
+adnet.ru	$w,$d=adnet.ru
+adnet.vn	$w,$d=adnet.vn
+adnetwork.com.br	$w,$d=adnetwork.com.br
+adnetwork.net	$w,$d=adnetwork.net
+adnxs.com	$w,$d=adnxs.com
+adocean.pl	$w,$d=adocean.pl
+adoperator.com	$w,$d=adoperator.com
+adoptim.com	$w,$d=adoptim.com
+adorika.com	$w,$d=adorika.com
+adotube.com	$w,$d=adotube.com
+adparlor.com	$w,$d=adparlor.com
+adpath.mobi	$w,$d=adpath.mobi
+adpay.com	$w,$d=adpay.com
+adperium.com	$w,$d=adperium.com
+adpinion.com	$w,$d=adpinion.com
+adpionier.de	$w,$d=adpionier.de
+adppv.com	$w,$d=adppv.com
+adpremo.com	$w,$d=adpremo.com
+adprovi.de	$w,$d=adprovi.de
+adprs.net	$w,$d=adprs.net
+adquest3d.com	$w,$d=adquest3d.com
+adready.com	$w,$d=adready.com
+adreadytractions.com	$w,$d=adreadytractions.com
+adresellers.com	$w,$d=adresellers.com
+adrise.de	$w,$d=adrise.de
+adrocket.com	$w,$d=adrocket.com
+adroll.com	$w,$d=adroll.com
+ads-stats.com	$w,$d=ads-stats.com
+ads2srv.com	$w,$d=ads2srv.com
+ads4cheap.com	$w,$d=ads4cheap.com
+adsalvo.com	$w,$d=adsalvo.com
+adscale.de	$w,$d=adscale.de
+adscendmedia.com	$w,$d=adscendmedia.com
+adsdk.com	$w,$d=adsdk.com
+adsensecamp.com	$w,$d=adsensecamp.com
+adserv8.com	$w,$d=adserv8.com
+adserve.com	$w,$d=adserve.com
+adservinginternational.com	$w,$d=adservinginternational.com
+adservpi.com	$w,$d=adservpi.com
+adsfactor.net	$w,$d=adsfactor.net
+adsfast.com	$w,$d=adsfast.com
+adsforindians.com	$w,$d=adsforindians.com
+adsfundi.com	$w,$d=adsfundi.com
+adsfundi.net	$w,$d=adsfundi.net
+adsfuse.com	$w,$d=adsfuse.com
+adshack.com	$w,$d=adshack.com
+adshopping.com	$w,$d=adshopping.com
+adshost1.com	$w,$d=adshost1.com
+adshuffle.com	$w,$d=adshuffle.com
+adsignals.com	$w,$d=adsignals.com
+adsimilis.com	$w,$d=adsimilis.com
+adsmarket.com	$w,$d=adsmarket.com
+adsmarket.es	$w,$d=adsmarket.es
+adsmedia.cc	$w,$d=adsmedia.cc
+adsnext.net	$w,$d=adsnext.net
+adsonar.com	$w,$d=adsonar.com
+adsovo.com	$w,$d=adsovo.com
+adspdbl.com	$w,$d=adspdbl.com
+adspeed.com	$w,$d=adspeed.com
+adspring.to	$w,$d=adspring.to
+adsrevenue.net	$w,$d=adsrevenue.net
+adsrvr.org	$w,$d=adsrvr.org
+adsupermarket.com	$w,$d=adsupermarket.com
+adsupply.com	$w,$d=adsupply.com
+adsurve.com	$w,$d=adsurve.com
+adsvert.com	$w,$d=adsvert.com
+adswizz.com	$w,$d=adswizz.com
+adtaily.com	$w,$d=adtaily.com
+adtaily.eu	$w,$d=adtaily.eu
+adtech.de	$w,$d=adtech.de
+adtechus.com	$w,$d=adtechus.com
+adtegrity.net	$w,$d=adtegrity.net
+adtgs.com	$w,$d=adtgs.com
+adtoll.com	$w,$d=adtoll.com
+adtology1.com	$w,$d=adtology1.com
+adtology2.com	$w,$d=adtology2.com
+adtology3.com	$w,$d=adtology3.com
+adtoma.com	$w,$d=adtoma.com
+adtomafusion.com	$w,$d=adtomafusion.com
+adtoox.com	$w,$d=adtoox.com
+adtotal.pl	$w,$d=adtotal.pl
+adtransfer.net	$w,$d=adtransfer.net
+adtrgt.com	$w,$d=adtrgt.com
+adtrix.com	$w,$d=adtrix.com
+adult-adv.com	$w,$d=adult-adv.com
+adultadworld.com	$w,$d=adultadworld.com
+adurr.com	$w,$d=adurr.com
+adv-adserver.com	$w,$d=adv-adserver.com
+advatar.to	$w,$d=advatar.to
+adversaldisplay.com	$w,$d=adversaldisplay.com
+adversalservers.com	$w,$d=adversalservers.com
+adverserve.net	$w,$d=adverserve.net
+advertarium.com.ua	$w,$d=advertarium.com.ua
+adverticum.net	$w,$d=adverticum.net
+advertise.com	$w,$d=advertise.com
+advertiseforfree.co.za	$w,$d=advertiseforfree.co.za
+advertisegame.com	$w,$d=advertisegame.com
+advertiseyourgame.com	$w,$d=advertiseyourgame.com
+advertising-department.com	$w,$d=advertising-department.com
+advertising.com	$w,$d=advertising.com
+advertisingiq.com	$w,$d=advertisingiq.com
+advertisingpath.net	$w,$d=advertisingpath.net
+advertisingvalue.info	$w,$d=advertisingvalue.info
+advertlead.net	$w,$d=advertlead.net
+advertlets.com	$w,$d=advertlets.com
+advertmarketing.com	$w,$d=advertmarketing.com
+advertserve.com	$w,$d=advertserve.com
+advertstatic.com	$w,$d=advertstatic.com
+advertstream.com	$w,$d=advertstream.com
+advertxi.com	$w,$d=advertxi.com
+advg.jp	$w,$d=advg.jp
+advgoogle.com	$w,$d=advgoogle.com
+adviva.net	$w,$d=adviva.net
+advmd.com	$w,$d=advmd.com
+advpoints.com	$w,$d=advpoints.com
+advrtice.com	$w,$d=advrtice.com
+adworkmedia.com	$w,$d=adworkmedia.com
+adworldmedia.com	$w,$d=adworldmedia.com
+adxpose.com	$w,$d=adxpose.com
+adxpower.com	$w,$d=adxpower.com
+adyoz.com	$w,$d=adyoz.com
+adzerk.net	$w,$d=adzerk.net
+adzouk.com	$w,$d=adzouk.com
+adzs.nl	$w,$d=adzs.nl
+afcyhf.com	$w,$d=afcyhf.com
+afdads.com	$w,$d=afdads.com
+aff.biz	$w,$d=aff.biz
+affbot1.com	$w,$d=affbot1.com
+affbot3.com	$w,$d=affbot3.com
+affbot7.com	$w,$d=affbot7.com
+affbot8.com	$w,$d=affbot8.com
+affbuzzads.com	$w,$d=affbuzzads.com
+affec.tv	$w,$d=affec.tv
+affiliate-robot.com	$w,$d=affiliate-robot.com
+affiliate.com	$w,$d=affiliate.com
+affiliate.cx	$w,$d=affiliate.cx
+affiliatebannerfarm.com	$w,$d=affiliatebannerfarm.com
+affiliatefuel.com	$w,$d=affiliatefuel.com
+affiliatefuture.com	$w,$d=affiliatefuture.com
+affiliategateways.co	$w,$d=affiliategateways.co
+affiliatelounge.com	$w,$d=affiliatelounge.com
+affiliatemembership.com	$w,$d=affiliatemembership.com
+affiliatesensor.com	$w,$d=affiliatesensor.com
+affiliationzone.com	$w,$d=affiliationzone.com
+affiliproducts.com	$w,$d=affiliproducts.com
+affilorama.com	$w,$d=affilorama.com
+affimo.de	$w,$d=affimo.de
+affinity.com	$w,$d=affinity.com
+affiz.net	$w,$d=affiz.net
+afterdownload.com	$w,$d=afterdownload.com
+afy11.net	$w,$d=afy11.net
+agentcenters.com	$w,$d=agentcenters.com
+aggregateknowledge.com	$w,$d=aggregateknowledge.com
+agmtrk.com	$w,$d=agmtrk.com
+aim4media.com	$w,$d=aim4media.com
+aimatch.com	$w,$d=aimatch.com
+ajansreklam.net	$w,$d=ajansreklam.net
+alchemysocial.com	$w,$d=alchemysocial.com
+alfynetwork.com	$w,$d=alfynetwork.com
+allabc.com	$w,$d=allabc.com
+alleliteads.com	$w,$d=alleliteads.com
+alloydigital.com	$w,$d=alloydigital.com
+alphabird.com	$w,$d=alphabird.com
+alphabirdnetwork.com	$w,$d=alphabirdnetwork.com
+alphagodaddy.com	$w,$d=alphagodaddy.com
+alternads.info	$w,$d=alternads.info
+am10.ru	$w,$d=am10.ru
+amazon-adsystem.com	$w,$d=amazon-adsystem.com
+amazon-cornerstone.com	$w,$d=amazon-cornerstone.com
+amgdgt.com	$w,$d=amgdgt.com
+ampxchange.com	$w,$d=ampxchange.com
+anastasiasaffiliate.com	$w,$d=anastasiasaffiliate.com
+andohs.net	$w,$d=andohs.net
+andomedia.com	$w,$d=andomedia.com
+andomediagroup.com	$w,$d=andomediagroup.com
+anrdoezrs.net	$w,$d=anrdoezrs.net
+apex-ad.com	$w,$d=apex-ad.com
+apmebf.com	$w,$d=apmebf.com
+applifier.com	$w,$d=applifier.com
+apptap.com	$w,$d=apptap.com
+arcadebannerexchange.net	$w,$d=arcadebannerexchange.net
+arcadebanners.com	$w,$d=arcadebanners.com
+arcadebe.com	$w,$d=arcadebe.com
+areasnap.com	$w,$d=areasnap.com
+arti-mediagroup.com	$w,$d=arti-mediagroup.com
+as5000.com	$w,$d=as5000.com
+asklots.com	$w,$d=asklots.com
+assetize.com	$w,$d=assetize.com
+assoc-amazon.co.uk	$w,$d=assoc-amazon.co.uk
+assoc-amazon.com	$w,$d=assoc-amazon.com
+atdmt.com	$w,$d=atdmt.com
+atemda.com	$w,$d=atemda.com
+atmalinks.com	$w,$d=atmalinks.com
+atwola.com	$w,$d=atwola.com
+audienceprofiler.com	$w,$d=audienceprofiler.com
+auditude.com	$w,$d=auditude.com
+auspipe.com	$w,$d=auspipe.com
+auto-insurance-quotes-compare.com	$w,$d=auto-insurance-quotes-compare.com
+automateyourlist.com	$w,$d=automateyourlist.com
+avads.co.uk	$w,$d=avads.co.uk
+avantlink.com	$w,$d=avantlink.com
+avazutracking.net	$w,$d=avazutracking.net
+awaps.net	$w,$d=awaps.net
+awempire.com	$w,$d=awempire.com
+awin1.com	$w,$d=awin1.com
+awltovhc.com	$w,$d=awltovhc.com
+axill.com	$w,$d=axill.com
+azads.com	$w,$d=azads.com
+azjmp.com	$w,$d=azjmp.com
+azoogleads.com	$w,$d=azoogleads.com
+backbeatmedia.com	$w,$d=backbeatmedia.com
+banner-clix.com	$w,$d=banner-clix.com
+bannerbank.ru	$w,$d=bannerbank.ru
+bannerblasters.com	$w,$d=bannerblasters.com
+bannercde.com	$w,$d=bannercde.com
+bannerconnect.com	$w,$d=bannerconnect.com
+bannerconnect.net	$w,$d=bannerconnect.net
+bannerexchange.com.au	$w,$d=bannerexchange.com.au
+bannerflux.com	$w,$d=bannerflux.com
+bannerignition.co.za	$w,$d=bannerignition.co.za
+bannerjammers.com	$w,$d=bannerjammers.com
+bannerlot.com	$w,$d=bannerlot.com
+bannerperformance.net	$w,$d=bannerperformance.net
+bannerrage.com	$w,$d=bannerrage.com
+bannersmania.com	$w,$d=bannersmania.com
+bannersnack.com	$w,$d=bannersnack.com
+bannersnack.net	$w,$d=bannersnack.net
+bannersurvey.biz	$w,$d=bannersurvey.biz
+bannertgt.com	$w,$d=bannertgt.com
+bannerweb.com	$w,$d=bannerweb.com
+baronsoffers.com	$w,$d=baronsoffers.com
+bbelements.com	$w,$d=bbelements.com
+beaconads.com	$w,$d=beaconads.com
+beead.co.uk	$w,$d=beead.co.uk
+begun.ru	$w,$d=begun.ru
+belointeractive.com	$w,$d=belointeractive.com
+belvertising.be	$w,$d=belvertising.be
+bestcasinopartner.com	$w,$d=bestcasinopartner.com
+bestdeals.ws	$w,$d=bestdeals.ws
+bestfindsite.com	$w,$d=bestfindsite.com
+bestgameads.com	$w,$d=bestgameads.com
+besthitsnow.com	$w,$d=besthitsnow.com
+bestofferdirect.com	$w,$d=bestofferdirect.com
+bet3000partners.com	$w,$d=bet3000partners.com
+bet365affiliates.com	$w,$d=bet365affiliates.com
+betrad.com	$w,$d=betrad.com
+bfast.com	$w,$d=bfast.com
+bidvertiser.com	$w,$d=bidvertiser.com
+biemedia.com	$w,$d=biemedia.com
+bin-layer.de	$w,$d=bin-layer.de
+bin-layer.ru	$w,$d=bin-layer.ru
+bingo4affiliates.com	$w,$d=bingo4affiliates.com
+binlayer.com	$w,$d=binlayer.com
+binlayer.de	$w,$d=binlayer.de
+bittads.com	$w,$d=bittads.com
+blamads.com	$w,$d=blamads.com
+blogads.com	$w,$d=blogads.com
+blueadvertise.com	$w,$d=blueadvertise.com
+bluestreak.com	$w,$d=bluestreak.com
+bmanpn.com	$w,$d=bmanpn.com
+bnetworx.com	$w,$d=bnetworx.com
+bnmla.com	$w,$d=bnmla.com
+bnr.sys.lv	$w,$d=bnr.sys.lv
+boo-box.com	$w,$d=boo-box.com
+boylesportsreklame.com	$w,$d=boylesportsreklame.com
+bptracking.com	$w,$d=bptracking.com
+br.rk.com	$w,$d=br.rk.com
+branchr.com	$w,$d=branchr.com
+brandreachsys.com	$w,$d=brandreachsys.com
+bravenetmedianetwork.com	$w,$d=bravenetmedianetwork.com
+bridgetrack.com	$w,$d=bridgetrack.com
+brightshare.com	$w,$d=brightshare.com
+btrll.com	$w,$d=btrll.com
+bu520.com	$w,$d=bu520.com
+bubblesmedia.ru	$w,$d=bubblesmedia.ru
+buildtrafficx.com	$w,$d=buildtrafficx.com
+bunny-net.com	$w,$d=bunny-net.com
+burstnet.com	$w,$d=burstnet.com
+busterzaster.de	$w,$d=busterzaster.de
+buysellads.com	$w,$d=buysellads.com
+buzzparadise.com	$w,$d=buzzparadise.com
+c-on-text.com	$w,$d=c-on-text.com
+c-planet.net	$w,$d=c-planet.net
+c8.net.ua	$w,$d=c8.net.ua
+canoeklix.com	$w,$d=canoeklix.com
+captainad.com	$w,$d=captainad.com
+carbonads.com	$w,$d=carbonads.com
+carrier.bz	$w,$d=carrier.bz
+casalemedia.com	$w,$d=casalemedia.com
+cash4members.com	$w,$d=cash4members.com
+cashtrafic.com	$w,$d=cashtrafic.com
+cb-content.com	$w,$d=cb-content.com
+cbaazars.com	$w,$d=cbaazars.com
+cbclickbank.com	$w,$d=cbclickbank.com
+cbclicks.com	$w,$d=cbclicks.com
+cc-dt.com	$w,$d=cc-dt.com
+cdn-image.com	$w,$d=cdn-image.com
+cdna.tremormedia.com	$w,$d=cdna.tremormedia.com
+cgecwm.org	$w,$d=cgecwm.org
+chango.com	$w,$d=chango.com
+charltonmedia.com	$w,$d=charltonmedia.com
+checkm8.com	$w,$d=checkm8.com
+checkmystats.com.au	$w,$d=checkmystats.com.au
+checkoutfree.com	$w,$d=checkoutfree.com
+chipleader.com	$w,$d=chipleader.com
+chitika.net	$w,$d=chitika.net
+chronicads.com	$w,$d=chronicads.com
+cjt1.net	$w,$d=cjt1.net
+clash-media.com	$w,$d=clash-media.com
+claxonmedia.com	$w,$d=claxonmedia.com
+clayaim.com	$w,$d=clayaim.com
+cleafs.com	$w,$d=cleafs.com
+clear-request.com	$w,$d=clear-request.com
+click2jump.com	$w,$d=click2jump.com
+click4free.info	$w,$d=click4free.info
+clickad.pl	$w,$d=clickad.pl
+clickbank.net	$w,$d=clickbank.net
+clickbooth.com	$w,$d=clickbooth.com
+clickbubbles.net	$w,$d=clickbubbles.net
+clickcash.com	$w,$d=clickcash.com
+clickexa.com	$w,$d=clickexa.com
+clickexperts.net	$w,$d=clickexperts.net
+clickfuse.com	$w,$d=clickfuse.com
+clickintext.net	$w,$d=clickintext.net
+clicknano.com	$w,$d=clicknano.com
+clicksor.com	$w,$d=clicksor.com
+clicksor.net	$w,$d=clicksor.net
+clicksurvey.mobi	$w,$d=clicksurvey.mobi
+clickthrucash.com	$w,$d=clickthrucash.com
+clickupto.com	$w,$d=clickupto.com
+clickwinks.com	$w,$d=clickwinks.com
+clixgalore.com	$w,$d=clixgalore.com
+clixtrac.com	$w,$d=clixtrac.com
+clkads.com	$w,$d=clkads.com
+coadvertise.com	$w,$d=coadvertise.com
+cogsdigital.com	$w,$d=cogsdigital.com
+collection-day.com	$w,$d=collection-day.com
+collective-media.net	$w,$d=collective-media.net
+commission-junction.com	$w,$d=commission-junction.com
+commission.bz	$w,$d=commission.bz
+commissionmonster.com	$w,$d=commissionmonster.com
+comscore.com	$w,$d=comscore.com
+conduit-banners.com	$w,$d=conduit-banners.com
+connectedads.net	$w,$d=connectedads.net
+connectionads.com	$w,$d=connectionads.com
+connextra.com	$w,$d=connextra.com
+contaxe.com	$w,$d=contaxe.com
+content-cooperation.com	$w,$d=content-cooperation.com
+contentdigital.info	$w,$d=contentdigital.info
+contenture.com	$w,$d=contenture.com
+contexlink.se	$w,$d=contexlink.se
+contextuads.com	$w,$d=contextuads.com
+contextweb.com	$w,$d=contextweb.com
+coretarget.co.uk	$w,$d=coretarget.co.uk
+cornflip.com	$w,$d=cornflip.com
+cpaclicks.com	$w,$d=cpaclicks.com
+cpalead.com	$w,$d=cpalead.com
+cpays.com	$w,$d=cpays.com
+cpm.biz	$w,$d=cpm.biz
+cpmstar.com	$w,$d=cpmstar.com
+cpuim.com	$w,$d=cpuim.com
+cpvtgt.com	$w,$d=cpvtgt.com
+cpxadroit.com	$w,$d=cpxadroit.com
+cpxinteractive.com	$w,$d=cpxinteractive.com
+crakmedia.com	$w,$d=crakmedia.com
+crazylead.com	$w,$d=crazylead.com
+creditcards15x.tk	$w,$d=creditcards15x.tk
+crispads.com	$w,$d=crispads.com
+criteo.com	$w,$d=criteo.com
+criteo.net	$w,$d=criteo.net
+crowdgravity.com	$w,$d=crowdgravity.com
+ctasnet.com	$w,$d=ctasnet.com
+ctm-media.com	$w,$d=ctm-media.com
+ctrhub.com	$w,$d=ctrhub.com
+cubics.com	$w,$d=cubics.com
+cygnus.com	$w,$d=cygnus.com
+d.m3.net	$w,$d=d.m3.net
+d03x2011.com	$w,$d=d03x2011.com
+dapper.net	$w,$d=dapper.net
+dashboardad.net	$w,$d=dashboardad.net
+dating-banners.com	$w,$d=dating-banners.com
+datinggold.com	$w,$d=datinggold.com
+dbbsrv.com	$w,$d=dbbsrv.com
+dbclix.com	$w,$d=dbclix.com
+decisionmark.com	$w,$d=decisionmark.com
+decisionnews.com	$w,$d=decisionnews.com
+decknetwork.net	$w,$d=decknetwork.net
+dedicatednetworks.com	$w,$d=dedicatednetworks.com
+deepmetrix.com	$w,$d=deepmetrix.com
+defaultimg.com	$w,$d=defaultimg.com
+deguiste.com	$w,$d=deguiste.com
+demdex.net	$w,$d=demdex.net
+deplayer.net	$w,$d=deplayer.net
+destinationurl.com	$w,$d=destinationurl.com
+dexplatform.com	$w,$d=dexplatform.com
+dgmaustralia.com	$w,$d=dgmaustralia.com
+dianomioffers.co.uk	$w,$d=dianomioffers.co.uk
+digipathmedia.com	$w,$d=digipathmedia.com
+digitrevenue.com	$w,$d=digitrevenue.com
+dinclinx.com	$w,$d=dinclinx.com
+dipads.net	$w,$d=dipads.net
+directaclick.com	$w,$d=directaclick.com
+directleads.com	$w,$d=directleads.com
+directorym.com	$w,$d=directorym.com
+directtrack.com	$w,$d=directtrack.com
+dl-rms.com	$w,$d=dl-rms.com
+dollarade.com	$w,$d=dollarade.com
+domainadvertising.com	$w,$d=domainadvertising.com
+domainbuyingservices.com	$w,$d=domainbuyingservices.com
+domainsponsor.com	$w,$d=domainsponsor.com
+domdex.com	$w,$d=domdex.com
+dotomi.com	$w,$d=dotomi.com
+double.net	$w,$d=double.net
+doubleclick.net	$w,$d=doubleclick.net
+doubleclick.net	$w,$d=doubleclick.net
+doubleclick.net	$w,$d=doubleclick.net
+doubleclick.net	$w,$d=doubleclick.net
+doublepimp.com	$w,$d=doublepimp.com
+doublerecall.com	$w,$d=doublerecall.com
+dpbolvw.net	$w,$d=dpbolvw.net
+drowle.com	$w,$d=drowle.com
+dsnextgen.com	$w,$d=dsnextgen.com
+dsnr-affiliates.com	$w,$d=dsnr-affiliates.com
+dsultra.com	$w,$d=dsultra.com
+dt00.net	$w,$d=dt00.net
+dt07.net	$w,$d=dt07.net
+dualmarket.info	$w,$d=dualmarket.info
+dynamicoxygen.com	$w,$d=dynamicoxygen.com
+e-planning.net	$w,$d=e-planning.net
+e-viral.com	$w,$d=e-viral.com
+eads-adserving.com	$w,$d=eads-adserving.com
+easy-adserver.com	$w,$d=easy-adserver.com
+easyad.com	$w,$d=easyad.com
+easyhits4u.com	$w,$d=easyhits4u.com
+ebannertraffic.com	$w,$d=ebannertraffic.com
+ebayobjects.com.au	$w,$d=ebayobjects.com.au
+ebayobjects.com	$w,$d=ebayobjects.com
+eblastengine.com	$w,$d=eblastengine.com
+ebuzzing.com	$w,$d=ebuzzing.com
+edgeads.org	$w,$d=edgeads.org
+edomz.net	$w,$d=edomz.net
+egamingonline.com	$w,$d=egamingonline.com
+ekmas.com	$w,$d=ekmas.com
+emediate.ch	$w,$d=emediate.ch
+emediate.eu	$w,$d=emediate.eu
+emediate.se	$w,$d=emediate.se
+emjcd.com	$w,$d=emjcd.com
+empiremoney.com	$w,$d=empiremoney.com
+engineseeker.com	$w,$d=engineseeker.com
+entrecard.com	$w,$d=entrecard.com
+entrecard.s3.amazonaws.com	$w,$d=entrecard.s3.amazonaws.com
+epicgameads.com	$w,$d=epicgameads.com
+ero-advertising.com	$w,$d=ero-advertising.com
+erovinmo.com	$w,$d=erovinmo.com
+escale.to	$w,$d=escale.to
+etargetnet.com	$w,$d=etargetnet.com
+etology.com	$w,$d=etology.com
+euroclick.com	$w,$d=euroclick.com
+euros4click.de	$w,$d=euros4click.de
+exelator.com	$w,$d=exelator.com
+exitexplosion.com	$w,$d=exitexplosion.com
+exitjunction.com	$w,$d=exitjunction.com
+exoclick.com	$w,$d=exoclick.com
+exponential.com	$w,$d=exponential.com
+eyereturn.com	$w,$d=eyereturn.com
+eyewond.hs.llnwd.net	$w,$d=eyewond.hs.llnwd.net
+eyewonder.com	$w,$d=eyewonder.com
+fairadsnetwork.com	$w,$d=fairadsnetwork.com
+fairfax.com.au	$w,$d=fairfax.com.au
+falkag.net	$w,$d=falkag.net
+fastclick.net	$w,$d=fastclick.net
+feed-ads.com	$w,$d=feed-ads.com
+fidel.to	$w,$d=fidel.to
+filtermomosearch.com	$w,$d=filtermomosearch.com
+fimserve.com	$w,$d=fimserve.com
+findsthat.com	$w,$d=findsthat.com
+firstadsolution.com	$w,$d=firstadsolution.com
+firstlightera.com	$w,$d=firstlightera.com
+fixionmedia.com	$w,$d=fixionmedia.com
+flashclicks.com	$w,$d=flashclicks.com
+flashtalking.com	$w,$d=flashtalking.com
+fluxads.com	$w,$d=fluxads.com
+fmpub.net	$w,$d=fmpub.net
+foodieblogroll.com	$w,$d=foodieblogroll.com
+foonad.com	$w,$d=foonad.com
+footerslideupad.com	$w,$d=footerslideupad.com
+forex-affiliate.net	$w,$d=forex-affiliate.net
+forexyard.com	$w,$d=forexyard.com
+forrestersurveys.com	$w,$d=forrestersurveys.com
+freebannerswap.co.uk	$w,$d=freebannerswap.co.uk
+freedownloadsoft.net	$w,$d=freedownloadsoft.net
+freelancer.com	$w,$d=freelancer.com
+friendlyduck.com	$w,$d=friendlyduck.com
+ftjcfx.com	$w,$d=ftjcfx.com
+ftv-publicite.fr	$w,$d=ftv-publicite.fr
+funklicks.com	$w,$d=funklicks.com
+fusionads.net	$w,$d=fusionads.net
+futureus.com	$w,$d=futureus.com
+fwmrm.net	$w,$d=fwmrm.net
+g.doubleclick.net	$w,$d=g.doubleclick.net
+gagenez.com	$w,$d=gagenez.com
+galleyn.com	$w,$d=galleyn.com
+gambling-affiliation.com	$w,$d=gambling-affiliation.com
+game-advertising-online.com	$w,$d=game-advertising-online.com
+game-clicks.com	$w,$d=game-clicks.com
+gameads.com	$w,$d=gameads.com
+gamecetera.com	$w,$d=gamecetera.com
+gamersbanner.com	$w,$d=gamersbanner.com
+gannett.gcion.com	$w,$d=gannett.gcion.com
+gate-ru.com	$w,$d=gate-ru.com
+geek2us.net	$w,$d=geek2us.net
+geld-internet-verdienen.net	$w,$d=geld-internet-verdienen.net
+geo-idm.fr	$w,$d=geo-idm.fr
+geopromos.com	$w,$d=geopromos.com
+geovisite.com	$w,$d=geovisite.com
+gestionpub.com	$w,$d=gestionpub.com
+gettipsz.info	$w,$d=gettipsz.info
+ggncpm.com	$w,$d=ggncpm.com
+giantaffiliates.com	$w,$d=giantaffiliates.com
+gimiclub.com	$w,$d=gimiclub.com
+gklmedia.com	$w,$d=gklmedia.com
+globaladsales.com	$w,$d=globaladsales.com
+globaladv.net	$w,$d=globaladv.net
+globaltakeoff.net	$w,$d=globaltakeoff.net
+gmads.net	$w,$d=gmads.net
+go2media.org	$w,$d=go2media.org
+go2speed.org	$w,$d=go2speed.org
+goodadvert.ru	$w,$d=goodadvert.ru
+googleadservicepixel.com	$w,$d=googleadservicepixel.com
+googleadservices.com	$w,$d=googleadservices.com
+googletagservices.com	$w,$d=googletagservices.com
+goviral.hs.llnwd.net	$w,$d=goviral.hs.llnwd.net
+grabmyads.com	$w,$d=grabmyads.com
+gratisnetwork.com	$w,$d=gratisnetwork.com
+groovinads.com	$w,$d=groovinads.com
+guardiandigitalcomparison.co.uk	$w,$d=guardiandigitalcomparison.co.uk
+gumgum.com	$w,$d=gumgum.com
+gururevenue.com	$w,$d=gururevenue.com
+gwallet.com	$w,$d=gwallet.com
+gx101.com	$w,$d=gx101.com
+halogennetwork.com	$w,$d=halogennetwork.com
+harrenmedianetwork.com	$w,$d=harrenmedianetwork.com
+havamedia.net	$w,$d=havamedia.net
+hb-247.com	$w,$d=hb-247.com
+himediads.com	$w,$d=himediads.com
+hit-now.com	$w,$d=hit-now.com
+hits.sys.lv	$w,$d=hits.sys.lv
+hopfeed.com	$w,$d=hopfeed.com
+horse-racing-affiliate-program.co.uk	$w,$d=horse-racing-affiliate-program.co.uk
+hosticanaffiliate.com	$w,$d=hosticanaffiliate.com
+hot-hits.us	$w,$d=hot-hits.us
+hotkeys.com	$w,$d=hotkeys.com
+hotptp.com	$w,$d=hotptp.com
+httpool.com	$w,$d=httpool.com
+hypemakers.net	$w,$d=hypemakers.net
+hypervre.com	$w,$d=hypervre.com
+hyperwebads.com	$w,$d=hyperwebads.com
+iasbetaffiliates.com	$w,$d=iasbetaffiliates.com
+ibatom.com	$w,$d=ibatom.com
+icdirect.com	$w,$d=icdirect.com
+identads.com	$w,$d=identads.com
+igameunion.com	$w,$d=igameunion.com
+imedia.co.il	$w,$d=imedia.co.il
+imglt.com	$w,$d=imglt.com
+imgwebfeed.com	$w,$d=imgwebfeed.com
+imho.ru	$w,$d=imho.ru
+imiclk.com	$w,$d=imiclk.com
+impact-ad.jp	$w,$d=impact-ad.jp
+implix.com	$w,$d=implix.com
+impresionesweb.com	$w,$d=impresionesweb.com
+impressionaffiliate.mobi	$w,$d=impressionaffiliate.mobi
+impressioncontent.info	$w,$d=impressioncontent.info
+impressionperformance.biz	$w,$d=impressionperformance.biz
+impressionvalue.mobi	$w,$d=impressionvalue.mobi
+indiabanner.com	$w,$d=indiabanner.com
+indiads.com	$w,$d=indiads.com
+indianbannerexchange.com	$w,$d=indianbannerexchange.com
+indianlinkexchange.com	$w,$d=indianlinkexchange.com
+indicate.to	$w,$d=indicate.to
+indieclick.com	$w,$d=indieclick.com
+industrybrains.com	$w,$d=industrybrains.com
+infinite-ads.com	$w,$d=infinite-ads.com
+infinityads.com	$w,$d=infinityads.com
+influads.com	$w,$d=influads.com
+info4.a7.org	$w,$d=info4.a7.org
+infolinks.com	$w,$d=infolinks.com
+information-sale.com	$w,$d=information-sale.com
+innity.com	$w,$d=innity.com
+innovid.com	$w,$d=innovid.com
+insightexpress.com	$w,$d=insightexpress.com
+insightexpressai.com	$w,$d=insightexpressai.com
+insitepromotion.com	$w,$d=insitepromotion.com
+inskinad.com	$w,$d=inskinad.com
+inskinmedia.com	$w,$d=inskinmedia.com
+instantbannercreator.com	$w,$d=instantbannercreator.com
+instantdollarz.com	$w,$d=instantdollarz.com
+instivate.com	$w,$d=instivate.com
+intellibanners.com	$w,$d=intellibanners.com
+intellitxt.com	$w,$d=intellitxt.com
+interclick.com	$w,$d=interclick.com
+intermarkets.net	$w,$d=intermarkets.net
+internetadbrokers.com	$w,$d=internetadbrokers.com
+interpolls.com	$w,$d=interpolls.com
+intextscript.com	$w,$d=intextscript.com
+inuvo.com	$w,$d=inuvo.com
+investingchannel.com	$w,$d=investingchannel.com
+ipromote.com	$w,$d=ipromote.com
+iwantmoar.net	$w,$d=iwantmoar.net
+jango.com	$w,$d=jango.com
+jangonetwork.com	$w,$d=jangonetwork.com
+jdoqocy.com	$w,$d=jdoqocy.com
+jeetyetmedia.com	$w,$d=jeetyetmedia.com
+jiwire.com	$w,$d=jiwire.com
+joytocash.com	$w,$d=joytocash.com
+js.cdn.ac	$w,$d=js.cdn.ac
+jscount.com	$w,$d=jscount.com
+jsfeedadsget.com	$w,$d=jsfeedadsget.com
+juiceadv.com	$w,$d=juiceadv.com
+jumboaffiliates.com	$w,$d=jumboaffiliates.com
+justrelevant.com	$w,$d=justrelevant.com
+kanoodle.com	$w,$d=kanoodle.com
+kantarmedia.com	$w,$d=kantarmedia.com
+keewurd.com	$w,$d=keewurd.com
+kehalim.com	$w,$d=kehalim.com
+kerg.net	$w,$d=kerg.net
+ketoo.com	$w,$d=ketoo.com
+keywordblocks.com	$w,$d=keywordblocks.com
+kitnmedia.com	$w,$d=kitnmedia.com
+kliksaya.com	$w,$d=kliksaya.com
+klikvip.com	$w,$d=klikvip.com
+klipmart.com	$w,$d=klipmart.com
+komoona.com	$w,$d=komoona.com
+kontera.com	$w,$d=kontera.com
+kontextua.com	$w,$d=kontextua.com
+kqzyfj.com	$w,$d=kqzyfj.com
+krxd.net	$w,$d=krxd.net
+kumpulblogger.com	$w,$d=kumpulblogger.com
+lakequincy.com	$w,$d=lakequincy.com
+lanistaconcepts.com	$w,$d=lanistaconcepts.com
+lbm1.com	$w,$d=lbm1.com
+ldgateway.com	$w,$d=ldgateway.com
+lduhtrp.net	$w,$d=lduhtrp.net
+leadacceptor.com	$w,$d=leadacceptor.com
+leadad.mobi	$w,$d=leadad.mobi
+leadadvert.info	$w,$d=leadadvert.info
+leadbolt.net	$w,$d=leadbolt.net
+leadcola.com	$w,$d=leadcola.com
+leadintelligence.co.uk	$w,$d=leadintelligence.co.uk
+leetmedia.com	$w,$d=leetmedia.com
+letsgoshopping.tk	$w,$d=letsgoshopping.tk
+liftdna.com	$w,$d=liftdna.com
+ligatus.com	$w,$d=ligatus.com
+lightningcast.net	$w,$d=lightningcast.net
+lijit.com	$w,$d=lijit.com
+linkbuddies.com	$w,$d=linkbuddies.com
+linkconnector.com	$w,$d=linkconnector.com
+linkexchange.com	$w,$d=linkexchange.com
+linkreferral.com	$w,$d=linkreferral.com
+links.io	$w,$d=links.io
+linkshowoff.com	$w,$d=linkshowoff.com
+linksmart.com	$w,$d=linksmart.com
+linkstorm.net	$w,$d=linkstorm.net
+linksynergy.com	$w,$d=linksynergy.com
+linkwash.de	$w,$d=linkwash.de
+linkworth.com	$w,$d=linkworth.com
+linkz.net	$w,$d=linkz.net
+liverail.com	$w,$d=liverail.com
+liveuniversenetwork.com	$w,$d=liveuniversenetwork.com
+loading-resource.com	$w,$d=loading-resource.com
+localadbuy.com	$w,$d=localadbuy.com
+logo-net.co.uk	$w,$d=logo-net.co.uk
+lookit-quick.com	$w,$d=lookit-quick.com
+looksmart.com	$w,$d=looksmart.com
+loseads.eu	$w,$d=loseads.eu
+lotteryaffiliates.com	$w,$d=lotteryaffiliates.com
+love-banner.com	$w,$d=love-banner.com
+lqcdn.com	$w,$d=lqcdn.com
+lqw.me	$w,$d=lqw.me
+ltassrv.com.s3.amazonaws.com	$w,$d=ltassrv.com.s3.amazonaws.com
+ltassrv.com	$w,$d=ltassrv.com
+luminate.com	$w,$d=luminate.com
+lzjl.com	$w,$d=lzjl.com
+madisonlogic.com	$w,$d=madisonlogic.com
+makecashtakingsurveys.biz	$w,$d=makecashtakingsurveys.biz
+marbil24.co.za	$w,$d=marbil24.co.za
+markethealth.com	$w,$d=markethealth.com
+marketingsolutions.yahoo.com	$w,$d=marketingsolutions.yahoo.com
+marketleverage.com	$w,$d=marketleverage.com
+marketnetwork.com	$w,$d=marketnetwork.com
+matiro.com	$w,$d=matiro.com
+maxserving.com	$w,$d=maxserving.com
+mb01.com	$w,$d=mb01.com
+mbn.com.ua	$w,$d=mbn.com.ua
+media-servers.net	$w,$d=media-servers.net
+media.net	$w,$d=media.net
+media6degrees.com	$w,$d=media6degrees.com
+mediaclick.com	$w,$d=mediaclick.com
+mediacpm.com	$w,$d=mediacpm.com
+mediaflire.com	$w,$d=mediaflire.com
+mediaforge.com	$w,$d=mediaforge.com
+mediag4.com	$w,$d=mediag4.com
+mediagridwork.com	$w,$d=mediagridwork.com
+medialation.net	$w,$d=medialation.net
+mediaonenetwork.net	$w,$d=mediaonenetwork.net
+mediapeo.com	$w,$d=mediapeo.com
+mediaplex.com	$w,$d=mediaplex.com
+mediatarget.com	$w,$d=mediatarget.com
+mediatraffic.com	$w,$d=mediatraffic.com
+medleyads.com	$w,$d=medleyads.com
+medrx.sensis.com.au	$w,$d=medrx.sensis.com.au
+meendocash.com	$w,$d=meendocash.com
+meetic-partners.com	$w,$d=meetic-partners.com
+megacpm.com	$w,$d=megacpm.com
+mercuras.com	$w,$d=mercuras.com
+metaffiliation.com	$w,$d=metaffiliation.com
+metrics.io	$w,$d=metrics.io
+meviodisplayads.com	$w,$d=meviodisplayads.com
+mezimedia.com	$w,$d=mezimedia.com
+mgcash.com	$w,$d=mgcash.com
+microsoftaffiliates.net	$w,$d=microsoftaffiliates.net
+milabra.com	$w,$d=milabra.com
+mirago.com	$w,$d=mirago.com
+miva.com	$w,$d=miva.com
+mixmarket.biz	$w,$d=mixmarket.biz
+mixpo.com	$w,$d=mixpo.com
+mktseek.com	$w,$d=mktseek.com
+mmadsgadget.com	$w,$d=mmadsgadget.com
+mmondi.com	$w,$d=mmondi.com
+mmotraffic.com	$w,$d=mmotraffic.com
+mokonocdn.com	$w,$d=mokonocdn.com
+money4ads.com	$w,$d=money4ads.com
+monkeybroker.net	$w,$d=monkeybroker.net
+monsoonads.com	$w,$d=monsoonads.com
+mookie1.com	$w,$d=mookie1.com
+mootermedia.com	$w,$d=mootermedia.com
+moregamers.com	$w,$d=moregamers.com
+moreplayerz.com	$w,$d=moreplayerz.com
+movad.net	$w,$d=movad.net
+mpression.net	$w,$d=mpression.net
+msads.net	$w,$d=msads.net
+my-layer.net	$w,$d=my-layer.net
+myclickbankads.com	$w,$d=myclickbankads.com
+mylinkbox.com	$w,$d=mylinkbox.com
+mythings.com	$w,$d=mythings.com
+n4403ad.doubleclick.net	$w,$d=n4403ad.doubleclick.net
+nabbr.com	$w,$d=nabbr.com
+nbjmp.com	$w,$d=nbjmp.com
+nbstatic.com	$w,$d=nbstatic.com
+neobux.com	$w,$d=neobux.com
+neodatagroup.com	$w,$d=neodatagroup.com
+neoffic.com	$w,$d=neoffic.com
+net-ad-vantage.com	$w,$d=net-ad-vantage.com
+net3media.com	$w,$d=net3media.com
+netavenir.com	$w,$d=netavenir.com
+netseer.com	$w,$d=netseer.com
+netshelter.net	$w,$d=netshelter.net
+networkxi.com	$w,$d=networkxi.com
+networldmedia.net	$w,$d=networldmedia.net
+neudesicmediagroup.com	$w,$d=neudesicmediagroup.com
+newsadstream.com	$w,$d=newsadstream.com
+newstogram.com	$w,$d=newstogram.com
+newtention.net	$w,$d=newtention.net
+nexac.com	$w,$d=nexac.com
+nextmobilecash.com	$w,$d=nextmobilecash.com
+nicheads.com	$w,$d=nicheads.com
+nobleppc.com	$w,$d=nobleppc.com
+northmay.com	$w,$d=northmay.com
+nowlooking.net	$w,$d=nowlooking.net
+nuggad.net	$w,$d=nuggad.net
+nuseek.com	$w,$d=nuseek.com
+nvadn.com	$w,$d=nvadn.com
+nvero.net	$w,$d=nvero.net
+nxtck.com	$w,$d=nxtck.com
+nyadmcncserve-05y06a.com	$w,$d=nyadmcncserve-05y06a.com
+oainternetservices.com	$w,$d=oainternetservices.com
+obeus.com	$w,$d=obeus.com
+obibanners.com	$w,$d=obibanners.com
+objects.tremormedia.com	$w,$d=objects.tremormedia.com
+objectservers.com	$w,$d=objectservers.com
+oclus.com	$w,$d=oclus.com
+offeradvertising.biz	$w,$d=offeradvertising.biz
+offerforge.com	$w,$d=offerforge.com
+offerserve.com	$w,$d=offerserve.com
+oggifinogi.com	$w,$d=oggifinogi.com
+omg2.com	$w,$d=omg2.com
+omguk.com	$w,$d=omguk.com
+onad.eu	$w,$d=onad.eu
+onads.com	$w,$d=onads.com
+onenetworkdirect.com	$w,$d=onenetworkdirect.com
+onenetworkdirect.net	$w,$d=onenetworkdirect.net
+onlineadtracker.co.uk	$w,$d=onlineadtracker.co.uk
+onlinedl.info	$w,$d=onlinedl.info
+opensourceadvertisementnetwork.info	$w,$d=opensourceadvertisementnetwork.info
+openx.com	$w,$d=openx.com
+openx.net	$w,$d=openx.net
+openx.org	$w,$d=openx.org
+opinionbar.com	$w,$d=opinionbar.com
+opt-intelligence.com	$w,$d=opt-intelligence.com
+optimizeadvert.biz	$w,$d=optimizeadvert.biz
+orbengine.com	$w,$d=orbengine.com
+othersonline.com	$w,$d=othersonline.com
+overture.com	$w,$d=overture.com
+oxado.com	$w,$d=oxado.com
+oxtracking.com	$w,$d=oxtracking.com
+p-advg.com	$w,$d=p-advg.com
+pakbanners.com	$w,$d=pakbanners.com
+panachetech.com	$w,$d=panachetech.com
+paperg.com	$w,$d=paperg.com
+partner.video.syndication.msn.com	$w,$d=partner.video.syndication.msn.com
+partypartners.com	$w,$d=partypartners.com
+paygear.com	$w,$d=paygear.com
+payperpost.com	$w,$d=payperpost.com
+pc-ads.com	$w,$d=pc-ads.com
+peemee.com	$w,$d=peemee.com
+peer39.net	$w,$d=peer39.net
+pepperjamnetwork.com	$w,$d=pepperjamnetwork.com
+perfb.com	$w,$d=perfb.com
+performance-based.com	$w,$d=performance-based.com
+performanceadvertising.mobi	$w,$d=performanceadvertising.mobi
+performancetrack.info	$w,$d=performancetrack.info
+performancingads.com	$w,$d=performancingads.com
+pgmediaserve.com	$w,$d=pgmediaserve.com
+pgpartner.com	$w,$d=pgpartner.com
+pharmcash.com	$w,$d=pharmcash.com
+pheedo.com	$w,$d=pheedo.com
+pianobuyerdeals.com	$w,$d=pianobuyerdeals.com
+picadmedia.com	$w,$d=picadmedia.com
+picbucks.com	$w,$d=picbucks.com
+pinballpublishernetwork.com	$w,$d=pinballpublishernetwork.com
+pixazza.com	$w,$d=pixazza.com
+pixeltrack66.com	$w,$d=pixeltrack66.com
+platinumadvertisement.com	$w,$d=platinumadvertisement.com
+playertraffic.com	$w,$d=playertraffic.com
+plenomedia.com	$w,$d=plenomedia.com
+plugerr.com	$w,$d=plugerr.com
+pmsrvr.com	$w,$d=pmsrvr.com
+pntra.com	$w,$d=pntra.com
+pntrac.com	$w,$d=pntrac.com
+pntrs.com	$w,$d=pntrs.com
+pointclicktrack.com	$w,$d=pointclicktrack.com
+pointroll.com	$w,$d=pointroll.com
+popads.net	$w,$d=popads.net
+popadscdn.net	$w,$d=popadscdn.net
+popcpm.com	$w,$d=popcpm.com
+poponclick.com	$w,$d=poponclick.com
+populis.com	$w,$d=populis.com
+popuptraffic.com	$w,$d=popuptraffic.com
+postaffiliatepro.com	$w,$d=postaffiliatepro.com
+powerlinks.com	$w,$d=powerlinks.com
+ppclinking.com	$w,$d=ppclinking.com
+ppctrck.com	$w,$d=ppctrck.com
+ppcwebspy.com	$w,$d=ppcwebspy.com
+precisionclick.com	$w,$d=precisionclick.com
+predictad.com	$w,$d=predictad.com
+primaryads.com	$w,$d=primaryads.com
+pro-advertising.com	$w,$d=pro-advertising.com
+pro-market.net	$w,$d=pro-market.net
+proadsdirect.com	$w,$d=proadsdirect.com
+probannerswap.com	$w,$d=probannerswap.com
+prod.untd.com	$w,$d=prod.untd.com
+profitpeelers.com	$w,$d=profitpeelers.com
+projectwonderful.com	$w,$d=projectwonderful.com
+promotionoffer.mobi	$w,$d=promotionoffer.mobi
+promotiontrack.mobi	$w,$d=promotiontrack.mobi
+proximic.com	$w,$d=proximic.com
+psclicks.com	$w,$d=psclicks.com
+ptmzr.com	$w,$d=ptmzr.com
+ptp.lolco.net	$w,$d=ptp.lolco.net
+pubdirecte.com	$w,$d=pubdirecte.com
+publicidees.com	$w,$d=publicidees.com
+publisher.to	$w,$d=publisher.to
+publisheradnetwork.com	$w,$d=publisheradnetwork.com
+pubmatic.com	$w,$d=pubmatic.com
+pulse360.com	$w,$d=pulse360.com
+qdmil.com	$w,$d=qdmil.com
+qksrv.net	$w,$d=qksrv.net
+qksz.net	$w,$d=qksz.net
+qnsr.com	$w,$d=qnsr.com
+questionmarket.com	$w,$d=questionmarket.com
+questus.com	$w,$d=questus.com
+raasnet.com	$w,$d=raasnet.com
+radiusmarketing.com	$w,$d=radiusmarketing.com
+rapt.com	$w,$d=rapt.com
+rbcdn.com	$w,$d=rbcdn.com
+rcads.net	$w,$d=rcads.net
+reachlocal.com	$w,$d=reachlocal.com
+reachmode.com	$w,$d=reachmode.com
+realclick.co.kr	$w,$d=realclick.co.kr
+realmedia.com	$w,$d=realmedia.com
+recomendedsite.com	$w,$d=recomendedsite.com
+reelcentric.com	$w,$d=reelcentric.com
+reklamz.com	$w,$d=reklamz.com
+resultlinks.com	$w,$d=resultlinks.com
+retargeter.com	$w,$d=retargeter.com
+revenuegiants.com	$w,$d=revenuegiants.com
+revenuemantra.com	$w,$d=revenuemantra.com
+revfusion.net	$w,$d=revfusion.net
+revresda.com	$w,$d=revresda.com
+revsci.net	$w,$d=revsci.net
+rewardsaffiliates.com	$w,$d=rewardsaffiliates.com
+ricead.com	$w,$d=ricead.com
+ringtonematcher.com	$w,$d=ringtonematcher.com
+ringtonepartner.com	$w,$d=ringtonepartner.com
+rmxads.com	$w,$d=rmxads.com
+roicharger.com	$w,$d=roicharger.com
+roirocket.com	$w,$d=roirocket.com
+romance-net.com	$w,$d=romance-net.com
+rotaban.ru	$w,$d=rotaban.ru
+rotatingad.com	$w,$d=rotatingad.com
+rotorads.com	$w,$d=rotorads.com
+rovion.com	$w,$d=rovion.com
+roxyaffiliates.com	$w,$d=roxyaffiliates.com
+ru4.com	$w,$d=ru4.com
+rubiconproject.com	$w,$d=rubiconproject.com
+rwpads.com	$w,$d=rwpads.com
+s2d6.com	$w,$d=s2d6.com
+sa.entireweb.com	$w,$d=sa.entireweb.com
+safelistextreme.com	$w,$d=safelistextreme.com
+salvador24.com	$w,$d=salvador24.com
+saple.net	$w,$d=saple.net
+saveads.net	$w,$d=saveads.net
+sbaffiliates.com	$w,$d=sbaffiliates.com
+scanscout.com	$w,$d=scanscout.com
+scratchaffs.com	$w,$d=scratchaffs.com
+search123.uk.com	$w,$d=search123.uk.com
+seccoads.com	$w,$d=seccoads.com
+secondstreetmedia.com	$w,$d=secondstreetmedia.com
+secure-softwaremanager.com	$w,$d=secure-softwaremanager.com
+securesoft.info	$w,$d=securesoft.info
+securewebsiteaccess.com	$w,$d=securewebsiteaccess.com
+seductionprofits.com	$w,$d=seductionprofits.com
+sekindo.com	$w,$d=sekindo.com
+selsin.net	$w,$d=selsin.net
+sendptp.com	$w,$d=sendptp.com
+seriousfiles.com	$w,$d=seriousfiles.com
+servali.net	$w,$d=servali.net
+sev4ifmxa.com	$w,$d=sev4ifmxa.com
+sexmoney.com	$w,$d=sexmoney.com
+shareasale.com	$w,$d=shareasale.com
+sharegods.com	$w,$d=sharegods.com
+shareresults.com	$w,$d=shareresults.com
+shinobi.jp	$w,$d=shinobi.jp
+showyoursite.com	$w,$d=showyoursite.com
+simply.com	$w,$d=simply.com
+sitebrand.com	$w,$d=sitebrand.com
+siteencore.com	$w,$d=siteencore.com
+sitesense-oo.com	$w,$d=sitesense-oo.com
+skimlinks.com	$w,$d=skimlinks.com
+skimresources.com	$w,$d=skimresources.com
+skoovyads.com	$w,$d=skoovyads.com
+slimtrade.com	$w,$d=slimtrade.com
+smart.allocine.fr	$w,$d=smart.allocine.fr
+smart2.allocine.fr	$w,$d=smart2.allocine.fr
+smartadserver.com	$w,$d=smartadserver.com
+smarttargetting.co.uk	$w,$d=smarttargetting.co.uk
+smarttargetting.com	$w,$d=smarttargetting.com
+smarttargetting.net	$w,$d=smarttargetting.net
+smowtion.com	$w,$d=smowtion.com
+smpgfx.com	$w,$d=smpgfx.com
+snap.com	$w,$d=snap.com
+so-excited.com	$w,$d=so-excited.com
+sochr.com	$w,$d=sochr.com
+sociallypublish.com	$w,$d=sociallypublish.com
+socialmedia.com	$w,$d=socialmedia.com
+socialspark.com	$w,$d=socialspark.com
+sociocast.com	$w,$d=sociocast.com
+sociomantic.com	$w,$d=sociomantic.com
+softonicads.com	$w,$d=softonicads.com
+softpopads.com	$w,$d=softpopads.com
+sonnerie.net	$w,$d=sonnerie.net
+sonobi.com	$w,$d=sonobi.com
+sparkstudios.com	$w,$d=sparkstudios.com
+specificclick.net	$w,$d=specificclick.net
+specificmedia.com	$w,$d=specificmedia.com
+speedsuccess.net	$w,$d=speedsuccess.net
+spinbox.freedom.com	$w,$d=spinbox.freedom.com
+splinky.com	$w,$d=splinky.com
+spongecell.com	$w,$d=spongecell.com
+sponsorads.de	$w,$d=sponsorads.de
+sponsoredtweets.com	$w,$d=sponsoredtweets.com
+sponsormob.com	$w,$d=sponsormob.com
+sponsorpalace.com	$w,$d=sponsorpalace.com
+sportsyndicator.com	$w,$d=sportsyndicator.com
+spotrails.com	$w,$d=spotrails.com
+spottt.com	$w,$d=spottt.com
+spotxchange.com	$w,$d=spotxchange.com
+sproose.com	$w,$d=sproose.com
+srtk.net	$w,$d=srtk.net
+sta-ads.com	$w,$d=sta-ads.com
+starlayer.com	$w,$d=starlayer.com
+statcamp.net	$w,$d=statcamp.net
+stocker.bonnint.net	$w,$d=stocker.bonnint.net
+streamate.com	$w,$d=streamate.com
+struq.com	$w,$d=struq.com
+sublimemedia.net	$w,$d=sublimemedia.net
+suitesmart.com	$w,$d=suitesmart.com
+sumarketing.co.uk	$w,$d=sumarketing.co.uk
+suparewards.com	$w,$d=suparewards.com
+supremeadsonline.com	$w,$d=supremeadsonline.com
+survey-poll.com	$w,$d=survey-poll.com
+surveyvalue.mobi	$w,$d=surveyvalue.mobi
+surveyvalue.net	$w,$d=surveyvalue.net
+surveywidget.biz	$w,$d=surveywidget.biz
+symbiosting.com	$w,$d=symbiosting.com
+tacoda.net	$w,$d=tacoda.net
+taggify.net	$w,$d=taggify.net
+tailsweep.com	$w,$d=tailsweep.com
+tapad.com	$w,$d=tapad.com
+targetnet.com	$w,$d=targetnet.com
+targetpoint.com	$w,$d=targetpoint.com
+targetspot.com	$w,$d=targetspot.com
+teasernet.com	$w,$d=teasernet.com
+technoratimedia.com	$w,$d=technoratimedia.com
+telemetryverification.net	$w,$d=telemetryverification.net
+teracent.net	$w,$d=teracent.net
+testnet.nl	$w,$d=testnet.nl
+text-link-ads.com	$w,$d=text-link-ads.com
+textonlyads.com	$w,$d=textonlyads.com
+textsrv.com	$w,$d=textsrv.com
+tfag.de	$w,$d=tfag.de
+theloungenet.com	$w,$d=theloungenet.com
+thewebgemnetwork.com	$w,$d=thewebgemnetwork.com
+thewheelof.com	$w,$d=thewheelof.com
+tidaltv.com	$w,$d=tidaltv.com
+tiser.com	$w,$d=tiser.com
+tkqlhce.com	$w,$d=tkqlhce.com
+tldadserv.com	$w,$d=tldadserv.com
+tlvmedia.com	$w,$d=tlvmedia.com
+topauto10.com	$w,$d=topauto10.com
+topcasino10.com	$w,$d=topcasino10.com
+total-media.net	$w,$d=total-media.net
+totalprofitplan.com	$w,$d=totalprofitplan.com
+totemcash.com	$w,$d=totemcash.com
+tqlkg.com	$w,$d=tqlkg.com
+traceadmanager.com	$w,$d=traceadmanager.com
+trackadvertising.net	$w,$d=trackadvertising.net
+trackcorner.com	$w,$d=trackcorner.com
+tracking.to	$w,$d=tracking.to
+tracking101.com	$w,$d=tracking101.com
+tracking11.com	$w,$d=tracking11.com
+trackingoffer.info	$w,$d=trackingoffer.info
+trackingoffer.net	$w,$d=trackingoffer.net
+trackpath.biz	$w,$d=trackpath.biz
+trackpromotion.net	$w,$d=trackpromotion.net
+tradedoubler.com	$w,$d=tradedoubler.com
+tradepub.com	$w,$d=tradepub.com
+tradetracker.net	$w,$d=tradetracker.net
+traff-advertazer.com	$w,$d=traff-advertazer.com
+trafficbarads.com	$w,$d=trafficbarads.com
+trafficbroker.com	$w,$d=trafficbroker.com
+trafficforce.com	$w,$d=trafficforce.com
+traffichaus.com	$w,$d=traffichaus.com
+trafficjunky.net	$w,$d=trafficjunky.net
+trafficmasterz.net	$w,$d=trafficmasterz.net
+trafficrevenue.net	$w,$d=trafficrevenue.net
+trafficsynergy.com	$w,$d=trafficsynergy.com
+trafficwave.net	$w,$d=trafficwave.net
+trafficz.com	$w,$d=trafficz.com
+traveladvertising.com	$w,$d=traveladvertising.com
+travelscream.com	$w,$d=travelscream.com
+travidia.com	$w,$d=travidia.com
+tredirect.com	$w,$d=tredirect.com
+triadmedianetwork.com	$w,$d=triadmedianetwork.com
+tribalfusion.com	$w,$d=tribalfusion.com
+trigami.com	$w,$d=trigami.com
+trkalot.com	$w,$d=trkalot.com
+trker.com	$w,$d=trker.com
+tubemogul.com	$w,$d=tubemogul.com
+tutvp.com	$w,$d=tutvp.com
+tvprocessing.com	$w,$d=tvprocessing.com
+twinpinenetwork.com	$w,$d=twinpinenetwork.com
+twinplan.com	$w,$d=twinplan.com
+twistads.com	$w,$d=twistads.com
+twittad.com	$w,$d=twittad.com
+tyroo.com	$w,$d=tyroo.com
+udmserve.net	$w,$d=udmserve.net
+uiadserver.com	$w,$d=uiadserver.com
+ukbanners.com	$w,$d=ukbanners.com
+unanimis.co.uk	$w,$d=unanimis.co.uk
+undertone.com	$w,$d=undertone.com
+unicast.com	$w,$d=unicast.com
+unlockr.com	$w,$d=unlockr.com
+unrulymedia.com	$w,$d=unrulymedia.com
+upliftsearch.com	$w,$d=upliftsearch.com
+urlcash.net	$w,$d=urlcash.net
+usbanners.com	$w,$d=usbanners.com
+usemax.de	$w,$d=usemax.de
+usenetjunction.com	$w,$d=usenetjunction.com
+usenetpassport.com	$w,$d=usenetpassport.com
+usercash.com	$w,$d=usercash.com
+utarget.co.uk	$w,$d=utarget.co.uk
+v.fwmrm.net	$w,$d=v.fwmrm.net
+v.movad.de	$w,$d=v.movad.de
+v2cigs.com	$w,$d=v2cigs.com
+validclick.com	$w,$d=validclick.com
+valuead.com	$w,$d=valuead.com
+valueaffiliate.net	$w,$d=valueaffiliate.net
+valueclick.com	$w,$d=valueclick.com
+valueclickmedia.com	$w,$d=valueclickmedia.com
+valuecontent.net	$w,$d=valuecontent.net
+vcmedia.com	$w,$d=vcmedia.com
+vdopia.com	$w,$d=vdopia.com
+velmedia.net	$w,$d=velmedia.net
+vemba.com	$w,$d=vemba.com
+veoxa.com	$w,$d=veoxa.com
+versetime.com	$w,$d=versetime.com
+vhmnetwork.com	$w,$d=vhmnetwork.com
+vianadserver.com	$w,$d=vianadserver.com
+vibrantmedia.com	$w,$d=vibrantmedia.com
+video-loader.com	$w,$d=video-loader.com
+videoegg.com	$w,$d=videoegg.com
+videoplaza.com	$w,$d=videoplaza.com
+videoplaza.com	$w,$d=videoplaza.com
+videoplaza.tv	$w,$d=videoplaza.tv
+videoplaza.tv	$w,$d=videoplaza.tv
+videostrip.com	$w,$d=videostrip.com
+vidpay.com	$w,$d=vidpay.com
+viedeo2k.tv	$w,$d=viedeo2k.tv
+viglink.com	$w,$d=viglink.com
+vipquesting.com	$w,$d=vipquesting.com
+visiblegains.com	$w,$d=visiblegains.com
+visitdetails.com	$w,$d=visitdetails.com
+vitalads.net	$w,$d=vitalads.net
+vpico.com	$w,$d=vpico.com
+vs20060817.com	$w,$d=vs20060817.com
+vs4entertainment.com	$w,$d=vs4entertainment.com
+vs4family.com	$w,$d=vs4family.com
+vsservers.net	$w,$d=vsservers.net
+vuiads.de	$w,$d=vuiads.de
+w00tmedia.net	$w,$d=w00tmedia.net
+w4.com	$w,$d=w4.com
+wagershare.com	$w,$d=wagershare.com
+wahoha.com	$w,$d=wahoha.com
+warezlayer.to	$w,$d=warezlayer.to
+warfacco.com	$w,$d=warfacco.com
+watchfree.flv.in	$w,$d=watchfree.flv.in
+wcmcs.net	$w,$d=wcmcs.net
+webads.co.nz	$w,$d=webads.co.nz
+webads.nl	$w,$d=webads.nl
+webgains.com	$w,$d=webgains.com
+weborama.fr	$w,$d=weborama.fr
+webtraffic.ttinet.com	$w,$d=webtraffic.ttinet.com
+wegetpaid.net	$w,$d=wegetpaid.net
+wfnetwork.com	$w,$d=wfnetwork.com
+wgreatdream.com	$w,$d=wgreatdream.com
+widgetadvertising.biz	$w,$d=widgetadvertising.biz
+widgetbanner.mobi	$w,$d=widgetbanner.mobi
+widgetbucks.com	$w,$d=widgetbucks.com
+widgetlead.net	$w,$d=widgetlead.net
+widgets.fccinteractive.com	$w,$d=widgets.fccinteractive.com
+widgetsurvey.biz	$w,$d=widgetsurvey.biz
+widgetvalue.net	$w,$d=widgetvalue.net
+widgetwidget.mobi	$w,$d=widgetwidget.mobi
+wigetmedia.com	$w,$d=wigetmedia.com
+wlmarketing.com	$w,$d=wlmarketing.com
+wmmediacorp.com	$w,$d=wmmediacorp.com
+wootmedia.net	$w,$d=wootmedia.net
+worlddatinghere.com	$w,$d=worlddatinghere.com
+worthathousandwords.com	$w,$d=worthathousandwords.com
+wsod.com	$w,$d=wsod.com
+wwbn.com	$w,$d=wwbn.com
+wwwadcntr.com	$w,$d=wwwadcntr.com
+x4300tiz.com	$w,$d=x4300tiz.com
+xcelltech.com	$w,$d=xcelltech.com
+xcelsiusadserver.com	$w,$d=xcelsiusadserver.com
+xchangebanners.com	$w,$d=xchangebanners.com
+xdev.info	$w,$d=xdev.info
+xgraph.net	$w,$d=xgraph.net
+xtendmedia.com	$w,$d=xtendmedia.com
+xx00.info	$w,$d=xx00.info
+yadomedia.com	$w,$d=yadomedia.com
+ycasmd.info	$w,$d=ycasmd.info
+yceml.net	$w,$d=yceml.net
+yesnexus.com	$w,$d=yesnexus.com
+yext.com	$w,$d=yext.com
+yieldads.com	$w,$d=yieldads.com
+yieldbuild.com	$w,$d=yieldbuild.com
+yieldkit.com	$w,$d=yieldkit.com
+yieldlab.net	$w,$d=yieldlab.net
+yieldmanager.com	$w,$d=yieldmanager.com
+yieldmanager.net	$w,$d=yieldmanager.net
+yldmgrimg.net	$w,$d=yldmgrimg.net
+ymads.com	$w,$d=ymads.com
+yottacash.com	$w,$d=yottacash.com
+yourquickads.com	$w,$d=yourquickads.com
+yumenetworks.com	$w,$d=yumenetworks.com
+yvoria.com	$w,$d=yvoria.com
+z5x.net	$w,$d=z5x.net
+zangocash.com	$w,$d=zangocash.com
+zanox.com	$w,$d=zanox.com
+zaparena.com	$w,$d=zaparena.com
+zapunited.com	$w,$d=zapunited.com
+zeads.com	$w,$d=zeads.com
+zedo.com	$w,$d=zedo.com
+zenoviagroup.com	$w,$d=zenoviagroup.com
+zferral.com	$w,$d=zferral.com
+zonplug.com	$w,$d=zonplug.com
+zoomdirect.com.au	$w,$d=zoomdirect.com.au
+zxxds.net	$w,$d=zxxds.net
+zypenetwork.com	$w,$d=zypenetwork.com
+admob.com	$w,$d=admob.com
+adwhirl.com	$w,$d=adwhirl.com
+adzmob.com	$w,$d=adzmob.com
+amobee.com	$w,$d=amobee.com
+mkhoj.com	$w,$d=mkhoj.com
+mobgold.com	$w,$d=mobgold.com
+mobpartner.mobi	$w,$d=mobpartner.mobi
+mocean.mobi	$w,$d=mocean.mobi
+mojiva.com	$w,$d=mojiva.com
+sascdn.com	$w,$d=sascdn.com
+smaato.net	$w,$d=smaato.net
+waptrick.com	$w,$d=waptrick.com
+easyinline.com	$w,$d=easyinline.com
+mysupercheap.com	$w,$d=mysupercheap.com
+nsdsvc.com	$w,$d=nsdsvc.com
+toprelatedtopics.com	$w,$d=toprelatedtopics.com
+21sexturycash.com	$w,$d=21sexturycash.com
+24x7adservice.com	$w,$d=24x7adservice.com
+33traffic.com	$w,$d=33traffic.com
+777-partner.com	$w,$d=777-partner.com
+777partner.com	$w,$d=777partner.com
+777partner.net	$w,$d=777partner.net
+aaovn.info	$w,$d=aaovn.info
+adjunky.com	$w,$d=adjunky.com
+adult-profit-files.com	$w,$d=adult-profit-files.com
+adultlinkexchange.com	$w,$d=adultlinkexchange.com
+adultpopunders.com	$w,$d=adultpopunders.com
+advmania.com	$w,$d=advmania.com
+adxpansion.com	$w,$d=adxpansion.com
+adxregie.com	$w,$d=adxregie.com
+aeesy.com	$w,$d=aeesy.com
+affiligay.net	$w,$d=affiligay.net
+aipbannerx.com	$w,$d=aipbannerx.com
+aipmedia.com	$w,$d=aipmedia.com
+alfatraffic.com	$w,$d=alfatraffic.com
+amtracking01.com	$w,$d=amtracking01.com
+angelpastel.com	$w,$d=angelpastel.com
+apromoweb.com	$w,$d=apromoweb.com
+belamicash.com	$w,$d=belamicash.com
+belasninfetas.org	$w,$d=belasninfetas.org
+bestssn.com	$w,$d=bestssn.com
+board-books.com	$w,$d=board-books.com
+cache.imagehost123.com	$w,$d=cache.imagehost123.com
+camads.net	$w,$d=camads.net
+campartner.com	$w,$d=campartner.com
+campromos.nl	$w,$d=campromos.nl
+cash-program.com	$w,$d=cash-program.com
+cdn.nsimg.net	$w,$d=cdn.nsimg.net
+cennter.com	$w,$d=cennter.com
+clickthruserver.com	$w,$d=clickthruserver.com
+clicktrace.info	$w,$d=clicktrace.info
+coldhardcash.com	$w,$d=coldhardcash.com
+crocoads.com	$w,$d=crocoads.com
+danzabucks.com	$w,$d=danzabucks.com
+data-ero-advertising.com	$w,$d=data-ero-advertising.com
+desiad.net	$w,$d=desiad.net
+enoratraffic.com	$w,$d=enoratraffic.com
+filthads.com	$w,$d=filthads.com
+flashadtools.com	$w,$d=flashadtools.com
+fncash.com	$w,$d=fncash.com
+forgetstore.com	$w,$d=forgetstore.com
+funcel.mobi	$w,$d=funcel.mobi
+gayadpros.com	$w,$d=gayadpros.com
+genialradio.com	$w,$d=genialradio.com
+gridlockparadise.com	$w,$d=gridlockparadise.com
+gtsads.com	$w,$d=gtsads.com
+hentaibiz.com	$w,$d=hentaibiz.com
+highnets.com	$w,$d=highnets.com
+home-soon.com	$w,$d=home-soon.com
+hotsocials.com	$w,$d=hotsocials.com
+intrapromotion.com	$w,$d=intrapromotion.com
+jackao.net	$w,$d=jackao.net
+juicyads.com	$w,$d=juicyads.com
+juicycash.net	$w,$d=juicycash.net
+k9x.net	$w,$d=k9x.net
+lovercash.com	$w,$d=lovercash.com
+magical-sky.com	$w,$d=magical-sky.com
+mediagra.com	$w,$d=mediagra.com
+meineserver.com	$w,$d=meineserver.com
+methodcash.com	$w,$d=methodcash.com
+mmaaxx.com	$w,$d=mmaaxx.com
+mtoor.com	$w,$d=mtoor.com
+mtree.com	$w,$d=mtree.com
+mywebclick.net	$w,$d=mywebclick.net
+naiadsystems.com	$w,$d=naiadsystems.com
+nastydollars.com	$w,$d=nastydollars.com
+nature-friend.com	$w,$d=nature-friend.com
+newagerevenue.com	$w,$d=newagerevenue.com
+otherprofit.com	$w,$d=otherprofit.com
+partnercash.com	$w,$d=partnercash.com
+pecash.com	$w,$d=pecash.com
+plugrush.com	$w,$d=plugrush.com
+porkolt.com	$w,$d=porkolt.com
+pornconversions.com	$w,$d=pornconversions.com
+portable-basketball.com	$w,$d=portable-basketball.com
+privateseiten.net	$w,$d=privateseiten.net
+privatewebseiten.com	$w,$d=privatewebseiten.com
+promo4partners.com	$w,$d=promo4partners.com
+promowebstar.com	$w,$d=promowebstar.com
+redcash.net	$w,$d=redcash.net
+robotadserver.com	$w,$d=robotadserver.com
+rukplaza.com	$w,$d=rukplaza.com
+sascentral.com	$w,$d=sascentral.com
+seitentipp.com	$w,$d=seitentipp.com
+sexad.net	$w,$d=sexad.net
+sexdatecash.com	$w,$d=sexdatecash.com
+sexsearch.com	$w,$d=sexsearch.com
+sextracker.com	$w,$d=sextracker.com
+socialsexnetwork.net	$w,$d=socialsexnetwork.net
+startwebpromo.com	$w,$d=startwebpromo.com
+sv2.biz	$w,$d=sv2.biz
+targetingnow.com	$w,$d=targetingnow.com
+the-adult-company.com	$w,$d=the-adult-company.com
+tinyweene.com	$w,$d=tinyweene.com
+topbucks.com	$w,$d=topbucks.com
+trafficlearn.com	$w,$d=trafficlearn.com
+trafficpimps.com	$w,$d=trafficpimps.com
+trustedadserver.com	$w,$d=trustedadserver.com
+tubedspots.com	$w,$d=tubedspots.com
+twistyscash.com	$w,$d=twistyscash.com
+webcambait.com	$w,$d=webcambait.com
+webclickengine.com	$w,$d=webclickengine.com
+wetpeachcash.com	$w,$d=wetpeachcash.com
+whaleads.com	$w,$d=whaleads.com
+wood-pen.com	$w,$d=wood-pen.com
+xfuckbook.com	$w,$d=xfuckbook.com
+xhamstercams.com	$w,$d=xhamstercams.com
+xxxex.com	$w,$d=xxxex.com
+xxxlnk.com	$w,$d=xxxlnk.com
+yazcash.com	$w,$d=yazcash.com
+yfum.com	$w,$d=yfum.com
+your-big.com	$w,$d=your-big.com
+69.50.226.158	$w,$d=69.50.226.158
+adf.ly	$w,$d=adf.ly
+adlandpro.com	$w,$d=adlandpro.com
+affiliate.juno.co.uk	$w,$d=affiliate.juno.co.uk
+affiliate.moveandstay.com	$w,$d=affiliate.moveandstay.com
+affiliates-cdn.mozilla.org	$w,$d=affiliates-cdn.mozilla.org
+affutdmedia.com	$w,$d=affutdmedia.com
+afimg.liveperson.com	$w,$d=afimg.liveperson.com
+ak.imgaft.com	$w,$d=ak.imgaft.com
+ard.xxxblackbook.com	$w,$d=ard.xxxblackbook.com
+as.devbridge.com	$w,$d=as.devbridge.com
+b.sell.com	$w,$d=b.sell.com
+bc.coupons.com	$w,$d=bc.coupons.com
+beta.down2crazy.com	$w,$d=beta.down2crazy.com
+bidgo.ca	$w,$d=bidgo.ca
+blocks.ginotrack.com	$w,$d=blocks.ginotrack.com
+bookingdragon.com	$w,$d=bookingdragon.com
+buzznet.com	$w,$d=buzznet.com
+canonresourcecenter.com	$w,$d=canonresourcecenter.com
+cbanners.virtuagirlhd.com	$w,$d=cbanners.virtuagirlhd.com
+challies.com	$w,$d=challies.com
+colmwynne.com	$w,$d=colmwynne.com
+dealswarm.com	$w,$d=dealswarm.com
+dealzone.co.za	$w,$d=dealzone.co.za
+elitsearch.com	$w,$d=elitsearch.com
+etrader.kalahari.net	$w,$d=etrader.kalahari.net
+etsy.com	$w,$d=etsy.com
+facebookcoverx.com	$w,$d=facebookcoverx.com
+fantaz.com	$w,$d=fantaz.com
+firstclass-download.com	$w,$d=firstclass-download.com
+firstload.com	$w,$d=firstload.com
+firstload.de	$w,$d=firstload.de
+flagship.asp-host.co.uk	$w,$d=flagship.asp-host.co.uk
+flyertown.ca	$w,$d=flyertown.ca
+gadgetresearch.net	$w,$d=gadgetresearch.net
+generic4all.com	$w,$d=generic4all.com
+get.2leep.com	$w,$d=get.2leep.com
+get.box24casino.com	$w,$d=get.box24casino.com
+get.rubyroyal.com	$w,$d=get.rubyroyal.com
+get.slotocash.com	$w,$d=get.slotocash.com
+gfxa.sheetmusicplus.com	$w,$d=gfxa.sheetmusicplus.com
+ggmania.com	$w,$d=ggmania.com
+googlesyndication.com	$w,$d=googlesyndication.com
+googlesyndication.com	$w,$d=googlesyndication.com
+hetu.in	$w,$d=hetu.in
+ilapi.ebay.com	$w,$d=ilapi.ebay.com
+image.com.com	$w,$d=image.com.com
+images-pw.secureserver.net	$w,$d=images-pw.secureserver.net
+images.mylot.com	$w,$d=images.mylot.com
+img.bluehost.com	$w,$d=img.bluehost.com
+img.mybet.com	$w,$d=img.mybet.com
+img.promoddl.com	$w,$d=img.promoddl.com
+imgehost.com	$w,$d=imgehost.com
+init.lingospot.com	$w,$d=init.lingospot.com
+jeysearch.com	$w,$d=jeysearch.com
+jsfeedget.com	$w,$d=jsfeedget.com
+lapi.ebay.com	$w,$d=lapi.ebay.com
+livejasmin.com	$w,$d=livejasmin.com
+liveshows.com	$w,$d=liveshows.com
+longtailvideo.com	$w,$d=longtailvideo.com
+longtailvideo.com	$w,$d=longtailvideo.com
+match.com	$w,$d=match.com
+maximainvest.net	$w,$d=maximainvest.net
+mb.marathonbet.com	$w,$d=mb.marathonbet.com
+media-toolbar.com	$w,$d=media-toolbar.com
+media.onlineteachers.co.in	$w,$d=media.onlineteachers.co.in
+metaboli.fr	$w,$d=metaboli.fr
+mfeed.newzfind.com	$w,$d=mfeed.newzfind.com
+mgid.com	$w,$d=mgid.com
+microsoft.com	$w,$d=microsoft.com
+microsoft.com	$w,$d=microsoft.com
+mmo4rpg.com	$w,$d=mmo4rpg.com
+mp3ix.com	$w,$d=mp3ix.com
+mto.mediatakeout.com	$w,$d=mto.mediatakeout.com
+musik-a-z.com	$w,$d=musik-a-z.com
+my-best-jobs.com	$w,$d=my-best-jobs.com
+mydirtyhobby.com	$w,$d=mydirtyhobby.com
+mydirtyhobby.com	$w,$d=mydirtyhobby.com
+mydirtyhobby.com	$w,$d=mydirtyhobby.com
+myfreepaysite.info	$w,$d=myfreepaysite.info
+networkice.com	$w,$d=networkice.com
+pagerage.com	$w,$d=pagerage.com
+partner.e-conomic.com	$w,$d=partner.e-conomic.com
+partner.popmog.com	$w,$d=partner.popmog.com
+partycasino.com	$w,$d=partycasino.com
+partycasino.com	$w,$d=partycasino.com
+partypoker.com	$w,$d=partypoker.com
+pcash.imlive.com	$w,$d=pcash.imlive.com
+pokerroomkings.com	$w,$d=pokerroomkings.com
+promo.mydirtyhobby.com	$w,$d=promo.mydirtyhobby.com
+pub.aujourdhui.com	$w,$d=pub.aujourdhui.com
+redtram.com	$w,$d=redtram.com
+redvase.bravenet.com	$w,$d=redvase.bravenet.com
+roadcomponentsdb.com	$w,$d=roadcomponentsdb.com
+rocketgames.com	$w,$d=rocketgames.com
+roia.hutchmedia.com	$w,$d=roia.hutchmedia.com
+slickdeals.meritline.com	$w,$d=slickdeals.meritline.com
+snapdeal.com	$w,$d=snapdeal.com
+store.lavasoft.com	$w,$d=store.lavasoft.com
+stylefind.com	$w,$d=stylefind.com
+supply.upjers.com	$w,$d=supply.upjers.com
+swarmjam.com	$w,$d=swarmjam.com
+thebigchair.com.au	$w,$d=thebigchair.com.au
+tickles.co.uk	$w,$d=tickles.co.uk
+tickles.ie	$w,$d=tickles.ie
+todaysfinder.com	$w,$d=todaysfinder.com
+traceybell.co.uk	$w,$d=traceybell.co.uk
+travelmail.traveltek.net	$w,$d=travelmail.traveltek.net
+trialpay.com	$w,$d=trialpay.com
+ubuntudeal.co.za	$w,$d=ubuntudeal.co.za
+videozr.com	$w,$d=videozr.com
+visit.homepagle.com	$w,$d=visit.homepagle.com
+vuvuplaza.com	$w,$d=vuvuplaza.com
+widget.imshopping.com	$w,$d=widget.imshopping.com
+widgets.itunes.apple.com	$w,$d=widgets.itunes.apple.com
+widgets.mobilelocalnews.com	$w,$d=widgets.mobilelocalnews.com
+yontoo.com	$w,$d=yontoo.com
+1800freecams.com	$w,$d=1800freecams.com
+amarotic.com	$w,$d=amarotic.com
+amarotic.com	$w,$d=amarotic.com
+byfortune.co.cc	$w,$d=byfortune.co.cc
+click.kink.com	$w,$d=click.kink.com
+cokstrip.co.cc	$w,$d=cokstrip.co.cc
+cwgads.com	$w,$d=cwgads.com
+daredorm.com	$w,$d=daredorm.com
+datefree.com	$w,$d=datefree.com
+datingfactory.com	$w,$d=datingfactory.com
+escortso.com	$w,$d=escortso.com
+feeds.videosz.com	$w,$d=feeds.videosz.com
+freeonescams.com	$w,$d=freeonescams.com
+fuckhub.net	$w,$d=fuckhub.net
+galleries.videosz.com	$w,$d=galleries.videosz.com
+gallery.deskbabes.com	$w,$d=gallery.deskbabes.com
+gfrevenge.com	$w,$d=gfrevenge.com
+hornybirds.com	$w,$d=hornybirds.com
+hotsocialz.com	$w,$d=hotsocialz.com
+ifriends.net	$w,$d=ifriends.net
+ilovecheating.com	$w,$d=ilovecheating.com
+livesexasian.com	$w,$d=livesexasian.com
+loveme.com	$w,$d=loveme.com
+media.eurolive.com	$w,$d=media.eurolive.com
+media.mykocam.com	$w,$d=media.mykocam.com
+media.mykodial.com	$w,$d=media.mykodial.com
+metartmoney.com	$w,$d=metartmoney.com
+metartmoney.met-art.com	$w,$d=metartmoney.met-art.com
+online.mydirtyhobby.com	$w,$d=online.mydirtyhobby.com
+partners.yobt.com	$w,$d=partners.yobt.com
+pod.manplay.com	$w,$d=pod.manplay.com
+pornoh.info	$w,$d=pornoh.info
+pornturbo.com	$w,$d=pornturbo.com
+premiumhdv.com	$w,$d=premiumhdv.com
+promo.ulust.com	$w,$d=promo.ulust.com
+promo1.webcams.nl	$w,$d=promo1.webcams.nl
+rough-sex-in-russia.com	$w,$d=rough-sex-in-russia.com
+secretbehindporn.com	$w,$d=secretbehindporn.com
+sexy.fling.com	$w,$d=sexy.fling.com
+vdtranny.co.cc	$w,$d=vdtranny.co.cc
+vectorpastel.com	$w,$d=vectorpastel.com
+xnxx.com	$w,$d=xnxx.com
+youfck.com	$w,$d=youfck.com
+yuvutu.com	$w,$d=yuvutu.com
+cpfclassifieds.com	$w,$d=cpfclassifieds.com
+delvenetworks.com	$w,$d=delvenetworks.com
+lightningcast.net	$w,$d=lightningcast.net
+
+
+
+!Overall
+union.vancl.com/mppics.aspx?source=*&sourcesuninfo=ad-
+##[src*="&sourcesuninfo=ad-"]
+j.union.ijinshan.com
+*/960x60.	$t=image
+*/960-90.	$t=image
+js.99ddd.com/lhzs/f_jb.js
+_ad_top
+_ad_right
+*/ggtu/*	$t=image
+*/globalad/billboard/*
+.hosting24.com/j.js
+float_ads
+*/adfront/**
+*/baiduad/*
+=GetAd&
+/adfclick?
+guanggao.js
+*/adsJs/*	$t=script
+/admode.js
+buffer-ad/
+buffer-ad.
+pause-ad.kuaibo.com
+=adstyle_
+/admode.js
+/moneymaker/js/float.js
+*/ggao/*	$t=script|image
+*/pagead/*
+*/acmsd/*	$t=script|image|object
+*AdPreview/*
+*/adsview/*
+*/adperf/*
+*/wads/*
+://saead.
+*/adsfile.*
+*/advertisement.*
+*/flvad/*
+*/advertising/*
+*/ad_images/*
+*ClickAd*
+*/ad.*
+*/ads.*
+*/adfiles/*
+*/adflash/*
+*/adpuba/*
+*ad_show*
+*/adpub/*
+*/advpic/*
+*/AdDeliver/*
+*/adimage/*
+*/adjs/*
+*/adphoto/*
+*/adpics/*
+*/adleft/*
+*/adright/*
+*/adservice/*
+*/ggao/*
+*&adsiteid=*
+*/adJS.php?*
+*/adsimg/*
+*/adsunion/*
+*/adfile/*
+*/adv/*
+*/hosting_ads/*
+*/guanggao/*
+*/guangg/*
+*/adserving.*
+*/u/_sponsor/*
+*/tanchuang/*
+*/tuiguang/*
+*/gg/*	$t=script|image|object
+*/ClickAd?*
+*/playerad/*
+*/adfsite*
+*/SpanAd/*
+*/DefaultAd/*
+*_ad.js
+*/adframe/*
+*/ad_images/*
+*/ad/*	$t=image|object|script
+*_ad/*
+*/ads/*	$t=image|object|script
+*/adpolestar/*
+*/ad_*
+*&ads=*
+*/adfshow?*
+*adsclick?*
+*&Ad_ID=*
+*/images/ads_*
+*click_ad.php?*
+*clickad.php?*
+*/flashgg/*
+*/ad.swf
+*/adform=*
+*/adshow?*
+*&adform=*
+*/adzj/*
+*/getAdData.ashx*
+*&advid=*
+*/ADShow.aspx*
+*/ad_topic/*
+*&adposid=*
+*tuiguang*.js
+*guanggao*.swf
+*270x200*.swf
+*320x270*.swf
+*680x90*.swf
+*980X60.gif
+*680x90*.swf
+*640X60*.gif
+*980X60.swf
+*780x65.gif
+*780x65.swf
+*760x80*.swf
+*280x310.swf
+*960X90*
+!union
+.57union.com
+.57union.com	$w,$d=57union.com
+.egooad.com
+.my5058.com
+.my5058.com	$w,$d=my5058.com
+ee4kdushuba.com
+2155ec.com
+.d1ad.com
+.d1ad.com	$w,$d=d1ad.com
+.2bj.cn
+.77u.com
+.77u.com	$w,$d=77u.com
+.uunion.cn
+/include/lzMV4.js
+/api/gT1gG	$t=script
+chanet.com.cn
+chanet.com.cn	$w,$d=chanet.com.cn
+.haichuanmei.com
+.haichuanmei.com	$w,$d=haichuanmei.com
+.fqk.com
+.fqk.com	$w,$d=fqk.com
+/:\/\/([^\/]+\.)?qjwm\.com/	$w,$d=qjwm.com
+kuaiwan.com
+kuaiwan.com	$w,$d=kuaiwan.com
+gs307.com
+yinoo.cn
+.mimiduo.com
+gg.yxdown.com
+.qq494.cn/
+cpm.feike5.com
+cpm.feike5.com	$w,$d=feike5.com
+://cpm.dayi55.com/
+://cpm.dayi55.com/	$w,$d=dayi55.com
+cs.twcczhu.com
+cs.twcczhu.com	$w,$d=twcczhu.com
+*.googleadsserving.cn/pagead/*
+*.doubleclick.net/*
+*.googlesyndication.com/pagead/*
+drmcmm.baidu.com/*
+cpro.baidu.com/*
+spcode.baidu.com/*
+eiv.baidu.com/*
+cbjs.baidu.com/*
+nsclick.baidu.com/*
+sclick.baidu.com/*
+*utk.baidu.com/*
+*a.baidu.com/ecom/*.js
+*hi.baidu.com/ui/scripts/refer/refer.js
+*.acs86.com/*
+*zhanzhang.net/*
+.allyes.com/
+*.ziye8.com/*
+*.wowcpc.net/*
+*.heziyou.com/*
+*.70e.com/*
+*.cymfw.com/*
+*.2a.com/*
+*.all4ad.*/*
+*tanx.com/*
+irs09.com/*
+*mediav.com/*
+*.unionli.com/*
+*uimg.union178.com/*
+*.88210212.com/*
+*.hao999.cc/*
+*.snyu.com/*
+*.9vcpc.cn/*
+*.1lo0.net/*
+*.youxjia.com/*
+*.zjbdt.com/*
+*cpc.sogou.com/*
+*a.alimama.cn/inf.js
+*37cs.com/*
+*66ys.cc/d/*
+*.yy32.com/*
+*snyu.com/*.*
+*.wy31.com/*
+*.84422.com*
+*.2bj.cc*
+*.7794.com/*
+*ipinyou.com/*
+*.bmgad.com/*
+*.bidvertiser.com/*
+*.uctrac.com/*
+predictad.com/*
+*.redu.com/*
+*.redu-click.com/*
+afp.csbew.com/*
+*.adshost1.com/*
+.na7.cc/*
+*.333wan.com/*
+*.jingwei.net/*
+*.17leyi.com/*
+*.y2126.com/*
+*/sinaimg.cn/unipro/*
+*yoyi.com.cn/*
+pfp.sina.com.cn/*
+*.adpolestar.net/*
+*.adtech.de/*
+*.thinkmedia.cn/*
+*.questionmarket.com/*
+*.nuffnang.com.cn/*
+*.37117.com/*
+*.adsmarket.com/*
+*.cpxinteractive.com/*
+*.woniu666.com/*
+*.ae.tenpay.com/*
+*.channelray.com/*
+*.csbew.com/*
+*.mnioan-kmast.com/*
+*.all-winner.com/*
+*.84232.com/*
+*.b4u.cn/*
+*.17kuxun.com/*
+*.17318.cn/*
+*.wrating.com/*
+*.adsame.com/*
+*.qiyou.com/*
+*.ok8848.com/*
+union.vancl.com/adpic.aspx*
+*.union.youdao.com/*
+images.sohu.com/cs/jsfile/js/lu.js
+*.qq937.com/*.swf
+*.mttwm.com/*
+*.zjbdt.com/*
+*.7794.com/*
+*.uu1001.cn/*
+*.ylunion.com/*
+*.ttuu.com/*
+*.scupio.com/*
+*.chinaih.com/*
+*.union001.com/*
+*.onetad.com/*
+*.baizoon.com/*
+union.vancelle.net/*
+*.dianxin.cn/*
+*.116b.com/*
+*.biz*.sandai.net/*
+*.9w.cn/*
+*.xifuquan.com/*
+*.yunads.com/*
+*.cpmstar.com/*
+*.trafficrevenue.net/*
+qq61.com/*
+*.3393.com/*
+*.adhai.com/*
+union.bokecc.com/*
+*.adkongjian.com*
+*.shendu.cc*
+*.youxitui.net/*
+*.155game.com/*
+*.heroclick.cn/*
+*.picadmedia.com/*
+*.yigao.com/*
+*.001union.com/*
+*.1234lm.com/*
+*.unionsky.cn/*
+*.00621.com/*
+*.369456.com/*
+*.wauee.com/*
+*.keyyou.net/*
+*.maxreturn.cn/*
+*.overture.com/*
+*.zfjiu.com/*
+*.155game.com/*
+*.wandie.com/*
+union.52xiyou.com/*
+*.ad-plus.cn/*
+*.6dad.com/*
+*.egooad.com/*
+*.uctrac.com/
+*.chenjingli.com/*
+*.tongyehaoshuai.com/*
+cpm.fk5.com/*
+*.brand.sogou.com/bill/*
+inte.sogou.com/*
+*.yiwad.com/*
+*.190180.com/*
+*.ulink.cc/*
+*.pc0359.cn/*
+*.tjq.com/*
+*.unionsky.cn/*
+*.gamediad.com/*
+*.ads001.com/*
+*.googleadservices.com/gampad/*
+*.cnxad.com/*
+*.100fenlm.cn/*
+*.1133.cc/*
+*.zjbdt.com/*
+*.9v.cn/*
+*.mochiads.com/*
+*.microad.jp/*
+*.unionsky.cn/*
+*.xiaoangel.com/*
+*.37cs.com/*
+*.a3p4.com/*
+*.345ads.com*
+*.163ads.com*
+*.adtouchnetwork.net/*
+*.images9999.com/*
+afp.csbew.com/*
+*.7794.com/*
+*.uu06.com/*
+*.kfwan.com/*
+*.pmc-adtech.com/*
+!Old union
+*.bmgad.com/*
+*.kxso.com/*
+*.lianmeng.com/*
+*.narrowad.com/*
+*.qyclick.com/*
+*.scupio.com/*
+*.toufang.cn/*
+*.utops.cc/*
+*.wangmeng.com/*
+*.wauee.com/*
+*.www-6zg.com/*
+*.yo-yi.com/*
+*0252.com/*
+*1133.cc/*
+*11ad.com/*
+*160ads.com/*
+*1o26.com/*
+*37cs.com/*
+*37see.com/*
+*51vk.com/*
+*59163.com/*
+*9wad.com/*
+*acs86.com/*
+*adbrite.com/*
+*adchina.com/*
+*adecn.com/*
+*adengage.com/*
+*adpower.cn/*
+*ads8.com/*
+*ads80.com/*
+*adsame.com/*
+*adsfactor.cn/*
+*adsrevenue.net/*
+*adsunion.com/*
+*adsystem.clickforce.com.tw/*
+*adtology.com/*
+*adultadworld.com/*
+*adultfriendfinder.com/*
+*adv-adserver.com/*
+*advadmin.com/*
+*advbox.cn/*
+*adversalservers.com/*
+*advertising.com/*
+*adyea.com/*
+*all4ad.cn/*
+*bdv.bidvertiser.com/*
+*boodvd.cn/*
+*c.91wan.com/*
+*eagao.com/*
+*.ebeibei.com/*
+*.ewasai.com/*
+*.heroclick.cn/*
+*.icast.cn/*
+*.ifocus.cn/*
+*.keydot.net/*
+*.keyrun.com/*
+*.llook.net/*
+*.manyan.ne/*
+*.maomao8.com/*
+*.moyu.com/*
+*.myad.cn/*
+*naqigs.com/*
+*.netgy.com/*
+*.onecpc.cn/*
+*onetad.com/*
+*.pee.cn/*
+*qizhao.com/*
+*qunsee.com/*
+*sharele.cn/*
+*shendu.cc/*
+*star8.net/*
+*t2click.com/*
+*tenoad.com/*
+*tjq.com/*
+*tuigoo.com/*
+*u.mfbaidu.com/*
+*un.22w.com/*
+*unionbig.com/*
+*unionete.cn/*
+*unionli.com/*
+*unionsky.cn/*
+*untang.com/*
+*vunion.net/*
+*win.io/*
+*yiqifa.com/*
+*yiqiwin.com/*
+*yoyi.com.cn/*
+*zhcpm.com/*
+*.100fenlm.cn/*
+*.21union.com/*
+*.37dz.com/*
+*.9cpm.com/*
+*.9vcpc.cn/*
+*.admin6.com/*
+*.adsfactor.net/*
+*.bmw100.cn/*
+*.chanet.com.cn/*
+*.channelray.com/*
+*.cnxad.com/*
+*.cssyouxi.com/*
+*.csyouxi.com/*
+*.diyiad.com/*
+*.ete.cn/*
+*.hlwan.com/*
+*.jidian5.com/*
+*.na7.cc/*
+*.onunion.cn/*
+*.szvr.com/*
+*.tenoad.com/*
+*.ulink.cc/*
+*.uulian.net/*
+*.yoyi.tv/*
+*.union178.com/*
+*.xi666.com/*
+*.xp3366.com/*
+*.yxcpm.com/*
+*.163ads.com/*
+*.sxdvd.com/*
+*.1688ad.com/*
+*.178gg.com/*
+*.333wan.com/*
+*.5622.cn/*
+*.70950.com/*
+*.778669.com/*
+*.77union.cn/*
+*.84422.com/*
+*.9v.cn/*
+*.aaalian.com/*
+*.ad3588.com/*
+*.advooe.com/*
+*.at918.com/*
+*.baigm.com/*
+*.bbtbb.com/*
+*.cpm360.com/*
+*.dingge.cc/*
+*.flunion.cn/*
+*.ggylm.com/*
+*.ipinyou.com/*
+*.is686.com/*
+*.jinzhao99.com/*
+*.jugao.com/*
+*.keyyou.net/*
+*.lianmeng123.com/*
+*.maxreturn.cn/*
+*.mcaadd.com/*
+*.redu.com/*
+*.redu-click.com/*
+*.svem.cc/*
+*.ubcpm.com/*
+*.uu06.com/*
+*.uu1001.cn/*
+*.weblianmeng.net/*
+*.woniu666.com/*
+*.wuyoulm.com/*
+*.ylunion.com/*
+*.youxitui.net/*
+*.1lo0.net/*
+*.8le8le.com/*
+*.adminatm.com/*
+*.egooad.com/*
+*.etology.com/*
+*.heima8.com/*
+*.kinwee.com/*
+*.qiyou.com/*
+*.yocc.net/*
+*.uctrac.com/*
+*.wyunion.com/*
+*.yigao.com/*
+*.11.mu/i.js
+*.70e.com/*
+*.7794.com/i.js
+*.8dulm.com/i.js
+*.9165.net/i.js
+*.adsue.com/*
+*.baizoon.com/i.js
+*.jugao.com/i.js
+*.kuqi.com/i.js
+*.ssrj.net/p/*.js
+code1.soua.com/*
+cpm.union.52xiyou.com/*
+cs.twcczhu.com/p/*
+i.84232.com/i.js
+j.16975.com/i.js
+js.1234lm.com/i.js
+js.681.com/i.js
+js.6dad.com/i.js
+js.a3p4.com/i.js
+js.jingwei.net/i.js
+js.ta80.com/i.js
+js.ylunion.com/i.js
+js.zfjiu.com/*/*
+s.tiaosa.cn/*
+sj.netniu.net/netniu.js
+t.yigouw.com/*
+u.9wee.com/*
+u.caogenhui.cn/*
+u.tosee.cn/*
+union.dianxin.cn/*
+www.heziyou.com/i.js
+*.unioncpm.com/*
+*.025nf.com/i.js
+*.4jtc.com/i.js
+*.8peng.com/i.js
+*.leshu.com/*
+*.myweb.hinet.net/*
+*.sw942.com/i.js
+*.ugooo.cc/i.js
+*/*.union001.com/*
+*/*.union009.com/*
+*/*.zoomino.cn/*
+*.adsfactor.net/*
+*.alphagodaddy.com/*site
+*.bittads.com/*
+*.bloggerads.net/*
+*.effiliation.asia/*
+*.juicyads.com/*
+*.naked.com/*
+*.nostringsattached.com/*
+*.projectwonderful.com/*
+*.trafficrevenue.net/*
+*/scripts.chitika.net/eminimalls/amm.js
+*.doublepimp.com/*
+*.popads.net/*
+
+!video
+!ifeng
+ifengimg.com/crossdomain.xml	$w
+ifengimg.com/*.xml	$w
+ifengimg.com/*/aplayer_v5.swf	$w
+.ifengimg.com/swf/ifengSkins_diye_v*.swf	$w
+.ifengimg.com/swf/ifengVplayer_*.swf	$w
+.ifengimg.com/swf/*player_*.swf	$w
+
+!iqiyi
+/:\/\/([^\/]+\.)?cupid\.qiyi\.com/	$w
+track.cupid.qiyi.com
+jsmsg.video.qiyi.com
+static.qiyi.com/js/pingback/
+uestat.video.qiyi.com
+cpro.baidustatic.com
+.iqiyi.com/player/cupid/*/pageer.swf
+*/track.	$t=script
+/:\/\/([^\/]+\.)?afp\.qiyi\.com/	$w
+/:\/\/([^\/]+\.)?msg\.video\.qiyi\.com/	$w
+.iqiyi.com/player/cupid/*/pageer.swf
+/\/ts\.swf$/	$d=iqiyi.com
+/:\/\/([^\/]+\.)?msg\.iqiyi\.com/
+/:\/\/([^\/]+\.)?afp\.qiyi\.com/
+/:\/\/([^\/]+\.)?cupid\.qiyi\.com/
+/:\/\/([^\/]+\.)?static\.qiyi\.com\/js\/pingback\//
+/:\/\/([^\/]+\.)?jsmsg\.video\.qiyi\.com/
+/:\/\/([^\/]+\.)?msg\.video\.qiyi\.com/
+/:\/\/([^\/]+\.)?uestat\.video\.qiyi\.com/
+###adflash	$d=iqiyi.com
+##.first_adv	$d=iqiyi.com
+##.seed	$d=iqiyi.com
+
+!sohu.com
+v.aty.sohu.com/crossdomain.xml	$w
+tv.sohu.com/upload/swf/*/panel/ErrorAds.swf
+!*	$d=tv.sohu.com,$w
+
+!youku.com
+f.youku.com	$w
+!notice.youku.com/notice/js_notify.json
+!stat.youku.com/player/addPlayerDurationReport?
+valf.atm.youku.com/valf?*	$w
+valf.atm.youku.com/crossdomain.xml	$w
+f.youku.com/player/*/mp4/fileid/	$w
+static.atm.youku.com/Youku2013/	$t=document|object|image
+static.atm.youku.com/*taobao	$t=document|object|image
+##[id^="youku_ad_"]
+###ab_282	$d=soku.com
+###ab_26,.AB240,#youkuHtmlCrazyAD_panting_object_node	$d=youku.com
+##.mod>object[data^="http://static.atm.youku.com/Youku2013/"]	$d=youku.com
+
+!v1.cn
+.pagechoice.net/	$w
+
+!letv.com
+letv.com	$w
+!player.letvcdn.com
+!player.letvcdn.com/p/*/newplayer/	$w
+!webp2p.letv.com
+!letv.com/main/s?
+!/:\/\/([^\/]+\.)?dc\.letv\.com/
+!/:\/\/([^\/]+\.)?pro\.hoye\.letv\.com/
+/:\/\/([^\/]+\.)?js\.letvcdn\.com\/js\/.*\/stats\//
+/:\/\/([^\/]+\.)?player\.letvcdn\.com\/p\/.*\/pb\/pbTip\.swf/
+/:\/\/([^\/]+\.)?player\.letvcdn\.com\/p\/.*\/newplayer\/plugins\/game2\//	$t=object
+!/:\/\/([^\/]+\.)?letvimg\.com\/gugwl\//
+##.j-bigImage1,.j-bigImage	$d=letv.com
+
+!56.com
+stat.56.com*
+corp.56.com*
+acs.56.com*
+static.ku6.com*
+stat.ku6.com*
+gug.ku6cdn.com*
+tdcm.tudou.com*
+*/adcontrol*
+*/adplay*
+dcads.sina.com.cn/html.ng/*
+
+media.17173.com/x/*
+images.sohu.com/bill/*
+*.predictad.com/*
+*/acs.*
+
+
+
+!Game AD Sites
+www.129game.com/*
+*.ucjoy.com/*
+!Other
+j.wit.qq.com/sc/crystal2.js
+
+!ISP
+202.102.100.100
+1lo0.net/code/popjs.asp
+dushi.xjfl.com/update/
+lianmen.net:8080/PushWeb/js/
+adstyle_msn.htm
+218.16.103.69*/openV4.js
+218.8.245.188
+220.191.158.69
+124.160.227.110
+61.182.172.6
+59.51.96.37
+61.172.192.88
+218.25.246.118
+221.204.249.107
+221.231.148.253
+119.84.84.56
+61.131.89.155
+61.132.216.226
+61.132.255.222
+58.17.163.138
+219.153.29.245
+221.231.142.110
+220.249.160.187
+58.17.163.134
+125.39.80.116
+61.132.255.232
+218.25.246.120
+218.25.246.118
+202.109.129.37
+218.25.246.117
+172.18.0.133
+61.132.255.212
+222.186.14.117
+61.128.213.23
+
+
+
+!For Malicious Web site
+hack44.cn/baobei/200200.js
+wangshangjia.orintex.com
+
+
+!For ABP white
+nitrome.com/games/ad_settings.xml	$w
+pagead2.googlesyndication.com/pagead/scache/	$w,$d=nitrome.com
+pagead2.googlesyndication.com/pagead/scache/googlevideoadslibraryas3.swf	$w,$d=bgames.com
+
+
+!adult
+/anquye/alltop.js
+/anquye/banner.js
+###Class_1_ad>.footad
+cdn.cdn-hao.com/js/cpv.js
+cdn.cdn-hao.com/js/top.js
+cdn.cdn-hao.com/js/zhong.js
+###body>#myads
+##[align="center"]>a>[src^="http://drmcmm.baidu.com/media/"][width="960"][height="80"]
+##[id^="span_myads"],[id^="lovexin"],#ks>.DaKuang,.ks>.DaKuang
+/topad.JS
+/topad.html
+/botad.html
+/.*\.com\/js\/mejs\/.*\.js/
+###topad>.tad,.box1>.ad
+##[class="center margintop border clear data"]>.margintop,[class="center margintop border clear data"]>[width="880"][height="90"],[class="center margintop border clear"]>.margintop
+/Template/z1022_dd/	$t=script
+###Class_1_ad>[id^="china_ads_div"]
+###foot>#foot2>#Class_1_ad
+3pp.ddosko.com
+.ddosko.com
+/.*\/jss\/top\d\.js$/
+/.*\/sp\.html$/
+/js/nfnfnf_*.js
+.2008xxx.com
+###floatDiv>#rightFloat
+###top>.topSponsor.mt10,.mainArea.px9>.bottomSponsor
+/Atemplate/dd_1010/baidu*.js
+
+
+
+!othersite
+www.gyrc.com.cn/ad/upload/	$w
+promo.huanleguang.com	$w
+###adl,#adr	$d=anlijun.com
+##[class^="gg"],.area	$d=www.qzwb.com
+.ik123.com/js/i.js	$w
+.qianlong.com/vda/
+v.rbc.cn/ad/xmlInfo	$w
+adput.ahtv.cn
+##[class^="ifrmggcenter"],.a_fl	$d=ca001.com
+mnrc.com.cn	$w,$d=mnrc.com.cn
+##[class^="gg"]	$d=azpan.com
+.danlan.org/KFC
+img.cdz8.org/ad*.gif
+##[src^="http://img.cdz8.org/ad"]	$d=cdz8.com
+###headerAD	$d=jsyks.com
+##.header_gg	$d=ruoren.com
+pic.0597kk.com/pic
+###bbsTopBanner	$d=0597kk.com
+###ad_640_130_id	$d=news.joy.cn
+##.pause-ad
+50bang.org
+50bang.org $w,$d=2345.com
+liangchan.net/adf/top.js
+liangchan.net/aaddaadd/
+zhuzhudao.com/scripts/reader_*.js
+pic.0597kk.com/pic
+###bbsTopBanner	$d=0597kk.com
+###ad_640_130_id	$d=news.joy.cn
+##.pause-ad
+50bang.org
+50bang.org $w,$d=2345.com
+liangchan.net/adf/top.js
+liangchan.net/aaddaadd/
+zhuzhudao.com/scripts/reader_*.js
+.topInfoC_add>div>div[data-widget-ipadadresource="pad"]
+
+
+
+!Site Rule
+!tieba
+http://tb1*.bdstatic.com	$w,$d=tieba.baidu.com
+###aside_ad	$w,$d=tieba.baidu.com
+!ydss.cn
+##.ad.ad-p4p-baobei	$d=ydss.cn
+!pc6.com
+d.61165.com/soft*.html
+!gezila.com
+##.g980_64	$d=gezila.com
+static.gezila.com/gimg/
+!stockstar.com
+same.stockstar.com/s?z=stockstar&c=
+!xs52.com
+indexgg.js	$d=xs52.com
+!bxtd.net
+ggad.js	$d=bxtd.net
+gglong*.js	$d=bxtd.net
+!orzx.co
+packages=search	$w,$d=orzx.co
+!soft711.com
+indexad.js	$d=soft711.com
+soft711.com/2013/br.js
+!iweihai.cn
+pro.iweihai.cn/file/club.php
+club.iweihai.cn/js/float.js
+pro.iweihai.cn/file/iwh.php
+!zol.com.cn
+p.zol.com.cn/download/detail.js
+!downxia.com
+downxia.com/zejs	$t=script
+!crsky.com
+##.banner.banner-leader,.banner.banner-square	$d=crsky.com
+!dbank
+###ad_L,ad_M,ad_N	$d=dbank.com
+!huacolor.com
+huacolor.com/hcjs_	$t=script
+!cncrk.com
+cncrk.com/505/code/*.js
+!lgmi.com
+##[id^="openwindows"],[class^="content_ad"],.b_ad,[class$="_ad"],#pagewww>#topwww>.top3	$d=lgmi.com
+.lgmi.com/windows/
+.lgmi.com/ggimg/
+page.lgmi.com/html/*_gg_*.js
+!ganji.com
+ganji.com	$w,$d=love.ganji.com
+!jd-bbs.com
+##.wp.a_t,.bm.a_c	$d=jd-bbs.com
+!nyhx.com
+.nyhx.com/templates/fms_blue/images/ad/*.js	$w,$t=script
+!3454.com
+.3454.com/i/i.js	$w
+!163wh.com
+###eis_pad1,.eis_f250ad,.eis_f980ad,.eis_muad	$d=163wh.com
+!21food.cn
+.21food.cn/include/index/*ad*.js
+.21food.cn/include/v2/logoRightAd.jsp
+.21food.cn/inc/boabc.jsp
+!gxnews.com.cn
+user.hongdou.gxnews.com.cn/upload/index/
+hongdou.gxnews.com.cn/clientscript/
+##img[src^="http://user.hongdou.gxnews.com.cn/upload/index/"]
+!pctowap.com
+##.dowap_ads	$d=pctowap.com
+i.doguo.com/api/vip_discount.js
+!gxp.cc
+gxp.cc/templates/xskaifa/images/ad/down.js	$w
+t.wan789.net/showmyad.asp
+##[class*="adx"]	$d=gxp.cc
+!66721.com
+t.hcu.cc/6.js
+/js/hengfu.js
+!17732.com
+.17732.com/zhonghua/BANNER.js
+.17732.com/zhonghua/wenzi.js
+.17732.com/zhonghua/you01.js
+!beareyes.com.cn
+.beareyes.com.cn/*/js/indexfullbanner
+!douban.com
+mr3.douban.com/*/rda/
+!mumayi.net
+soft.mumayi.net/js/	$t=object|image
+##[src^=" http://soft.mumayi.net/js/"]
+!9666.cn
+##.dlad	$d=9666.cn
+9666.cn/images/ad/	$w
+!gexing.com
+biz.gexing.com/index_960x90.swf	$w
+##.w_960.add_index.clearx,.ad960,.ad160,.add960	$d=gexing.com
+!normteam.com
+##.a_fr.a_cb
+!e23.cn
+.e23.cn/ggimages/
+.e23.cn/js/aaa.js
+##.bdgg,.ydgg,.bdggtb	$d=e23.cn
+!21js.com
+##.itemFloat	$d=21js.com
+www.21js.com/swf/
+www.21js.com/js/VodAd.js
+##embed[src^="swf/"]	$d=21js.com
+!duowan.com
+##.ad	$d=duowan.com
+!fjsen.com
+money.fjsen.com/js/	$t=script
+##.ad,#gundongID,#gundongID1	$d=fjsen.com
+!cnhubei.com
+.cnhubei.com/g2_v12
+.cnhubei.com/public/script/2013_bottom.js
+.cnhubei.com/javasript/scrollDiv-modify.js
+##.couplet,.flash_proxy,.shgg,.scrollItem,[class^="scrollDiv_"]	$d=cnhubei.com
+!doyo.cn
+.doyo.cn/Tpl/web/Public/images/material/www_couplets/
+!webmasterhome.cn
+/com\.webmasterhome\.cn\/a\d.*\.js/
+/indexed\.webmasterhome\.cn\/js\/b/d.*\.js/
+/\.webmasterhome\.cn\/js\/b\d\.js/
+!weibo.com
+##div[feedtype="ad"],.footer_adv	$d=weibo.com
+!tvtalk.cn
+.tvtalk.cn/diy/ad_pic/vip	$w,$d=tvtalk.cn
+###ad_corner_close	$w,$d=tvtalk.cn
+!gasgoo.com
+ad.gasgoo.com/advert/js/AdvertLoad	$w
+pro.gasgoo.com/promo/AjaxPage	$w
+images.gasgoo.com/promotion/
+##[id^="Advert_"]	$d=gasgoo.com
+##.topAdLeft,.topAdMiddle,.topAdRight,.mainRightAD,.newsAfterAD	$d=gasgoo.com
+!kuliwang.com
+www.kuliwang.com/1.js
+www.kuliwang.com/2.js
+www.kuliwang.com/3.js
+www.kuliwang.com/4.js
+!0597kk.com
+.0597kk.com/js/float.js
+##.kk_ad,#ads_c_tpc,.ad-text	$d=0597kk.com
+##[id^="kk_oTransContainer"]	$d=0597kk.com
+!repaik.com
+.poco.cn/mypoco/myphoto/	$d=repaik.com
+!bendibao.com
+##.ad_banner	$d=bendibao.com
+##[id^="dad_N"]	$d=bendibao.com
+!bdzw.cc
+www.bdzw.cc/configs/article/jie1.js	$w
+!trip8080.com
+www.trip8080.com/js/pv.js	$w
+!weibo.com
+##.popular_buss	$d=weibo.com
+##.M_topic_chris	$d=photo.weibo.com
+!766.com
+###adl,#adr,#ads	$d=766.com
+get.766.com/javascript.php
+get.766.com/vars.php
+!funshion.com
+adm.funshion.com
+!wasu.cn
+acsystem.wasu.cn/afp/door/
+edvertiser.wasu.cn/img_adc/
+!0758net.com
+##.wp.a_h,.portal_block_summary	$d=bbs.0758net.com
+!7826.org
+##.h_logo	$d=7826.org
+!hao123.com
+.hao123img.com/*/hao123.js	$w
+!51souxun.com
+##.banner	$d=51souxun.com
+!comic.131.com
+js.131.com/channel/comic/img.js	$w
+res*.comic.131.com	$w
+!guokr.com
+.guokr.com/js/I.js	$w
+!srjcxq.com
+##.comiis_baner	$d=srjcxq.com
+!techweb.com.cn
+##.itemFloat	$d=techweb.com.cn
+!pc6.com
+.pc6.com/js/html/bdtop.html
+caiyifz.com
+###topbanner2	$d=pc6.com
+!3lian.com
+.3lian.com/images/f/mi.js	$w
+.3lian.com/images/f/	$t=script
+.3lian.com/images/fg/	$t=script
+!qyer.com
+qyer.com	$w,$d=qyer.com
+serving-sys.com	$w,$d=qyer.com
+!ysx8.net
+.ysx8.net/js/down_980.js
+.ysx8.net/js/nr101.js
+.ysx8.net/js/almm.js
+.ysx8.net/js/list_300.js
+.ysx8.net/js/wlfloat.js
+images.sohu.com/cs/jsfile/js/lu.js
+!utstar.com.cn
+utstar.com.cn	$w,$d=utstar.com.cn
+!mdshw.cn
+##[src^="ad/"]	$d=mdshw.cn
+!maxtv.cn
+vod.maxtv.cn/vad/2012/cq.flv
+res.maxtv.cn/Player/plugins/vodads.swf
+aclick.maxtv.cn
+!people.com.cn
+.people.com.cn/ewebeditor/jsp/i.jsp	$w
+!smgbb.cn
+bilibili.smgbb.cn/html/ads-index.js
+.bilibili.tv/html/tbad.html
+bilibili.smgbb.cn/html/bdad-
+!maixiang.me
+cpsadimgshow.php
+taobaocdn.com	$d=maixiang.me
+!zhibo8.cc
+##.ad_left,.ad_right	$d=zhibo8.cc
+!china.com
+##[src*="gghead950"]	$d=china.com
+!mop.com
+##.adarea,.adarea_top
+!jb51.net
+img.jb51.net/zanzhu/
+img.jb51.net/inc/con_ad
+!shenzhenair.com
+shenzhenair.com	$w,$d=shenzhenair.com
+!2144.cn
+.2144.cn	$w,$d=2144.cn
+!kaixin001.com
+.kaixin001.com/interface/cpmblank.php
+!baidu.com
+##.widget-ads,.wgt-ads	$d=baidu.com
+!baijob.com
+##.detail_ad	$d=baijob.com
+!yxfdc.com
+yxfdc.com/Scripts/focus/focus1.js
+yxfdc.com/Scripts/focus/focus2.js
+yxfdc.com/Scripts/video.js
+yxfdc.com/Scripts/duilian2.js
+###ad,#msg_win	$d=yxfdc.com
+##[id^="followDiv"]	$d=yxfdc.com
+!yzdb.tv
+union.maccms.com/player	$w,$d=yzdb.tv
+!emsdy.com
+###herder_gg	$d=emsdy.com
+!mt30.com
+.mt30.com/ok/allbottom.js
+.mt30.com/ok/toptl.js
+.mt30.com/ok/shouye760.html
+!cnmo.com
+##.head_guanggao,.guanggao_type1	$d=cnmo.com
+!21cbh.com
+##[class^="gg"]	$d=21cbh.com
+!cnhubei.com
+##.ad	$d=cnhubei.com
+!5iyq.com
+5iyq.com/skin/default/js/topad*.js
+img.5iyq.com/
+##.wp.a_t,.wp.a_h,.a_pr,.ad,#topShow,#fang-gg,#midShow	$d=5iyq.com
+##[id^="fy_"]	$d=5iyq.com
+!fdc.com.cn
+##.gagao	$d=fdc.com.cn
+.fdc.com.cn/cms/	$t=script
+.fdc.com.cn/shows/*.gif
+!ik123.com
+##[id^="ad960"]	$d=ik123.com
+http://img.ik123.com/js/i.js	$w
+!55188.com
+##.gg_head	$d=55188.com
+!weather.com.cn
+##[class^="adposter_"]	$d=weather.com.cn
+!pcpop.com
+##[href^="http://ad.doubleclick.net/click"]	$d=pcpop.com
+###bigswf,#smallswf	$d=pcpop.com
+##[class="w980 h60"][id^="ad_"]	$d=pcpop.com
+!wm23.com
+##.advert,.bannerall	$d=wm23.com
+##.show_neirong>div[style="float:left;margin-right:10px;"]	$d=wm23.com
+!350400.com
+###V9bigad,.topbanner,.rtbanner,.leftbanner,.adn	$d=350400.com
+!westcn.com
+###img,#rightDiv,#leftDiv	$d=westcn.com
+##[style="height:70px; width:960px; margin:0px auto 10px auto"]	$d=westcn.com
+##[style="height:80px; width:960px; margin:0px auto 10px auto"]	$d=westcn.com
+!jiayuan.com
+jiayuan.com/*/pv.js	$w
+.jyimg.com/*/pv.js	$w
+!263car.net
+263car.net/top.js
+###lovexin1,#lovexin2
+!vmall.com
+baidu.com	$d=vmall.com,$w
+cbjs.baidu.com/js/o.js	$w,$d=vmall.com
+.hiad.vmall.com/result.ad	$w
+##.adWrapper	$d=vmall.com
+.dbank.com/netdisk/js/lottery_ad.js	$w,$d=vmall.com
+cpro.baidu.com/img/bg_captchaF.png	$w
+drmcmm.baidu.com/media/	$w,$t=image|object,$d=vmall.com
+!a67.com
+drmcmm.baidu.com	$w,$t=image,$d=a67.com
+##.banner990	$d=a67.com
+!moko.cc
+moko.cc/pics/	$w
+!loveeb.com
+.loveeb.com	$w,$d=loveeb.com
+!962.net
+.962.net/show/all_960.js
+.962.net/show/cms_*.js
+!f-young.cn
+www.f-young.cn	$w,$d=f-young.cn
+!2144.cn
+.2144.cn/public/net/gn*.js
+2144.cn/public/net/loading.htm
+!yahoo
+bj.data.cn.yahoo.com/dpjs/yahoo.js	$w
+!dy.com.cn
+zx.dy.com.cn/script/v3/float.js
+zx.dy.com.cn/script/v3/alertban.js
+##.m_ad
+!putclub.com
+##.add_ad,.ad_vipabc,.areaAd	$d=putclub.com
+!zerodm.cn
+##.syad	$d=zerodm.cn
+www.zerodm.cn/js/ads/zxdmxz.js	$w
+!piaohua.com
+piaohua.com/js/yzad/
+###Wl_Float_Div,.mtbanner	$d=piaohua.com
+!tt919.com
+.tt919.com/*float.js
+##[src*="tt919.com/attachment/advpic/"]	$d=tt919.com
+!othermap.com
+.othermap.com/hp/left.js
+!rsdown.cn
+.rsdown.cn/old/other/js/rsdowngood	$t=script
+###baiduframe,.adtext	$d=rsdown.cn
+!bitauto.com
+image.bitauto.com/uploadpic/Block/	$t=object
+static.union.easypass.cn/	$w,$d=bitauto.com
+image.bitautoimg.com/dealer/union/script/ads.js	$w
+##[type="ad_play"]	$d=bitauto.com
+##[class^="ad_"]	$d=bitauto.com
+##.gcggbm	$d=bitauto.com
+!21cn.com
+##[src^="http://shows.21cn.com/ashow?"],.aside-ad,.h-gg,#theahtml_adm	$d=21cn.com
+.thea.cn/mk/kcjs/koolearnkaoyan/right.js
+.thea.cn/mk/kcjs/koolearnkaoyan/left.js
+!se
+se.012v.com/js/ab/	$t=script
+!wm090.com
+###ad_headerbanner,#sidebar	$d=wm090.com
+!qiushibaike.com
+###topBanner		$d=qiushibaike.com
+!178
+##[id="_Top_wp"]	$d=bbs.178.com
+##.ad1,.ad2,.ad3,.ad4,.ad5,.ad6,.ad7,.ad8,.ad9	178.com
+!91849.com
+91849.com/images/scroll.js
+!ifmoc.com
+##.adw.adw-b	$d=ifmoc.com
+!pcwaishe.cn
+##.a_fr.a_cb,.wp.a_t	$d=pcwaishe.cn
+!ali213.net
+bmp.ali213.net/JS/
+!xcar.com.cn
+##.adset_955	$d=xcar.com.cn
+##[id^="pushAd_"]	$d=xcar.com.cn
+!zol.com.cn
+##.tab1.clearfix.switc	$d=power.zol.com.cn
+##[id^="big_ad_"]	$d=zol.com.cn
+##[id^="big_btn_ad_"]	$d=zol.com.cn
+##[id^="Bar"]	$d=zol.com.cn
+!##.adSpace
+!2ccc.com
+##[id="Javascript.LeftDiv"],[id="Javascript.LeftDiv"]	$d=2ccc.com
+!letv.com
+!##[id^="ad_"]	$d=letv.com
+
+
+asp300.com/2012adjs/
+!d8.cm
+d8.cm/js/ad	$t=script
+!chazidian.com
+###tmpMsgDiv	$d=chazidian.com
+!radio.weibo.com
+sinaimg.cn/dy/deco/radio/	$w
+!popwan.com
+popwan.com/_cache	$t=document
+!dxsxs.com
+www.dxsxs.com/js/dd*.js
+!jrj.com.cn
+##.jrj-ad	$d=jrj.com.cn
+##[src^="http://same.jrj.com.cn/"]	$d=jrj.com.cn
+same.jrj.com.cn
+!cuiweiju.com
+.cuiweiju.com/temp/gg*.html
+!tingbook.com
+tingbook.com/images/ad/	$w
+.tingbook.com/js/yanue.pop.js
+img.tingbook.com/js/newADSlide.js
+##.sma-banner,.small-banner	$d=tingbook.com
+!rayli.com.cn
+rayli.com.cn/newdcy/2010fushijs/yhjads01.js
+rayli.com.cn/newdcy/2010fushijs/*-*_*.swf
+###tcwai	$d=rayli.com.cn
+!jdcjsr.com
+##.gg1,.ad	$d=jdcjsr.com
+jdcjsr.com/picture/jdcgg/
+!u17.com
+##.ad_240_h
+!3366.com
+www.3366.com/open3366/default_ad	$w
+!52tian.net
+##[src^="/qq/"],#ShowDIV	$d=52tian.net
+!qhrb.com.cn
+ad.aspx	$d=qhrb.com.cn,$w
+##.duilian	$d=qhrb.com.cn
+!wuyou.com
+##[style="background: #BBE9FF"]	$d=bbs.wuyou.com
+/bbs.wuyou.com/images/\d{3}-\d+\.gif/
+bbs.wuyou.net/images/banner.gif
+##.t_infoline	$d=bbs.wuyou.com
+!joy.cn
+##*[class^="lhad_"]	$d=joy.cn
+##.onelt	$d=joy.cn
+86mms.megajoy.com
+!caikuu.com
+caikuu.com/ckimages
+##.advp	$d=caikuu.com
+!faxingge.com
+##.xx_right_banner	$d=faxingge.com
+##.head_adver	$d=faxingge.com
+cocoren.com/data/cache/myad-*.htm
+!icxo.com
+www.icxo.com/images/headnew.js
+oxford.icxo.com/google_oxfordtop.html
+##*[src*="google_oxfordtop.html"]	$d=icxo.com
+icxodaily.js	$d=icxo.com
+211.154.164.205/images/	$t=object
+!saesky.net
+saesky.net/js/
+!txt96.com
+www.txt96.com/shangchuan/img/	$t=image
+!qianshou.com
+##.shopad2012,.GG1,.guanggao1,.topautoad1	$d=qianshou.com
+!bios.net.cn
+##.wp.a_t	$d=bios.net.cn
+!haibao.cn
+haibao.cn/openx/www/delivery/spcjs.php	$w
+!cntv.cn
+v.cctv.com/flash/vd/*
+!d.cntv.cn/*
+!mydrivers.com
+##[id^="ad_"]	$d=mydrivers.com
+!tudou.com
+td.atm.youku.com/crossdomain.xml	$w
+!qjwm.com
+ad.qjwm.com/img/a*.jpg	$w,$d=qjwm.com
+ad.qjwm.com/p.php	$w,$d=qjwm.com
+!pconline.com.cn
+imgad0.3conline.com	$w,$d=pad.pconline.com.cn
+dl.pconline.com.cn/html	$w
+###ipAd	$d=pconline.com.cn
+!fyjs.cn
+###baiduframe	$d=fyjs.cn
+##.f_one.black.tac	$d=fyjs.cn
+!liao1.com
+publicize/file/news_detail_top_bn	$d=liao1.com
+###floatVideo	$d=liao1.com
+floatVideoAd.js
+news.liao1.com/frame/nr_gg.js
+news.liao1.com/publicize/file/news_detail_hzh.js
+##table[background*="liao1.com/ad/"]	$d=liao1.com
+.liao1.com/publicize/publicize_special.js
+/publicize/images/	$d=liao1.com,$t=object
+###body_top>.l,#FP_L,#FP_R	$d=liao1.com
+##div[style="width:490px;height:70px;overflow:hidden;"]	$d=liao1.com
+!6.cn
+###palyerAdText	$d=6.cn
+###news_player_ad	$d=6.cn
+!51nb
+##table[class="t_rown][width="875"]	$d=51nb.com
+##div[class="t_rown"][width="98%"]	$d=51nb.com
+!ku6.cn
+##.side-Rad
+##div[class^="aa_"],.wcr_ad,.wcr_ad1	$d=ku6.com
+!rin9.com
+www.rin9.com/js/t1.js?2
+!kaixin001.com
+##.webGameExtendAdv	$d=kaixin001.com
+img1.kaixin001.com.cn/i3/repaste/gamepic/*adv	$d=image
+###adSeo	$d=kaixin001.com
+###kxcpmdiv	$d=kaixin001.com
+www.kaixin001.com/award2011/cpmshare/
+!it168.com
+.it168.com/ggimg
+cpro.baidu.com	$w,$d=down.it168.com
+drmcmm.baidu.com	$w,$d=down.it168.com
+##[src*="/ggimg/"]	$d=down.it168.com
+##div[id^="ADV_"]	$d=it168.com
+!88gs.com
+.88gs.com/agfile/
+##iframe[src*="/agfile/"]	$d=88gs.com
+!onlylady.com
+##.ol_ad_xiala		$d=onlylady.com
+###ad	$d=onlylady.com
+!qianlong.com
+bbs.qianlong.com/vda/	$t=script
+!cngba
+##div[class^="ad_"]	$d=cngba.com
+##.wp.a_h	$d=cngba.com
+##.ad	$d=cngba.com
+!eastmoney.com
+fundpost.eastmoney.com/count.aspx	$w
+mcc.chinauma.net/media
+mcc.chinauma.net/media	$d=chinauma.com,$w
+##iframe[src="js/uma.html"]	$d=eastmoney.com
+##.ZW	$d=eastmoney.com
+##iframe[src^="http://same.eastmoney.com"]	$d=eastmoney.com
+!bjx.com.cn
+www.bjx.com.cn/public/inc/KehuDisp.asp
+www.bjx.com.cn/upadimage/
+###adv_index_text	$d=bjx.com.cn
+!gfan.com
+##.ad	$d=gfan.com
+!cntv.cn
+.cctv.com/Library/ad/channelId.js	$w
+.cctv.com/Library/ad/addCall.js	$w
+##div[class^="adStyle"]	$d=cntv.cn
+##.column_wrapper>.md_bd>.right	$d=cntv.cn
+cctv.com/download/teleplayvip/
+##iframe[src^="http://a.cntv.cn"]
+!yue365.com
+cbjs.baidu.com	$d=yue365.com,$w
+cb.baidu.com	$d=yue365.com,$w
+!newhua.com
+##div[class^="ad_ritht"]	$d=newhua.com
+##ins[id^="banma_clb_wrapper_ad_"]	$d=newhua.com
+!dospy.com
+##iframe[src^="./proxy.html?id="]	$d=dospy.com
+!yxdown.com
+##div[id^="ads"]	$d=yxdown.com
+###hot_zhuanti	$d=yxdown.com
+!skycn.com
+##div[class*="h100"][class*="bd"]	$d=skycn.com
+##div[class*="h90"][class*="bd"]	$d=skycn.com
+!bookcu.com
+##.novel_head>table[border="0" cellspacing="0" cellpadding="2" width="100%" align="center"]	$d=bookcu.com
+##div[id="bdastop"]	$d=bookcu.com
+###bd1,#bd2,#bd3	$d=bookcu.com
+!sohu.com
+txt.go.sohu.com/ip/soip	$w,$d=auto.sohu.com
+##.ad_con,.ad	$d=auto.sohu.com
+.sohu.com/upload/sohui/sohuipp0927.js
+##[group="ad"]	$d=news.sohu.com
+###ad_1,#ad_2,#ad_3,#ad_4,#ad_5,#ad_B,#ad_C,#ad_D,#ad_E,#ad_G,#ad_H,#ad_M,#ad_N,#ad_O,#ad_P,#ad_TOP	$d=sohu.com
+###contentC>.columnC	$d=sohu.com
+!##sohuadcode	$d=www.sohu.com
+##d[src*="images.sohu.com/bill/"]	$d=sohu.com
+!wowody.net
+##iframe[src^="/wowo/tb-"]	$d=wowody.net
+##div[id^="woad"]	$d=wowody.net
+!gamersky.com
+##.adc	$d=gamersky.com
+##td[width="300"][rowspan="7"][bgcolor="#393939"]	$d=gamersky.com
+##.h8r.font0		$d=gamersky.com
+##.topbod>.topbodr		$d=gamersky.com
+##.topbodr>table[width="670"][height="70"]		$d=gamersky.com
+!imanhua.com
+##[src*="/moneys/webgame/"],#imh-0,#imh-1	$d=imanhua.com
+###topmon	$d=imanhua.com
+##.bookIntro>div[style="float:right; width:250px; height:250px; padding-left:4px; padding-bottom:4px;"]	$d=imanhua.com
+!ithome.com
+##.side_products.ulc.ball	$d=ithome.com
+##iframe[src="http://www.ithome.com/block/headerline.htm"]	$d=ithome.com
+!ffdy.cc
+###msn	$d=ffdy.cc
+!2kk.cc
+##.ad	$d=2kk.cc
+!163.com
+##.ad.ad-sub,.finance_header_gg,.ad.ad-area,.ad.ad-main	$d=163.com
+##div[src^="http://g.163.com"]	$d=163.com
+##img[src^="http://g.163.com"]	$d=163.com
+##iframe[src^="http://g.163.com"]	$d=163.com
+##div[src^="http://img1.126.net"]	$d=163.com
+##img[src^="http://img1.126.net"]	$d=163.com
+##iframe[src^="http://img1.126.net"]	$d=163.com
+##div[src^="http://img2.126.net"]	$d=163.com
+##img[src^="http://img2.126.net"]	$d=163.com
+##iframe[src^="http://img2.126.net"]	$d=163.com
+##[class^="gg"]	$d=163.com
+###ag-pub,.top-gg-area	$d=163.com
+##[class^="colL gg"]	$d=163.com
+##[class^="gg gg-h"]	$d=163.com
+##[src^="http://static.mediav.com"]	$d=163.com
+##[style="position: relative; z-index: 1; width:360px; height:100px;"]	$d=163.com
+##[src^="http://g.163.com/r?"]	$d=163.com
+###dvTitleinbox	$d=mail.163.com
+##[id^="dvReadAdBottomread"]	$d=mail.163.com
+##[id^="ead_ad"]	$d=163.com
+##.ad_in_content>div[style="float:right"]	$d=163.com
+!19lou.com
+##div[class^="ad-"]	$d=19lou.com
+##ul[class^="ad-"]	$d=19lou.com
+##.pop-ad-content	$d=19lou.com
+!8684.cn
+js.973.com/ad/sys_ad_complete.js	$w,$d=8684.cn
+!weiphone.com
+##[src^="http://bbs.weiphone.com/baidu.html"]	$d=weiphone.com
+##[src^="http://www.weiphone.com/baidu.html"]	$d=weiphone.com
+!ipc.me
+##iframe[src="http://www.iplaysoft.com/plus/static_files/nuffnang.html"]	$d=iplaysoft.com
+##iframe[src="http://www.iplaysoft.com/plus/static_files/nuffnang.html"]	$d=ipc.me
+##.widget_ad_slot_wrapper
+cbjs.baidu.com/js/m.js	$w,$d=ipc.me
+!vdisk
+cpro.baidu.com	$w,$d=vdisk.cn
+drmcmm.baidu.com/media/	$w,$d=vdisk.cn
+!10086web.com
+s.zbjimg.com/p/tuisong/dtv5.6.js
+www.10086web.com/3.js
+www.10086web.com/2.js
+!3366.com
+www.3366.com/open3366/default_ad/ad_*.swf	$w,$d=3366.com
+!sxcnw.net
+dm.sxcnw.net/pic/*.gif
+!wm263.com
+/:\/\/([^\/]+\.)?wm263\.com\/answer\/zhangjie\/[\d]?[b]?[u]?[t]?\.js/
+!book.net
+www.fbook.net/fbookad/	$t=script
+www.fbook.net/images/	$t=object
+!17k.com
+img.17k.com/channel/flash/	$t=object
+!abada.cn
+www.abada.cn/js/	$t=image
+www.abada.cn/js/hf*.js
+!65544.com
+/:\/\/([^\/]+\.)?65544\.com\/js\/top123\.js/
+/:\/\/([^\/]+\.)?65544\.com\/scripts\/read-top\.js/
+/:\/\/([^\/]+\.)?65544\.com\/scripts\/thickbox\.js/
+!2100book.com
+www.2100book.com/you/b55.js
+www.2100book.com/you/b5.js
+www.2100book.com/js/indextop.js
+www.2100book.com/themes/v2/images/*tonglan	$t=image
+www.2100book.com/scripts/open/images/*.gif
+!4399.com
+*/ad_*	$w,$d=4399.com
+!douxie.com
+.q1.com/zt/images/*douxie	$t=script
+.douxie.com/*gg_*.js
+!kaixin001.com.cn
+img.kaixin001.com.cn	$w
+!sg169.com
+##embed[src^="/tp/news/"]	$d=sg169.com
+##iframe[src^="http://www.sg169.com/html/"]	$d=sg169.com
+###ast_banner,#ast_top,#qq_panel,#swf2009,#swf2010	$d=sg169.com
+sg169.com/tp/news/	$t=object
+sg169.com/*/bbs_ads/
+sg169.com/*/ad/PageTopAD.htm
+sg169.com/*/ad/forum_ad.js
+sg169.com/resource/js/swfobjectopt.js
+!xiazaiba.com
+://www.xiazaiba.com/static/ads_1.swf
+!pps
+://s1.ppsimg.com/t_images/*/orignal/	$t=image
+://ugcad.pps.tv/
+!docin.com
+/:\/\/([^\/]+\.)?docin\.com\/app\/playerLoadLog\//	$w
+!v.163.com
+*crossdomain.xml	$w,$d=163.com
+!hexun.com
+img.hexun.com/tv/*/js/videoPlayer.js	$w
+##.div_ad	$d=hexun.com
+itv.hexun.com/lbi-html/doubleclick/tm10.gif	$w
+!yyets.com
+://yyets.com/template/default/js/yyets2.js
+!mp3.baidu.com
+static.mp3.baidu.com/wd/radiostat.gif?name=     $w
+/:\/\/([^\/]+\.)?cb\.baidu\.com\/ecom\?/	$w,$d=mp3.baidu.com
+/:\/\/([^\/]+\.)?cbjs\.baidu\.com\/js\/m\.js/	$w,$d=mp3.baidu.com
+!56.com
+stat.56.com/stat/flv.php	$w
+56.com/flashApp/player_res/module/ad/acs_proxy_prevent_cache.swf	$w
+!tgbus
+##[id^="txt_ad"],[class^="ad1000_"],.ad310_280,.ad330_280	$d=tgbus.com
+##[id^="TGBUS_VISTA_CONTAINER_"]	$d=tgbus.com
+gg.tgbus.com
+vista.tgbus.com
+vista.tgbusdata.cn/s.js
+vista.tgbusdata.cn/p.js
+!qidian.com
+##.gg01,.gg02,.gg03,.gg04,.gg05,.gg06,.gg07,.gg08,.gg09,#_SNYU_Ad_Wrap
+##[id^="snyu_slot_"]
+sdo.com/sdk/js/hsp/main.js
+qidian.com/BookReader/QidianReader.swf	$w
+qidian.com%2FBookReader%2FQidianReader.swf	$w
+cj.qidian.com/Flash/	$t=object
+/.*cj\.qidian\.com\/Picture\/.*\.gif$/
+!115.com
+##.col-main>.banner-box	$d=115.com
+##.container>.col-sub>.banner-sub	$d=115.com
+##.random-box>.random-banner
+static.115img.com/static/material/	$t=image|object
+static.115img.com/static/delivery/d_*.html
+!55bbs.com
+img.55bbs.com/55bbs/	$t=image|object
+!alibuybuy
+alibuybuy-wordpress.stor.sinaapp.com/uploads/2012/*.gif
+!sina
+##.top-ads-list,.palm01-ad,.topAd950
+##[class^="ad-banner"][id^="ad_"]
+.sina.com.cn/*/rotator.js
+/ad\d\.sina\.com\.cn/
+##.ad	$d=video.sina.com.cn
+##.adFrame	$d=video.sina.com.cn
+##div[class^="ATopTxt"],.wad,[id^="ad_arti_"],#ad_arti_side_grp,#ad_arti_side_one,#ad_arti_wrap_top,#ad_arti_side_addi	$d=sina.com.cn
+###PartG>.rightbox	$d=sina.com.cn
+##.att_div	$d=sina.com.cn
+!##.cleft	$d=sina.com.cn
+##.societybtmlist,.techbtmads,.topads,[class="yleft2blk"],[class^="AD"],#pip_taobao	$d=sina.com.cn
+.sinaimg.cn/*/deco/	$t=script
+.sinaimg.cn/unipro/
+/jianyu1/TaoBao/
+!newyx.net
+.newyx.net/js/bg8.js
+.newyx.net/js/dui_lian.js
+##.gonglue_rightad	$w=newyx.net
+!kafan
+a.ikafan.com/3/top_2_*.html
+a.ikafan.com/4/*.gif
+##.wp.header_gg	$d=kafan.cn
+!ifeng
+sc.ifeng.com/*
+sta.ifeng.com/*
+stadig.ifeng.com/*
+img.ifeng.com/tres/recommend/
+.ifengimg.com/*/detailRichMedia.js
+ifengimg.com/a/	$w,$d=v.ifeng.com
+bc.ifeng.com/main/s?user=ifeng||wailian_vad	$w
+bc.ifeng.com/main/s?user=ifeng||vad&*;adSec|2&	$w
+stadig.ifeng.com/crossdomain.xml	$w
+v.ifeng.com/*.xml	$w
+/adServer.
+v.ifeng.com/crossdomain.xml	$w
+bc.ifeng.com/crossdomain.xml	$w
+###ifengAehoveringId,.adcontent,.games_right_side,#leftCoupletId,#rightCoupletId,div[id^="couplet3_left"],div[id^="couplet3_right"],div[id^="flash_outer_"],.ad200,.ad300,.ad1000	$d=ifeng.com
+##iframe[src*="/tres/recommend/"]	$d=ifeng.com
+ifengimg\.com\/mappa
+##img[src*="ifengimg.com/mappa"]	$d=ifeng.com
+games.ifeng.com/webgame/news/	$w,$t=document
+ifengimg.com/mappa/
+!ifengimg.com	$t=object
+img.ifeng.com/tres/html/
+/tres/recommend/	$d=ifeng.com
+bc.ifeng.com
+!3dmgame
+##.a_cn,.wp.a_h,#clickbgRight,#clickbgleft	$d=3dmgame.com
+##iframe[src^="http://www.37cs.com/html/click/"]
+/common/cf/	$t=image|object,$d=3dmgame.com
+!ybvv.com
+img.ybvv.com/aimg/	$t=image|object
+!longhoo.net
+.longhoo.net/*images/c2c_*.swf
+.longhoo.net/*/js/AD2v	$t=script
+.longhoo.net/*/attachement/gif/site2/*
+www.longhoo.net/js/2010float_gb2.js
+.longhoo.net/*/pf.swf
+v.longhoo.net//image/banner-gg.gif
+.longhoo.net/*/suning2.swf
+www.longhoo.net/node_40040.htm
+!qq.com
+##[id="homeBannerNew"][class="main_bn"]	$d=t.qq.com
+##embed[src$="960x90.swf"]	$d=sports.qq.com
+##.mian-ad	$d=news.qq.com
+##.ad960	$d=finance.qq.com
+vmind.qqvideo.tc.qq.com
+.digieq.com/tk/adimp.php
+&ad_type=	$d=qq.com
+qq.com	$w,$d=vip.qq.com
+###AdZoneRa,#AdZoneRb,#AdZoneRc,#AdZoneRd,#AdZoneRe,#AdZoneRf,#AdZoneRg
+###wrapper	$d=hb.qq.com
+##.l_qq_com,#yc_ad,.textad,[class^="phone_ad_"],.mian-ad	$d=qq.com
+##.tongtext	$d=hb.qq.com
+##div[style=" width:298px; height:48px; border:1px solid #ccc;margin-bottom:10px"]	$d=hb.qq.com
+##div[style=" width:300px; height:250px; overflow:hidden"]	$d=hb.qq.com
+##div[style="margin:10px auto;width:960px;height:60px; overflow:hidden;"]	$d=hb.qq.com
+##div[id="adAreaBbox"]
+##.absolute.a_cover
+###QQCOM_Width3
+###auto_gen_6
+##.l_qq_com
+###cj_ad
+##[href^="http://c.l.qq.com/adsclick?oid="]
+##.right_ad_lefttext
+##.right_ad_righttext
+##.AdTop-Article-QQ
+##.business-Article-QQ
+##.qiye-Article-QQ
+##.AdBox-Article-QQ
+##td[width="960"][height="90"][align="center"]
+##.adclass
+##.nb1	$d=digi.tech.qq.com
+##.ad1
+##[id^="tonglan_"]
+##.ads5
+##.adv
+!##.ads
+##.ads220_60
+##.ad-h60
+##.ad-h65
+##.ggs
+##[class^="ads360"]
+##.news_ad_box
+###XianAd
+##.Ad3Top-Article-QQ
+##.AdTop2-Article-QQ
+##.adbutton-Aritcle-QQ
+###AdRight-Article-QQ
+##[id^=ad-block]
+!cq.qq.com
+##div[class="warp"][style="height:90px;"]	$d=cq.qq.com
+##div[style*="width:960px;height:60px;"]	$d=cq.qq.com
+##div[style*="width:960px;height:90px;"]	$d=cq.qq.com
+##div[style*="width:960px; height:60px;"]	$d=cq.qq.com
+##div[style*="width:150px; height:60px;"]	$d=cq.qq.com
+##.sidBoxNoborder.mar-b8
+###ent_ad
+##[class="ad"][id="ad_bottom"]
+##[class="ad"][id="ad_top"]
+c.l.qq.com
+adsrich.qq.com
+adsfile.qq.com	$t=script,$w
+adsfile.qq.com/	$t=image|object
+adslvfile.qq.com
+/fbgg/	$d=qq.com,$t=object
+_ad.js	$d=qq.com
+/ad_float
+/float_ad_
+/ad_rightdown_
+/fudong/	$d=qq.com
+/saulsu/	$d=qq.com
+.gtimg.com/hb/avd/	$d=qq.com
+!cq.qq.com
+.gtimg.com/cq/flash/suj/2011/	$t=object
+*/exp.qq.com/present/images/ad/	$w
+*/imgcache.qq.com/club/go/deri/fanlihome/ads/	$w
+*/imgcache.qq.com/qqshow/	$w
+*/cq.qq.com/js/cody/fudong/any_hover.js	$w
+/cdn.exp.qq.com/img/ad/	$w
+
+!CSS overall
+##.plrad
+##.ad300
+###top_ad1,#top_ad2,#top_ad3,#top_ad4,#top_ad5,#top_ad6,#top_ad7,#top_ad8,#top_ad9
+###mid_ad1,#mid_ad2,#mid_ad3,#mid_ad4,#mid_ad5,#mid_ad6,#mid_ad7,#mid_ad8,#mid_ad9
+###ads1,#ads2,#ads3,#ads4,#ads5,#ads6,#ads7,#ads8,#ads9
+##.dlAd,.changeAd
+##.unionCpv
+###Advertisement
+##iframe[src*="/advertisement."]
+##img[src*="/advertisement."]
+##.ad_headerbanner,#ad_headerbanner
+##div[class^=ad_textlink]
+##iframe[src*="guanggao"]
+##img[src*="guanggao"]
+###ads-top
+###ads-bot
+##.adBanner
+###topAd
+##.top_ad
+##.topAds
+##.topAd
+##.ad_column
+###ad1
+###ad2
+###ad3
+###ad4
+###ad5
+###ad6
+###ad7
+###ad8
+###ad9
+##.ad_footerbanner
+###adleft
+###adright
+##.advleft
+##.advright
+##.ad980X60
+##.banner-ad
+##.top-ad
+###adright
+###AdLayer1
+###AdLayer2
+###AdLayer3
+##div[href*="click.mediav.com"]
+##div[class=top_ad]
+##div[class^="headads"]
+!##div[class="ads"]
+##.txtad
+##.guanggao
+###guanggao
+##.adclass
+##div[id*="AdsLayer"]
+##.ad950
+##.guangg
+##.header-ads-top
+###adleft
+###adright
+###ad_show
+!u17.com##.ad_list
+##.ad_pic
+###fullScreenAd
+##div[class^="adbox"]
+###topADImg
+##div[class^="ad_box"]
+##div[id^="adbox"]
+##div[class^="ads_"]
+##div[alt*="广告位"]
+##div[id^="ads_"]
+##div[src*="/adfile/"]
+##.delayadv
+###vplayad
+##.jadv
+##div[src*="/ads/"]
+##div[src*="/advpic/"]
+##div[id*="_adbox"]
+##div[id*="-adbox"]
+##div[class^="showad"]
+##div[id^="adshow"]
+###bottomads
+##.ad_column
+##div[id^="_AdSame"]
+##iframe[src^="http://drmcmm.baidu.com"]
+##div[src^="http://drmcmm.baidu.com"]
+##frame[src^="http://drmcmm.baidu.com"]
+##div[href^="http://www.baidu.com/cpro.php?"]
+##iframe[href^="http://www.baidu.com/cpro.php?"]
+##div[src^="http://cpro.baidu.com"]
+!##iframe[src^="http://cpro.baidu.com"]
+##div[src^="http://eiv.baidu.com"]
+##div[href^="http://www.baidu.com/baidu.php?url="]
+##div[href^="http://www.baidu.com/adrc.php?url="]
+##.ad_text
+##div[href^="http://click.cm.sandai.net"]
+##div.adA.area
+!cntv误过滤##div[class$="_ad"]
+##div[src*=".qq937.com"]
+##iframe[src*=".qq937.com"]
+##div[src*=".88210212.com"]
+##iframe[src*=".88210212.com"]
+##.adBox
+##.adRight,.adLeft
+##.banner-ads
+##.right_ad
+##.left_ad
+##.content_ad
+##.post-top-gg
+##div[class*="_ad_slot"]
+##.col_ad
+##.block_ad
+##.adBlue
+##.mar_ad
+##div[id^="ArpAdPro"]
+##.adItem
+##.ggarea
+##.adiframe
+##iframe[src*="/adiframe/"]
+###bottom_ad,.bottom_ad
+##.crumb_ad
+##.topadna,.topadbod
+##div[src*="qq494.cn"]
+##iframe[src*="qq494.cn"]
+##.topadbod
+##embed[src*="gamefiles.qq937.com"]
+##embed[src*="17kuxun.com"]
+##.crazy_ad_layer,#crazy_ad_layer
+##.bannerad
+##iframe[src*="/ads/"]
+##img[src*="/ads/"]
+##embed[src*="/ads/"]
+###crazy_ad_float,.crazy_ad_float
+##.main_ad
+##.topads
+##div[class^="txtadsblk"]
+##.head-ad
+##div[src*="/728x90."]
+##img[src*="/728x90."]
+##embed[src*="/728x90."]
+##iframe[src*="/gg/"]
+##img[src*="/gg/"]
+##iframe[src^="http://www.460.com.cn"]
+###bg_ad
+##.ad_pic
+##iframe[src*="gg.yxdown.com"]
+##.ad_top
+###baiduSpFrame
+##.flashad,#flashad
+###ShowAD
+##[onclick^="ad_clicked"]
+##[class^="ad_video_"]
+###ad_240
+##.wp.a_f
+##.a_mu
+###hd_ad
+###top_ads,#header_ad
+###adbanner,#adbanner_1
+###Left_bottomAd,#Right_bottomAd
+###ad_alimama,#vipTip
+##.ad_pip
+###show-gg
+##.ad-box
+##.advbox
+##.widget-ads.banner
+##.a760x100,.a200x375,.a760x100,.a200x100
+##.ad_left,.ad_right
+##[id="ad"][class="toJd"]
+
+!2013.11.14
+a.alimama.cn/tkapi*.js	$w
+js.adm.cnzz.net/s.php?sid=
+!20131216
+/:\/\/([^\/]+\.)?qlogo\.cn/	$w
+/\.com\/x\//	$w,$d=17173.tv.sohu.com
+
+!20140103
+/:\/\/([^\/]+\.)?the/	$w
+/:\/\/([^\/]+\.)?400gb\.com\/img\//	$d=400gb.com,$w
+bg/index_v3_ad_right.jpg?	$d=to8to.com,$w
+*	$w,$d=xifuquan.com
+*	$w,$d=baihe.com
+*	$w,$d=yixun.com
+*	$w,$d=yxlg.com
+video/ad/*.flv	$w,$d=sinovision.net
+vmamim.allyes.com/main/*	$w,$d=lvmama.com
+adpub/cfg/sendmsg.js	$w,$d=map.sogou.com
+niuza.com	$w,$d=niuza.com
+eeyy.com	$w,$d=c.eeyy.com
+pk38.com	$w,$d=pk38.com
+referrer2.js	$w,$d=track.58.com
+qingcheng.com	$w,$d=qingcheng.com
+asiafriendfinder.com	$w,$d=asiafriendfinder.com
+coral2.0/js/pop.js	$w,$d=coral.qq.com
+
+img.sp.cc	$d=66xiaoshuo.com
+js.12l22.net	$d=dijiuzww.com
+v.zytwq.net	$d=dijiuzww.com
+images/*.swf	$d=xinjiangnet.com.cn
+Medicine/images/*_1108.jpg	$d=edu24ol.com
+cooperation/*.html	$d=yktworld.com
+cooperation/*.swf	$d=yktworld.com
+cooperation/*.gif	$d=yktworld.com
+uploadfiles/image/20130825*.gif	$d=yktworld.com
+v.zytwq.net	$d=8xiaoshuo.com
+ADPic/*.swf	$d=qbaobei.com
+fmt.js	$d=dy161.com
+tc.js	$d=dy161.com
+
+400gb.com/min/g=js1?v=
+pd.ly.shangdu.com/lyinfo/zlwz/flash
+##.g_ad
+##.textMes	$d=shangdu.com
+##div[class$="-ads"]
+###syyxjtc_abs	$d=xinjiangnet.com.cn
+##.advmid	$d=xinjiangnet.com.cn
+!##div[class^="adList"]
+!.52tian.net/qq/	$t=object|document
+
+!QQBrower
+###qqBrowserWrap	$d=qq.com

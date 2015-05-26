@@ -1,0 +1,383 @@
+﻿ [Adblock]
+!  Title: Adblock_list_kfl  
+!  Last Modified:  2015-05-22 22:00
+!  Coding: utf-8
+!  Expires: 1 days
+!  Homepage: https://github.com/kongfl888/ab
+!  Licence: 
+!
+!--------------------------------------------------
+!--中国电信
+/clicktotal/ClickTotal.js
+||189.cn/dns/*$third-party
+||189.cn/ad/$popup,third-party
+||189.cn/gz/promotion/$popup,third-party
+||189.cn/push/$popup,third-party
+||189.cn^*/push/$popup,third-party
+||ct10000.com/js/ecssstat.js
+||ct10000.com^*/push/$popup,third-party
+||jxad.jx163.com^
+||113.17.188.44^$third-party
+||202.102.100.100^$third-party
+!--联通
+||kdly.net^$third-party
+!--广东电信
+/js/utils51.js
+/js/utils78.js
+!广西网通广告
+!##div[id="floatAd"]
+!/admode.js
+!ad.gx10010.com/tb/*
+!##iframe[src^="http://221.7.244.118"]
+!##iframe[src^="ad.gx10010.com/"]
+!##iframe[src^="http://221.7.244.119"]
+!
+! 电信dns挟持页
+dnserror.cn##DIV[class="skeyword"]
+||dnserror.cn
+||ctrip.com$domain=dnserror.cn
+dnserror.cn##DIV[class="error"]
+dnserror.cn##H2
+!
+! 爱漫网广告
+www.imanhua.com##div[id^="imh"]
+www.imanhua.com/inc/update2.html
+www.imanhua.com##div[id="uptList"]
+www.imanhua.com##div[class="bar"]
+www.imanhua.com##div[id="share"]
+www.imanhua.com##H6
+imanhua.com##div[class="w980"][style*="height:514px"]
+! verycd广告
+www.verycd.com##li[id="2422-ad"]
+www.verycd.com##DIV[id="BAIDU_PAGE_AD_1"]
+! 以下是verycd我再看的展开，个人觉得很烦
+www.verycd.com##div[class="top_slide_wrap"]
+! verycd搜索广告
+www.verycd.com##div[class="rightTitle"]
+www.verycd.com##ul[id="side_goods_list"][class="side_goods_list"]
+www.verycd.com##div[class="side_ads"]
+www.verycd.com##div[class^="more_goods"]
+www.verycd.com##div[id^="PAGE_AD_"]
+! 红旅广告
+hltm.cc#div[id="1"]
+hltm.cc##div[id="1"][class="ad1960"]
+hltm.cc##div[id^="__QY"]
+hltm.cc##span[id^="myad"]
+hltm.cc#div[id="4"]
+hltm.cc##div[id="5"][class="ad960"]
+! 电脑上wap网 pctowap去广告
+pctowap.com##div[id="dowap-function-area"]
+pctowap.com##a[href="http://i.doguo.com/pay.php"]
+pctowap.com##img[src="/img/bs2.jpg"]
+pctowap.com##div[class$="dowap_ads"]
+pctowap.com##div[class^="ad-area-right"]
+pctowap.com##div[class^="functional-area-left"]
+pctowap.com##div[class^="functional-area-right"]
+pctowap.com##img[src^="/img/bs"][src$="jpg"]
+||pctowap.com/*/bbs.js
+||doguo.com/api/vip_discount.js
+||pctowap.com/dowap2/js/jquery.js
+||pctowap.com/plug/*/status.php
+! 百度
+www.baidu.com##DIV[class="sam_iebrowser_banner"]
+www.baidu.com##div[id="inc_browser_banner"]
+www.baidu.com##A[href^="http://w.x.baidu.com/go/"]
+www.baidu.com##A[class="sam_iebrowser_download"]
+www.baidu.com##i[class="c-icon sam_baiduapp_logo"]
+www.baidu.com##DIV[class="s-skin-activity-tips"]
+||bdstatic.com/r/www/cache/static/global/js/ie6banner_*$script
+!加了下面一句之后，搜索建议就会消失，图片结构也不会显示，open.baidu.com的结果也不会显示，一下就回到了原始时代，首页登陆也会失败（必须先随便搜索个页面）
+!（新版chrome显示空白，搜索引擎要修改为http://www.baidu.com/s?ie={inputEncoding}&tn=baidu&bar=&wd=%s）
+||s1.bdstatic.com/*/jquery-1.10.2.min_*.js
+http://www.baidu.com/ur/submit/urreward
+||baidu.com/cache/fpid/o.swf
+||pups.baidu.com/advert/js/advert.js
+||bdstatic.com/*/nu_instant_search_*.js
+||baidu.com/*/chromelib_*.js
+||sclick.baidu.com
+! 百度贴吧
+tieba.baidu.com##DIV[id^="game_"]
+tieba.baidu.com##DIV[class^="game_"]
+tieba.baidu.com##UL[class^="game_tab"]
+tieba.baidu.com##LI[id*="spreadad_"]
+tieba.baidu.com##DIV[class^="lot_wrap"]
+tieba.baidu.com##LI[class="img_list_2pic tbui_slideshow_slide"]
+tieba.baidu.com##IMG[src="http://img.baidu.com/img/iknow/qb/select-search.png"]
+tieba.baidu.com##DIV[class="member_rank"]
+tieba.baidu.com##IMG[src="http://tb1.bdstatic.com/tb/lklzh.jpg"]
+tieba.baidu.com##DIV[id="encourage_entry"]
+tieba.baidu.com##LI[class^="u_tbmall"]
+tieba.baidu.com##LI[class^="u_tshow"]
+tieba.baidu.com##DIV[class="save_face_bg save_face_bg_1"]
+tieba.baidu.com##DIV[id="forum_recommend"]
+tieba.baidu.com##DIV[class^="spage_liveshow_slide"]
+tieba.baidu.com##DIV[class^="platact_"]
+tieba.baidu.com##DIV[id*="bdyx_tips"]
+tieba.baidu.com##DIV[class*="firework_sender"]
+tieba.baidu.com##div[id*="global_notice_wrap"]
+tieba.baidu.com##div[class*="frs_act_repost_"]
+tieba.baidu.com##div[class*="live_show"]
+tieba.baidu.com##a[href*="game_id"]
+tieba.baidu.com##div[class*="game_"]
+tieba.baidu.com##a[class*="game_"]
+tieba.baidu.com##a[href^="http://tieba.baidu.com/game/"]
+tieba.baidu.com##a[href^="http://tieba.baidu.com/show/v/"]
+tieba.baidu.com##a[href*="%D3%A6%D3%C3%D6%D0%D0%C4"]
+tieba.baidu.com##a[class*="j_couplet couplet_"]
+tieba.baidu.com##div[id^="spage_game_tab_wrapper"]
+tieba.baidu.com##a[href$=".apk"]
+tieba.baidu.com##a[href*="/tbmall/home"]
+tieba.baidu.com##div[class="save_face_bg save_face_bg_2"]
+tieba.baidu.com##a[href^="http://www.xiu8.com/"]
+!!贴吧广告回复贴隐藏↓
+tieba.baidu.com##li[data-daid*="0"]
+tieba.baidu.com##li[data-daid*="1"]
+tieba.baidu.com##li[data-daid*="2"]
+tieba.baidu.com##div[data-daid*="0"]
+tieba.baidu.com##div[data-daid*="1"]
+tieba.baidu.com##div[data-daid*="2"]
+!!贴吧弹窗
+tieba.baidu.com##*#pop_frame
+tieba.baidu.com##div[id*="pop_"]
+!!贴吧链接对象屏蔽
+||static.tieba.baidu.com/tb/img/track.gif$domain=tieba.baidu.com
+||bdstatic.com/tb/*/aside_float_bar_*.js$domain=tieba.baidu.com
+||bdstatic.com/tb/*/tdou_*.js$domain=tieba.baidu.com
+||tieba.baidu.com/tb/cms/game_rank/$domain=tieba.baidu.com,image
+||tieba.baidu.com/tb/static-comforum/img/history_game/
+||bdstatic.com/tb/*/live_show_square_*.png
+||tieba.baidu.com/tb/cms/game_test/
+||bdstatic.com/api_hao123AdvHeader.js
+||bdstatic.com/cms/mbox/audioad/AudioAd.js
+||bdstatic.com/pc_static/detail/game_promotion/
+||bdstatic.com/tb/cms/com/game/couplet_
+||bdstatic.com/tb/cms/img/tieba_index_banner960x90.png
+||bdstatic.com/tb/r/image/2014-06-05/3a51a66567d15cb0b6096aecd8086f34.gif
+||bdstatic.com/tb/static-encourage/widget/worldcup_guess_item/images/wish_card_back_
+||bdstatic.com/tb/static-ucenter/img/cont_sign_card.gif
+||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
+||tb1.bdstatic.com/tb/*/history_game/$domain=tieba.baidu.com
+||wanba.baidu.com/*$domain=tieba.baidu.com
+||youxi.baidu.com/*$domain=tieba.baidu.com
+||xiu8.com$third-party
+||image.yy.com$third-party
+||youxi.baidu.com/tips/*
+||bdstatic.com/tb/*/firework/swf/*
+||static.pay.baidu.com/*/tuisong/*$domain=tieba.baidu.com
+||bdstatic.com/*/static-liveshow/*$domain=tieba.baidu.com
+||static.pay.baidu.com/tequan/tuisong/images/*
+||tb1.bdstatic.com/tb/cms/ngmis/*
+||bdstatic.com/tb/cms/img/tieba_index_banner960x90.png
+||bdstatic.com/tb/static-spage/widget/spage_game_tab/img/*
+||tb1.bdstatic.com/tb/cms/post/bubble/*
+!百度顶部冒泡广告
+||hi.bdimg.com/*/mod_bubble.js?
+! 百度我的主页广告
+hi.baidu.com##section[class="mod-side-item"]
+||hi.baidu.com/cm/static/js/allsite.js$domain=hi.baidu.com
+||youxi.baidu.com/bdzone/nav.html$domain=hi.baidu.com
+! 百度新闻
+news.baidu.com##div[id="identifier-pannel"]
+news.baidu.com##div[id="favoriteTips"]
+! 中国新闻网
+||afp.chinanews.com
+! 中国日报
+chinadaily.com.cn##div[id^="qihu"]
+! 中国网
+||news.china.com.cn/hookNwesRight*.js
+shehui.china.com.cn##div[class="Photos"]
+! 环球
+||himg2.huanqiu.com/statics/js/adCode.js
+huanqiu.com##div[class^="hdPic"]
+! 凤凰网
+ifeng.com##A[href^="http://dolphin.deliver.ifeng.com/"]
+ifeng.com##A[href^="http://www.123baofeng.com/"]
+ifeng.com##A[href^="http://www.hao123.com/"]
+v.ifeng.com##A[href^="http://v.ifeng.com/bd/"][href$="/translate.shtml"]
+ifeng.com##DIV[id="wx"]
+ifeng.com##DIV[class^="weix"]
+||ifengimg.com/ifeng/sources/	$script
+!!移除凤凰网的ip定位
+|http://region.ifeng.com/get?format=js&callback=setRegionCookies
+!点心新闻
+www.dianxinnews.com##DIV[id^="jinrituijian"]
+www.dianxinnews.com##DIV[id^="jingcaitupian"]
+www.dianxinnews.com##A[href^="http://jtscsp.ntxqw.com"]
+www.dianxinnews.com##UL[id^="xinwentuji"]
+!21cn.com
+21cn.com##img[class="ad-frame"]
+21cn.com##a[href*="haxiu.com"]
+21cn.com##ul[id*="topad"]
+21cn.com##div[id="MainPromotionBanner"]
+||fx.zimilan.com/js/pick/run/*
+||haxiu.com $third-party
+||analytics.21cn.com^
+!
+!新闻广告
+##[href^="http://sh.qihoo.com/?src="][href$="#resoutu"]
+net.chinabyte.com##ASIDE[class="col-extra"]
+pic.news.sohu.com##DIV[class="boxC-RB"]
+ent.ifeng.com##ul[class="pics_2 clearfix"]
+weibo.com##div[id="Pl_Official_MyMicroworld__3"]
+finance.gucheng.com##div[class="piclist"]
+finance.gucheng.com##div[class="n_s_r"]
+||s.lianmeng.360.cn/media/news/union_mt_*.js$third-party
+||800tu.com^$third-party
+!皇冠网fengsha
+!/^.*hg(\d)+.*$/
+##a[href^="http://"][href*="hg"]$domain=~baidu.com|~sina.com|~weibo.com|~weibo.cn|~so.com|~163.com|~github.com|~ifeng.com|~youku.com|~tudou.com|~letv.com|~iqiyi.com|~qq.com|~pptv.com|~xunlei.com|~kankan.com|~360.cn|~bdstatic.com|~taobao.com|~tmall.com|~alipay.com
+!
+! ku6 酷6
+v.ku6.com##div[class="award gif"]
+! PPS
+v.pps.tv##div[id="hot-send"]
+!
+!红豆
+||user.hongdou.gxnews.com.cn/upload/index/$object_subrequest
+!
+!www.sendspace.com
+www.sendspace.com##DIV[id="sswxdownload"]
+||sendspace.com/defaults/framer.html$domain=sendspace.com
+www.sendspace.com##DIV[class^="ads_holde"]
+www.sendspace.com##A[class="ads_remove"]
+!
+haotui.com##TABLE[class^="haotuitoutiao"]
+www.zdfans.com##IMG[src^="http://www.zdfans.com/webad/"]
+diggbt.com##IFRAME[class^="bdSug_sd"]
+!远景beta
+||cdn.pcbeta.js.inimc.com//data/cache/jquery.js
+! 网易163
+163.com##div[id*="NodesWrap"]
+163.com##a[href*="bobo."]
+163.com##[class*="bobo"]
+163.com##a[href*="love.163.com"]
+163.com##div[id="blog-163-com-toptips"]
+163.com##div[class="blogtoptipswrap"]
+163.com##div[id="loftertextlinkad"]
+163.com##div[id*="yodaoad"]
+||163.com/newpage/images/lofterad/*$image
+! 网易163博客
+blog.163.com##a[href^="http://www.lofter.com/app?"]
+163.com##div[class^="m-regGuideLayer"]
+blog.163.com##.postadlayer
+blog.163.com##.m-fixedPCAd
+blog.163.com###topbar_randShowArea
+blog.163.com###loftertextlinkad
+blog.163.com###blog-163-com-toptips
+||126.net/newpage/images/lofterad/*
+||lofter.com/mailEntry.do?*ad=
+||lofter.com/mailEntry.do?blogad
+||126.net/newpage/images/lofterad/*
+!!Lofter博客
+lofter.com##span[class="actinfo"]
+lofter.com##a[class^="btn"][class$="join"]
+||lofter.com/html/reglogin/regloginproxy.html
+!
+! 下载站
+! 33lc.com
+||33lc.com/caches/poster_js/*$~third-party
+33lc.com##div[class*="c_hot_pic"]
+!--------------------------------------
+!通用过滤规则
+!通用隐藏元素
+##a[href^="http://www.baidu.com/cpro.php"]
+!通用对象过滤
+.com/ad/$domain=~channel4.com|~watchever.de
+/top_ad.
+&adurl=
+/advertise/*
+/videoad.
+/vns/*
+/vns1.
+/vns2.
+/vns3.
+/vns4.
+/vns5.
+/vns6.
+/vns7.
+/vns8.
+/vns9.
+###ShowAD
+###lqdel
+###jobads
+##div[id*=ShowAD]
+##a[href^="javascript:window.external.AddFavorite("]
+!
+! 去除cnzz网站统计
+||cnzz.com$third-party
+! 京东
+||union.$third-party,domain=~click.union.360buy.com|~click.union.jd.com
+!
+!屏蔽一些受墙的网域，反正国内受墙根本用不到，加载只会拖累浏览器
+! 谷歌统计
+||google-analytics.com^
+||googleapis.com$third-party
+||googleadservices.com/pagead/*$third-party
+! 谷歌api
+||apis.google.com/js/*$third-party
+! 谷歌自定义搜索
+||google.com/cse/cse.js?*$third-party
+! 移除facebook SDK
+||facebook.net^$third-party
+! 一个国外的支付平台
+||flattr.com^$third-party
+! 推特分享
+||platform.twitter.com^$third-party
+!
+!
+!
+!广告网
+||js.2529.com
+||tanx.com^$third-party,domain=~taobao.com|~tmall.com
+|http://bdimg.share.baidu.com/static/api/js/share.js?v=
+|http://cpro.$domain=~7958.com|~www.400gb.com
+|http://*.allyes.com$third-party
+||yigao.com^$third-party
+||cloudfront.net/atrk.js
+||crs.baidu.com^
+||adk2.co$third-party
+||vitalads.net$third-party
+||eclick.baidu.com
+||acs86.com^$third-party
+||tcss.qq.com^
+||cpro.baidustatic.com^
+||csbew.com^$third-party
+||images.sohu.com/bill/
+||vm.aty.sohu.com^
+||fastapi.net^$third-party
+||tanx.com^$third-party,domain=~taobao.com|~tmall.com
+||fx.zimilan.com/js/pick/run/* $third-party
+||haxiu.com $third-party
+||chenghuavideo.asia/*
+||fc2live.us/*
+||fc2tw.com/*
+||fc2cn.com^
+fc2live.us##body
+chenghuavideo.asia##body
+fc2cn.com##body
+fc2tw.com##body
+! 临时
+##img[width="1000" height="60" src$=".gif"]
+##img[width="985" height="60" src$=".gif"]
+##img[width="918" height="60" src$=".gif"]
+##img[width="918" height="50" src$=".gif"]
+##img[width="882" height="50" src$=".gif"]
+##img[width="782" height="50" src$=".gif"]
+##img[width="782" height="50" src$=".gif"]
+##iframe[src*="/bbs/shuben.htm"]
+##a[href^="www.hlw"]
+##a[href^="www.89w"]
+##a[href^="www.hg"]
+##table[id^=table400]
+##img[src$="960-90.gif"]
+/bbs/*/tu/960-90.
+/bbs/*/tu/xy.jpg
+!
+!白名单
+@@|https://fireeye.ijinshan.com/|$document
+@@|http://c2.yunpan.360.cn/my|$document
+@@||yunpan.360.cn/$document
+@@||yz.chsi.com.cn^$document
+@@||l.qq.com/livemsg?ty=web&ad_type=
+@@||kyfw.12306.cn^$document
+@@||w.qq.com^$document
