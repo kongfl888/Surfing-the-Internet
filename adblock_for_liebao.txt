@@ -1,0 +1,249 @@
+﻿![Liebao Adblock Rule]
+!Title:Rules for version 3.8 of liebao browser
+!Author:k
+!Updated:2014-07-27 16:40
+!Version:3.1
+!Description:Rules for liebao                                          
+!Url:https://raw.githubusercontent.com/kongfl888/Abplists/master/adblock_for_liebao
+
+!一点总结：隐藏元素日志是不显示的
+!关于正则表达式，
+!正则符.*才是正道，表示任意个字符，而且不能用\来转义，论坛的置顶通用规则那是误解，
+!那会导致其他规则失效
+!一旦元素位于iframe中，限定网域的隐藏元素规则就会失效 -201305
+!最汗颜的事，标签或属性竟不支持大写如DIV --201305
+!^表示正则匹配开始，$表示匹配结尾（结束）
+
+!--中国电信
+/^http:\/\/.*/clicktotal\/ClickTotal\.js.*/
+/^http:\/\/.*189\.cn\/dns\/.*/
+/^http:\/\/.*gd\.189\.cn\/ad\/.*/		$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*gd\.189\.cn\/ad\/.*/		$d=gd.189.cn	$w
+/^http:\/\/.*gd\.189\.cn\/gz\/promotion\/.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*gd\.189\.cn\/gz\/promotion\/.*/	$d=gd.189.cn	$w
+/^http:\/\/.*gd\.189\.cn\/push\/.*/		$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*gd\.189\.cn\/push\/.*/		$d=gd.189.cn	$w
+/^http:\/\/.*gd\.189\.cn^.*\/push\/.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*gd\.189\.cn^.*\/push\/.*/	$d=gd.189.cn	$w
+/^http:\/\/.*gd\.ct10000\.com\/js\/ecssstat\.js.*/
+/^http:\/\/.*gd\.ct10000\.com^.*\/push\/.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*gd\.ct10000\.com^.*\/push\/.*/	$d=gd.189.cn	$w
+/^http:\/\/.*jxad\.jx163\.com^.*/
+!--联通
+/^http:\/\/.*kdly\.net^.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
+!--广东电信
+/^http:\/\/.*/js\/utils51\.js.*/
+/^http:\/\/.*/js\/utils78\.js.*/
+! 电信dns挟持页
+##div[class="skeyword"]	$d=dnserror.cn
+##div[class="error"]	$d=dnserror.cn
+##H2	$d=dnserror.cn
+/^http:\/\/.*\.dnserror\.cn.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*\.ctrip\.com.*/	$d=dnserror.cn
+!电脑上wap网pctowap去广告
+/^http:\/\/.*pctowap\.com\/.*\/bbs\.js.*/
+/^http:\/\/.*doguo\.com\/api\/vip_discount\.js.*/
+/^http:\/\/.*pctowap\.com\/dowap2\/js\/jquery\.js/
+/^http:\/\/.*pctowap\.com\/plug\/.*\/status\.php.*/
+i.doguo.com/api/vip_discount.js
+##div[class$="bbs"]	$d=pctowap.com
+##div[class*="dowap_ads"]	$d=pctowap.com
+##div[class*="bdlikebutton"]	$d=pctowap.com
+!爱漫网广告
+##div[id^="imh"]	$d=imanhua.com
+##div[id="uptList"]	$d=imanhua.com
+##div[class="bar"]	$d=imanhua.com
+##div[id="share"]	$d=imanhua.com
+##H6			$d=imanhua.com
+www.imanhua.com/inc/update2.html
+! 百度
+##div[class="sam_iebrowser_banner"]	$d=baidu.com
+##div[id="inc_browser_banner"]	$d=baidu.com
+##a[href="http://w.x.baidu.com/go/mini/"]	$d=baidu.com
+##a[class="sam_iebrowser_download"]	$d=baidu.com
+##i[class="c-icon sam_baiduapp_logo"]	$d=baidu.com
+/^http:\/\/.*\.bdstatic\.com\/.*\/ie6banner_.*\.js.*/
+/^http:\/\/s1\.bdstatic\.com\/r\/www\/cache\/static\/jquery\/.*/ 
+http://www.baidu.com/ur/submit/urreward
+baidu.com/cache/fpid/o.swf
+! 百度贴吧
+##a[id="j_dimension"][class="dimension_code dimension_code_old"]	$d=tieba.baidu.com
+##div[id="top_banner"]		$d=tieba.baidu.com
+##div[class^="game"]		$d=tieba.baidu.com
+##div[class^="hgame"]		$d=tieba.baidu.com
+##div[class^="game_forum_in"]		$d=tieba.baidu.com
+##ul[class^="game_tab"]		$d=tieba.baidu.com
+##div[id^="BAIDU_CLB_AD_"]		$d=tieba.baidu.com
+##div[id^="BAIDU_CLB_AD_IFRAME_"]		$d=tieba.baidu.com
+##li[id^="spreadad_"]		$d=tieba.baidu.com
+##li[class^="clearfix spreadad spreadad_"]	$d=tieba.baidu.com
+##div[class^="lot_wrap"]	$d=tieba.baidu.com
+##li[class="thread_notice clearfix thread_1st"]	$d=tieba.baidu.com
+##div[class="per_list j_per_list per_list_index"]	$d=tieba.baidu.com
+##div[id="game_item"]	$d=tieba.baidu.com
+##li[class="img_list_2pic tbui_slideshow_slide"]	$d=tieba.baidu.com
+##img[src="http://img.baidu.com/img/iknow/qb/select-search.png"]	$d=tieba.baidu.com
+##div[class="item live_show"]	$d=tieba.baidu.com
+##div[class="member_rank"]	$d=tieba.baidu.com
+##div[class="u_tbmall"]	$d=tieba.baidu.com
+##div[class="u_tshow"]	$d=tieba.baidu.com
+##div[id="encourage_entry"]	$d=tieba.baidu.com
+/^http:\/\/.*bdstatic\.com\/api_hao123AdvHeader\.js.*/
+/^http:\/\/.*bdstatic\.com\/cms\/mbox\/audioad\/AudioAd\.js.*/
+/^http:\/\/.*bdstatic\.com\/pc_static\/detail\/game_promotion\/.*/
+/^http:\/\/.*bdstatic\.com\/tb\/cms\/com\/game\/couplet_.*/
+/^http:\/\/.*bdstatic\.com\/tb\/cms\/img\/tieba_index_banner960x90\.png.*/
+/^http:\/\/.*bdstatic\.com\/tb\/static-encourage\/widget\/worldcup_guess_item\/images\/wish_card_back_.*/
+/^http:\/\/.*bdstatic\.com\/tb\/static-ucenter\/img\/cont_sign_card\.gif.*/
+/^http:\/\/.*bdstatic\.com\/tb\/zt\/tengfei\/gzdialog\.jpg.*/
+/^http:\/\/.*bdstatic\.com\/tb\/static-comforum\/widget\/history_game\/.*/	$d=tieba.baidu.com	
+/^http:\/\/.*wanba\.baidu\.com\/.*/	$d=tieba.baidu.com
+/^http:\/\/.*static\.tieba\.baidu\.com\/tb\/img\/track\.gif.*/	$d=tieba.baidu.com
+/^http:\/\/.*bdstatic\.com\/tb\/\*\/tdou_.*\.js.*/	
+/^http:\/\/.*bdstatic\.com\/tb\/\*\/live_show_square_.*\.png.*/
+/^http:\/\/.*tieba.baidu.com\/tb\/cms\/game_.*/
+tieba.baidu.com/tb/cms/game_rank/	$t=image
+
+! 百度我的主页广告
+##section[class="mod-side-item"] 	$d=hi.baidu.com
+!百度顶部冒泡广告
+/^http:\/\/.*hi\.bdimg\.com\/.*\/mod_bubble\.js.*/	$d=hi.baidu.com
+/^http:\/\/.*hi\.baidu\.com\/cm\/static\/js\/allsite\..*/	$d=hi.baidu.com
+/^http:\/\/.*youxi\.baidu\.com\/bdzone\/nav\.html.*/	$d=hi.baidu.com
+!百度广告
+##div[id="s_wl"]	$d=www.baidu.com
+##div[id="s_wl"]	$d=www.baidu.com
+##div[id="lm"]		$d=www.baidu.com
+/^http:\/\/.*pups\.baidu\.com\/advert\/js\/advert\.js.*/
+! 百度新闻
+/^http:\/\/.*news.baidu\.com\/nocache\/mp\/b\.jpg.*/ $d=news.baidu.com
+##div[id="identifier-pannel"]	$d=news.baidu.com
+##div[id="favoriteTips"]	$d=news.baidu.com
+! 中国新闻网
+/^http:\/\/.*\.afp\.chinanews\.com.*/
+! 环球
+/^http:\/\/.*huanqiu\.com\/script\/HuanQiuAllBottom\.Js.*/	$d=huanqiu.com
+/^http:\/\/.*huanqiu\.com\/statics\/js\/adCode\.js.*/	$d=huanqiu.com
+##div[class^="hdPic"]	$d=huanqiu.com
+! 中国日报
+##div[id^="qihu"]	$d=chinadaily.com.cn
+! 凤凰网
+/^http:\/\/.*ifengimg\.com\/ifeng\/sources\/.*/	$t=script
+!!移除凤凰网的ip定位
+http://region.ifeng.com/get?format=js&callback=setRegionCookies
+!新闻广告
+##[href^="http://sh.qihoo.com/?src="]
+##aside[class="col-extra"]		$d=net.chinabyte.com
+##div[class="boxC-RB"]			$d=pic.news.sohu.com
+##ul[class="pics_2 clearfix"]		$d=ent.ifeng.com
+##div[id="Pl_Official_MyMicroworld__3"]	$d=weibo.com
+!欺骗性广告
+/^http:\/\/.*\.41090\.com\.*/
+##img[width="979"][height="64"]	$d=hy49.com
+/^http:\/\/.*\.99477\.com\/hkxx\.htm/
+a[href="http://www.99477.com/hkxx.htm"]
+##img[src$="m960X50.gif"]
+##table[id="table6175"]	$d=726666.com
+##img[width="1004"]	$d=www.34506.com
+##img[width="1000"]	$d=www.34506.com
+##img[width="960"]	$d=www.34506.com
+##img[width="1004"]	$d=www.lhcyjy.com
+##img[width="1000"]	$d=www.lhcyjy.com
+##img[width="960"]	$d=www.lhcyjy.com
+##img[src="/images/hksz.gif"]	$d=www.9769.com
+##table[id="table42"]	$d=www.9769.com
+##img[src="http://www.38636.com/images/ym1.gif"]	$d=www.38636.com
+##img[src="images/qian.gif"]	$d=www.38636.com
+##img[src="images/55555.gif"]	$d=www.38636.com
+##img[src="images/ym.gif"]	$d=www.38636.com
+##img[src="images/hm.gif"]	$d=www.38636.com
+/^http:\/\/.*\4087\.com\/img\/.*/	$t=object
+/^http:\/\/.*\7049\.com\/100x100\.gif.*/
+/^http:\/\/.*\.4568\.com\.*/
+!皇冠网
+/^.*hg(\d)+.*$/
+##a[href*="hg"]
+##a[href^="http://www.hg98."]
+!http://www.26333.com/
+##table[id="table5943"]	$d=26333.com
+##table[id="table5772"]	$d=26333.com
+##table[id="table5943"]	$d=www.26333.com
+##img[src="m960X50.gif"]	$d=26333.com
+##[src="http://www.26333.com/bbs/tu3/m960X50.gif"]	$d=26333.com
+##[href^="http://www.128789.com/"]	$d=www.26333.com
+##[href="http://www.4568.com/?Intr=69288"]	$d=26333.com
+http://www.26333.com/bbs/img/xy.gif
+http://www.26333.com/bbs/img/regsiter_t09.gif
+http://www.26333.com/tu/jiashu.gif
+/^http:\/\/.*26333\.com\/.*\/760x90\.gif.*/
+/^http:\/\/.*26333\.com\/.*\/m960X50\.gif.*/
+
+! 红旅广告
+##div[id="1"][class="ad1960"]		$d=hltm.cc
+##div[id^="__QY"]	$d=hltm.cc
+##span[id^="myad"]	$d=hltm.cc
+##div[id="4"]		$d=hltm.cc
+##div[id="5"]		$d=hltm.cc
+##div[class*="ad"]	$d=hltm.cc
+! verycd广告
+##div[id="top_ad"]	$d=verycd.com
+##li[id="2422-ad"]	$d=verycd.com
+##div[id="BAIDU_PAGE_AD_1"]	$d=verycd.com
+! 以下是verycd我在看的展开，个人觉得很烦
+##div[class="top_slide_wrap"]	$d=verycd.com
+! 以下verycd商品推荐
+##div[class="rightTitle"]	$d=verycd.com
+##ul[id="side_goods_list"][class="side_goods_list"]	$d=verycd.com
+##div[class^="more_goods"]	$d=verycd.com
+##div[id^="PAGE_AD_"]	$d=verycd.com
+##div[class="side_ads"]	$d=verycd.com
+! 酷6
+##a[href^="//adrs.sdo.com/ADRefererSystem/adjump.aspx"]	$d=v.ku6.com
+##a[href^="//xiu.ku6.com/adgate"]	$d=v.ku6.com
+##div[class="award gif"]	$d=v.ku6.com
+! 优酷
+##div[id^="ad_"]	$d=v.youku.com
+! PPS
+##div[id="hot-send"]	$d=v.pps.tv
+!红豆
+/^http:\/\/user\.hongdou\.gxnews\.com\.cn\/upload\/index\//	$t=object
+!www.sendspace.com
+##div[id="sswxdownload"]	$d=sendspace.com
+##div[class^="ads_holde"]	$d=sendspace.com
+##a[class="ads_remove"]	$d=sendspace.com
+/^http:\/\/.*\.sendspace\.com\/defaults\/framer\.html.*/ $d=sendspace.com
+!--------------------------------------
+! 去除cnzz网站统计
+/^http:\/\/.*\.cnzz\.com.*/	
+! 去除百度统计
+/^http:\/\/.*hm\.baidu\.com\/h.*/	
+!广告网
+/^http:\/\/.*js\.2529\.com.*/
+/^http:\/\/.*\.tanx\.com\.com.*/
+/^http:\/\/bdimg\.share\.baidu\.com\/static\/api\/js\/share.js\?v=.*/
+/^http:\/\/.*nsclick\.baidu\.com.*/
+/^http:\/\/.*eclick\.baidu\.com.*/
+/^http:\/\/cpro\.baidustatic\.com\/.*/
+/^http:\/\/cpro\.baidu\.com\/.*/
+/^http:\/\/crs\.baidu\.com\/.*/
+/^http:\/\/cbjs\.baidu\.com\/js\/m\.js.*/
+/^http:\/\/cbjs\.baidu\.com\/js\/o\.js.*/
+/^http:\/\/.*\.allyes\.com\/.*/
+/^http:\/\/.*\.csbew\.com\/.*/
+/^http:\/\/.*\.yigao\.com\/.*/
+/^http:\/\/.*\.wrating\.com\/.*/
+/^http:\/\/.*\.knet\.cn\/.*/
+/^http:\/\/s\.360\.cn\/.*/
+/^http:\/\/s\.lianmeng\.360\.cn\/.*/
+/^http:\/\/.*\.cloudfront\.net\/atrk\.js.*/
+/^http:\/\/.*googletagservices\.com\/tag\/js\/gpt\.js.*/	$t=script	
+/^http:\/\/.*\.adk2\.co\/.*/
+/^http:\/\/.*\.vitalads\.net\/.*/
+/:\/\/([^\/]+\.)?51yes\.com/
+! 通用全局屏蔽
+/.*\/tuiguang\/.*/
+/.*\/ad\/.*/
+/.*\.com\/cs\/jsfile\/.*/
+/.*\.com\/s\?z=.*/
+/^http:\/\/ad\..*/
+/^http:\/\/.*\/gg\/.*/	$t=script|object|stylesheet
