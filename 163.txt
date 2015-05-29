@@ -33,4 +33,6 @@ blog.163.com###blog-163-com-toptips
 lofter.com##div[id*="regGuideLayer"]
 lofter.com##span[class="actinfo"]
 lofter.com##a[class^="btn"][class$="join"]
+lofter.com##.boprt11
+lofter.com###installIPadClient
 ||lofter.com/html/reglogin/regloginproxy.html
