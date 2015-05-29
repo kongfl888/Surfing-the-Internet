@@ -1,0 +1,35 @@
+﻿ [Adblock]
+!  Title: Adblock list for 163  
+!  Last Modified:  2015-05-27 6:30
+!  Coding: utf-8
+!  Expires: 1 days
+!  Homepage: https://github.com/kongfl888/Abplists
+!  Licence: https://github.com/kongfl888/Abplists/blob/master/COPYING
+!
+!--------------------------------------------------
+! 网易163
+163.com##div[id*="NodesWrap"]
+163.com##a[href*="bobo."]
+163.com##[class*="bobo"]
+163.com##a[href*="love.163.com"]
+163.com##div[id="blog-163-com-toptips"]
+163.com##div[class="blogtoptipswrap"]
+163.com##div[id="loftertextlinkad"]
+163.com##div[id*="yodaoad"]
+||163.com/newpage/images/lofterad/*$image
+! 网易163博客
+blog.163.com##a[href^="http://www.lofter.com/app?"]
+163.com##div[class^="m-regGuideLayer"]
+blog.163.com##.postadlayer
+blog.163.com##.m-fixedPCAd
+blog.163.com###topbar_randShowArea
+blog.163.com###loftertextlinkad
+blog.163.com###blog-163-com-toptips
+||126.net/newpage/images/lofterad/*
+||lofter.com/mailEntry.do?*ad=
+||lofter.com/mailEntry.do?blogad
+||126.net/newpage/images/lofterad/*
+!!Lofter博客
+lofter.com##span[class="actinfo"]
+lofter.com##a[class^="btn"][class$="join"]
+||lofter.com/html/reglogin/regloginproxy.html
