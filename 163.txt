@@ -1,9 +1,9 @@
 ﻿ [Adblock]
 !  Title: Adblock list for 163  
-!  Last Modified:  2015-05-27 6:30
+!  Last Modified:  2015-05-30 6:03
 !  Coding: utf-8
 !  Expires: 1 days
-!  Homepage: https://github.com/kongfl888/Abplists
+!  Homepage: http://kongfl888.lofter.com/post/1cacfad0_6fb9802
 !  Licence: https://github.com/kongfl888/Abplists/blob/master/COPYING
 !
 !--------------------------------------------------
@@ -30,6 +30,7 @@ blog.163.com###blog-163-com-toptips
 ||lofter.com/mailEntry.do?blogad
 ||126.net/newpage/images/lofterad/*
 !!Lofter博客
+lofter.com##div[id*="regGuideLayer"]
 lofter.com##span[class="actinfo"]
 lofter.com##a[class^="btn"][class$="join"]
 ||lofter.com/html/reglogin/regloginproxy.html
