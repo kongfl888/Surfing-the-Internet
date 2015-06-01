@@ -4,7 +4,7 @@
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: http://kongfl888.lofter.com/post/1cacfad0_6fb9802
-!  Licence: https://github.com/kongfl888/Abplists/blob/master/COPYING
+!  Licence: https://raw.githubusercontent.com/kongfl888/Abplists/master/COPYING
 !
 !--------------------------------------------------
 ! 网易163
