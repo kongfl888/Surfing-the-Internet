@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2015-05-29 23:30
+!  Last Modified:  2015-06-11 07:30
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888/Abplists
@@ -316,9 +316,9 @@ lofter.com###installIPadClient
 ||google-analytics.com^
 ||googleapis.com$third-party
 ||googleadservices.com/pagead/*$third-party
-! 谷歌api
+! 谷歌api等
 ||apis.google.com/js/*$third-party
-||google.com/images/poweredby_transparent/*
+||google.com^$third-party
 ! 谷歌自定义搜索
 ||google.com/cse/cse.js?*$third-party
 ! 移除facebook SDK
@@ -327,6 +327,7 @@ lofter.com###installIPadClient
 ||flattr.com^$third-party
 ! 推特分享
 ||platform.twitter.com^$third-party
+||api.twitter.com^$third-party
 !
 !
 !
