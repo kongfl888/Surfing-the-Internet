@@ -19,12 +19,11 @@
 ||jxad.jx163.com^
 ||113.17.188.44^$third-party
 ||202.102.100.100^$third-party
-!--联通
-||kdly.net^$third-party
 !--广东电信
 /js/utils51.js
 /js/utils78.js
-!广西网通广告
+!网通广告
+||kdly.net^$third-party
 !##div[id="floatAd"]
 !/admode.js
 !ad.gx10010.com/tb/*
