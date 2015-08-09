@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2015-06-27 22:17
+!  Last Modified:  2015-08-10 06:00
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888/Abplists
@@ -87,7 +87,9 @@ www.baidu.com##DIV[class="s-skin-activity-tips"]
 ||bdstatic.com/r/www/cache/static/global/js/ie6banner_*$script
 !加了下面一句之后，搜索建议就会消失，图片结构也不会显示，open.baidu.com的结果也不会显示，一下就回到了原始时代，首页登陆也会失败（必须先随便搜索个页面）
 !（新版chrome显示空白，搜索引擎要修改为http://www.baidu.com/s?ie={inputEncoding}&tn=baidu&bar=&wd=%s）
-||s1.bdstatic.com/*/jquery-1.10.2.min_*.js
+!||s1.bdstatic.com/*/jquery-1.10.2.min_*.js
+!移除度娘搜索右栏建议以及百小度
+||bdstatic.com/*/js/all_async_search_*.js
 http://www.baidu.com/ur/submit/urreward
 ||baidu.com/cache/fpid/o.swf
 ||pups.baidu.com/advert/js/advert.js
