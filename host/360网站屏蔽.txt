@@ -1,0 +1,12 @@
+#360-APK
+127.0.0.1 hot.m.shouji.360tpcdn.com
+#360-union
+127.0.0.1 s.lianmeng.360.cn
+127.0.0.1 stat.lianmeng.360.cn
+127.0.0.1 haostat.qihoo.com
+#360-Mob
+127.0.0.1 fd.shouji.360.cn
+127.0.0.1 feedback.m.360.cn
+127.0.0.1 msg.shouji.360.cn
+127.0.0.1 shouji.360.cn
+127.0.0.1 zhushou.360.cn

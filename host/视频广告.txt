@@ -1,0 +1,101 @@
+#Youku
+127.0.0.1 ad.api.3g.youku.com
+127.0.0.1 ad.atm.youku.com
+127.0.0.1 api.gamex.mobile.youku.com
+127.0.0.1 atm.youku.com
+127.0.0.1 n.miaozhen.atm.youku.com
+127.0.0.1 c.miaozhen.atm.youku.com
+127.0.0.1 cm.miaozhen.atm.youku.com
+127.0.0.1 count.atm.youku.com
+127.0.0.1 dl.m.youku.com
+127.0.0.1 e.stat.youku.com
+127.0.0.1 fvid.atm.youku.com
+127.0.0.1 html.atm.youku.com
+127.0.0.1 lstat.youku.com
+127.0.0.1 mf.atm.youku.com
+127.0.0.1 p-log.ykimg.com
+127.0.0.1 passport-log.youku.com
+127.0.0.1 push.m.youku.com
+127.0.0.1 rec.api.gamex.mobile.youku.com
+127.0.0.1 speed.lstat.youku.com
+127.0.0.1 stat.youku.com
+127.0.0.1 static.atm.youku.com
+127.0.0.1 static.lstat.youku.com
+127.0.0.1 td.atm.youku.com
+127.0.0.1 test.gamex.mobile.youku.com
+127.0.0.1 urchin.lstat.youku.com
+127.0.0.1 v2html.atm.youku.com
+127.0.0.1 valb.atm.youku.com
+127.0.0.1 valc.atm.youku.com
+127.0.0.1 valf.atm.youku.com
+127.0.0.1 valo.atm.youku.com
+127.0.0.1 valp.atm.youku.com
+127.0.0.1 vhtml.atm.youku.com
+127.0.0.1 vhtml.youku.com
+127.0.0.1 vid.atm.youku.com
+127.0.0.1 walp.atm.youku.com
+127.0.0.1 ykimg.com
+#Tudou
+127.0.0.1 union.tudou.com
+127.0.0.1 ad.api.3g.tudou.com
+127.0.0.1 adcontrol.tudou.com
+127.0.0.1 adextensioncontrol.tudou.com
+127.0.0.1 adplay.tudou.com
+127.0.0.1 erreport.tudou.com
+127.0.0.1 istat.tudou.com
+127.0.0.1 iwstat.tudou.com
+127.0.0.1 logs.live.tudou.com
+127.0.0.1 nstat.tudou.com
+127.0.0.1 pl.pb.ops.tudou.com
+127.0.0.1 player.pb.ops.tudou.com
+127.0.0.1 stat.tudou.com
+127.0.0.1 stats.tudou.com
+127.0.0.1 tdap.tudou.com
+127.0.0.1 tdcm.tudou.com
+127.0.0.1 tudouflv.dnion.com
+127.0.0.1 tvp.tudou.com
+127.0.0.1 wwwtest.tudou.com
+#优酷屏蔽设备列表
+#127.0.0.1 bms.xl.api.3g.cp31.ott.cibntv.net
+#letv
+127.0.0.1 ark.letv.com
+127.0.0.1 dc.letv.com
+127.0.0.1 dev.dc.letv.com
+127.0.0.1 rvs.letv.com
+127.0.0.1 n.mark.letv.com 
+127.0.0.1 revsci.net
+127.0.0.1 irs01.net
+#PPTV
+127.0.0.1 de.as.pptv.com
+#芒果TV
+127.0.0.1 bs.da.hunantv.com
+#sohu
+127.0.0.1 m.aty.sohu.com     
+127.0.0.1 agn.aty.sohu.com
+#Wasu
+127.0.0.1 acsystem.wasu.cn
+127.0.0.1 www.gridsum.com
+127.0.0.1 g.gridsum.com
+127.0.0.1 recv-wd.gridsumdissector.com
+127.0.0.1 static.gridsumdissector.com
+#QQ-Live
+127.0.0.1 video.mpush.qq.com
+127.0.0.1 aid.video.qq.com
+127.0.0.1 c.l.qq.com
+127.0.0.1 livep.l.qq.com
+127.0.0.1 lives.l.qq.com
+127.0.0.1 livew.l.qq.com
+127.0.0.1 news.l.qq.com
+127.0.0.1 p.l.qq.com
+127.0.0.1 t.l.qq.com
+127.0.0.1 rlog.video.qq.com
+127.0.0.1 la.gtimg.com
+127.0.0.1 pgdt.gtimg.cn
+#QQ weixin
+127.0.0.1 game.weixin.qq.com
+#iqiyi
+127.0.0.1 mall.qiyipic.com
+127.0.0.1 mall1.qiyipic.com
+127.0.0.1 msg.71.am
+127.0.0.1 msg.iqiyi.com
+127.0.0.1 msg.video.qiyi.com

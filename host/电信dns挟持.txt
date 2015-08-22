@@ -1,0 +1,6 @@
+#dns–Æ≥÷
+127.0.0.1 fuyangyk.com
+127.0.0.1 envseres.com
+127.0.0.1 cuiyiart.com
+127.0.0.1 xjcf168.com
+127.0.0.1 dnserror.cn
