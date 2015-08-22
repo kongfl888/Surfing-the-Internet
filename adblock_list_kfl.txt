@@ -43,6 +43,8 @@ dnserror.cn##H2
 ||cuiyiart.com^$third-party
 ||xjcf168.com^$third-party
 ||118.192.88.5^$third-party
+! 电信百度搜索挟持
+||115.28.132.182/hpuao.php
 !
 ! 爱漫网广告
 www.imanhua.com##div[id^="imh"]
