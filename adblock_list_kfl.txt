@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2015-08-22 08:30
+!  Last Modified:  2015-08-23 07:50
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888/Abplists
@@ -37,13 +37,13 @@ dnserror.cn##DIV[class="skeyword"]
 ||ctrip.com$domain=dnserror.cn
 dnserror.cn##DIV[class="error"]
 dnserror.cn##H2
-# dns劫持
-||fuyangyk.com^$third-party
-||envseres.com^$third-party
-||cuiyiart.com^$third-party
-||xjcf168.com^$third-party
-||118.192.88.5^$third-party
-! 电信百度搜索挟持
+# dns劫持（其实没什么用，就当是罪恶的见证）
+||fuyangyk.com^
+||envseres.com^
+||cuiyiart.com^
+||xjcf168.com^
+||118.192.88.5
+! 电信百度搜索劫持
 ||115.28.132.182/hpuao.php
 !
 ! 爱漫网广告
