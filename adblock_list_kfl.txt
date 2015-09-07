@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2015-08-23 07:50
+!  Last Modified:  2015-09-07 21:00
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888/Abplists
@@ -250,6 +250,8 @@ iqiyi.com###goosBtn
 */videos/other/*$~other,~image,~stylesheet,~font,domain=iqiyi.com
 ||iqiyi.com/apis/qiyirc/setrc.php
 ||mall*.qiyipic.com^
+!tv.sohu 搜狐视频
+tv.sohu.com##div[class*="pk-v2"]
 !
 !红豆
 ||user.hongdou.gxnews.com.cn/upload/index/$object_subrequest
