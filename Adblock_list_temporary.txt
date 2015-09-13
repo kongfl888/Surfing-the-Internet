@@ -1,0 +1,25 @@
+﻿ [Adblock]
+!  Title: Adblock_list_temporary  
+!  Last Modified:  2015-09-14 00:00
+!  Coding: utf-8
+!  Expires: 1 days
+!  Homepage: https://github.com/kongfl888/Abplists
+!  Licence: https://github.com/kongfl888/Abplists/blob/master/COPYING
+!
+!--------------------------------------------------
+
+! dns劫持（其实没什么用，就当是罪恶的见证）
+||fuyangyk.com^
+||envseres.com^
+||cuiyiart.com^
+||xjcf168.com^
+||118.192.88.5
+! 电信百度搜索劫持
+||115.28.132.182^
+||116.228.55.91^
+||120.27.48.156^
+||ipinkles.com
+!
+! 临时
+||js.tv.itc.cn/*/webpush*.js
+||push.my.tv.sohu.com^
