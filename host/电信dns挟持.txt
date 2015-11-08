@@ -3,4 +3,8 @@
 127.0.0.1 envseres.com
 127.0.0.1 cuiyiart.com
 127.0.0.1 xjcf168.com
+127.0.0.1 www.fuyangyk.com
+127.0.0.1 www.envseres.com
+127.0.0.1 www.cuiyiart.com
+127.0.0.1 www.xjcf168.com
 127.0.0.1 dnserror.cn
