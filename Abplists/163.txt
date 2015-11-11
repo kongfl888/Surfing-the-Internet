@@ -1,10 +1,10 @@
 ﻿ [Adblock]
 !  Title: Adblock list for 163  
-!  Last Modified:  2015-08-21 07:20
+!  Last Modified:  2015-11-12 00:00
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: http://kongfl888.lofter.com/post/1cacfad0_6fb9802
-!  Licence: https://raw.githubusercontent.com/kongfl888/Abplists/master/COPYING
+!  Licence: https://raw.githubusercontent.com/kongfl888/Surfing-the-Internet/master/COPYING
 !
 !--------------------------------------------------
 ! 网易163
