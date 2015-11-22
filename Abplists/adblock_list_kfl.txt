@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2015-11-12 00:00
+!  Last Modified:  2015-11-22 11:00
 !  Coding: utf-8
 !  Expires: 2 days
 !  Homepage: https://github.com/kongfl888/Surfing-the-Internet/tree/master/Abplists
@@ -323,6 +323,7 @@ lofter.com###installIPadClient
 ###jobads
 ##div[id*=ShowAD]
 ##a[href^="javascript:window.external.AddFavorite("]
+/adg.js
 !
 ! 去除cnzz网站统计
 ||cnzz.com$third-party
