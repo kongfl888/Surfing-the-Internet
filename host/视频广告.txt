@@ -1,3 +1,111 @@
+#56
+127.0.0.1 acs.56.com
+127.0.0.1 stat.v-56.com
+127.0.0.1 msg.ua.56.com
+127.0.0.1 acs.stat.v-56.com
+127.0.0.1 mad.stat.v-56.com
+127.0.0.1 so.stat.v-56.com
+127.0.0.1 stat2.corp.v-56.com
+127.0.0.1 stat2.stat.v-56.com
+127.0.0.1 stat3.corp.v-56.com
+127.0.0.1 stat3.stat.v-56.com
+127.0.0.1 stat4.stat.v-56.com
+127.0.0.1 t4u.stat.v-56.com
+#CNTV
+127.0.0.1 terren.cntv.cn
+127.0.0.1 a.cctv
+127.0.0.1 a.cntv.cn
+127.0.0.1 ad.cctv
+127.0.0.1 d.cntv.cn
+127.0.0.1 log.vdn.apps.cntv.cn
+127.0.0.1 adguanggao.eee114
+127.0.0.1 cctv.adsunion
+127.0.0.1 js.bmgad
+127.0.0.1 med.soodao
+#Ku6
+127.0.0.1 analytics.ku6.com
+127.0.0.1 pq.stat.ku6.com
+127.0.0.1 st.vq.ku6.cn
+127.0.0.1 v0.stat.ku6.com
+127.0.0.1 v1.stat.ku6.com
+127.0.0.1 v2.stat.ku6.com
+127.0.0.1 v3.stat.ku6.com
+127.0.0.1 v4.stat.ku6.com
+127.0.0.1 v5.stat.ku6.com
+127.0.0.1 v6.stat.ku6.com
+127.0.0.1 stat0.888.ku6.com
+127.0.0.1 stat1.888.ku6.com
+127.0.0.1 stat2.888.ku6.com
+127.0.0.1 stat3.888.ku6.com
+#Letv乐视
+127.0.0.1 ark.letv.com
+127.0.0.1 g.q4ik
+127.0.0.1 fz.letv.com
+127.0.0.1 dc.letv.com
+127.0.0.1 plog.dc.letv.com
+127.0.0.1 dev.dc.letv.com
+127.0.0.1 pro.letv.com
+127.0.0.1 pro.hoye.letv.com
+127.0.0.1 stat.letv.com
+#PPTV
+127.0.0.1 asimgs.pplive.cn
+127.0.0.1 ads.data.pplive
+127.0.0.1 afp.pplive.com
+127.0.0.1 afv.pplive.com
+127.0.0.1 caipiao.pplive.com
+127.0.0.1 dh.pplive.com
+127.0.0.1 g.pplive.com
+127.0.0.1 ins-stat.pplive.com
+127.0.0.1 ins-version.pplive.com
+127.0.0.1 ins.pplive.com
+127.0.0.1 live.v2.pplive.com
+127.0.0.1 pp1.pplive.com
+127.0.0.1 pp2.as.pplive.cn
+127.0.0.1 up.pplive.com
+127.0.0.1 as.aplus.pptv.com
+127.0.0.1 de.as.pptv.com
+127.0.0.1 dl4.vas.pptv.com
+127.0.0.1 g.pptv.com
+127.0.0.1 ga.pptv.com
+127.0.0.1 iafp.pptv.com
+127.0.0.1 jp.as.pptv.com
+127.0.0.1 pp2.pptv.com
+127.0.0.1 ppsj.pptv.com
+127.0.0.1 static.g.pptv.com
+127.0.0.1 tips.passport.pptv.com
+127.0.0.1 tj.g.pptv.com
+127.0.0.1 vas.aplus.pptv.com
+127.0.0.1 wafp.pptv.com
+127.0.0.1 way.pptv.com
+127.0.0.1 wstat.pptv.com
+127.0.0.1 zt.pptv.com
+127.0.0.1 h.g1d.net
+127.0.0.1 p.g1d.net
+127.0.0.1 ppva.g1d.net
+127.0.0.1 video-va.g1d.net
+#SohuTV
+127.0.0.1 agn.aty.sohu.com
+127.0.0.1 aty.tv.sohu.com
+127.0.0.1 atyt.tv.sohu.com
+127.0.0.1 click2.hd.sohu.com
+127.0.0.1 count.vrs.sohu.com
+127.0.0.1 ctr.hd.sohu.com
+127.0.0.1 dev.app.yule.sohu.com
+127.0.0.1 game.m.sohu.com
+127.0.0.1 m.aty.sohu.com
+127.0.0.1 mmg.aty.sohu.com
+127.0.0.1 p.aty.sohu.com
+127.0.0.1 pb.hd.sohu.com
+127.0.0.1 pg.aty.sohu.com
+127.0.0.1 pv.hd.sohu.com
+127.0.0.1 stat.m.tv.sohu.com
+127.0.0.1 upgrade.m.tv.sohu.com
+127.0.0.1 v.aty.sohu.com
+127.0.0.1 vg.aty.sohu.com
+127.0.0.1 vm.aty.sohu.com
+127.0.0.1 click.hd.sohu.cn
+127.0.0.1 mb.hd.sohu.cn
+127.0.0.1 pb.hd.sohu.cn
 #Youku
 127.0.0.1 ad.api.3g.youku.com
 127.0.0.1 ad.atm.youku.com
@@ -13,6 +121,9 @@
 127.0.0.1 html.atm.youku.com
 127.0.0.1 lstat.youku.com
 127.0.0.1 mf.atm.youku.com
+127.0.0.1 mi.atm.youku.com
+127.0.0.1 mp.atm.youku.com
+127.0.0.1 n.miaozhen.atm.youku.com
 127.0.0.1 p-log.ykimg.com
 127.0.0.1 passport-log.youku.com
 127.0.0.1 push.m.youku.com
@@ -35,6 +146,7 @@
 127.0.0.1 vid.atm.youku.com
 127.0.0.1 walp.atm.youku.com
 127.0.0.1 ykimg.com
+127.0.0.1 yj.youku.com
 #Tudou
 127.0.0.1 union.tudou.com
 127.0.0.1 ad.api.3g.tudou.com
@@ -54,6 +166,7 @@
 127.0.0.1 tdcm.tudou.com
 127.0.0.1 tudouflv.dnion.com
 127.0.0.1 tvp.tudou.com
+127.0.0.1 union.tudou.com
 127.0.0.1 wwwtest.tudou.com
 #优酷屏蔽设备列表
 #127.0.0.1 bms.xl.api.3g.cp31.ott.cibntv.net
@@ -65,13 +178,21 @@
 127.0.0.1 n.mark.letv.com 
 127.0.0.1 revsci.net
 127.0.0.1 irs01.net
-#PPTV
-127.0.0.1 de.as.pptv.com
 #芒果TV
 127.0.0.1 bs.da.hunantv.com
-#sohu
-127.0.0.1 m.aty.sohu.com     
-127.0.0.1 agn.aty.sohu.com
+127.0.0.1 click.hunantv.com
+127.0.0.1 corp.hunantv.com
+127.0.0.1 flv.res.hunantv.com
+127.0.0.1 log.hunantv.com
+127.0.0.1 log.v2.hunantv.com
+127.0.0.1 mobile.log.hunantv.com
+127.0.0.1 x.da.hunantv.com
+127.0.0.1 stat.titan.imgo.tv
+127.0.0.1 click.hifly.tv
+127.0.0.1 hunantv.m.cn.miaozhen
+127.0.0.1 recv-vd.gridsumdissector.cn
+127.0.0.1 recv-vd.gridsumdissector
+127.0.0.1 geo.gridsumdissector
 #Wasu
 127.0.0.1 acsystem.wasu.cn
 127.0.0.1 www.gridsum.com
