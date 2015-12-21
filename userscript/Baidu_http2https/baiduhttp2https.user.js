@@ -6,17 +6,22 @@
 // @include     http://baidu.com/*
 // @updateURL   https://github.com/kongfl888/Surfing-the-Internet/raw/master/userscript/Baidu_http2https/baiduhttp2https.meta.js
 // @downloadURL https://github.com/kongfl888/Surfing-the-Internet/raw/master/userscript/Baidu_http2https/baiduhttp2https.user.js
-// @version     1.0
+// @version     1.1
 // @author      kongfl888
 // @grant       none
 // ==/UserScript==
+var url = location.href;
 //alert(location.href);
-$(function(){
-//alert(location.href);
-  if(location.protocol == 'http:'){
-    var url=location.href;
+$(function () {
+  if (location.protocol == 'http:') {
     url = url.replace(/^http:/, 'https:');
     url = url.replace(/\&tn=\w+/, '');
     location.replace(url);
+  } else if (location.protocol == 'https:') {
+    if (url.match(/\&tn=\w+hao_pg/) != null)
+    {
+      url = url.replace(/\&tn=\w+/, '');
+      location.replace(url);
+    }
   }
 });
