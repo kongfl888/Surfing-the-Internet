@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>m百度(HTTPS)</ShortName>
+    <Description>百度网页搜索(HTTPS)-移动版</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAABILAAASCwAAEAAAABAAAAC7YCsAqEoUALBaKAC7YCsAvHBEAMN+VwDCgFoAyYxoANSfggDZqpAA3rijAOW+qADmyLYA8djJAPbk2wD89/QAEzAEBAIyIiE93e3d3d3d0z7bRUVUEo3TPeMd3d3RHeM+4R4e4eEc4w7nH+/x4Y7jTu5xHxEZ3uMP7NkREZYX4z9BL5IZ4RHzPxEd7//0FPI/cU1t5m7P8z/99BLBF//yP//zEuEW//Q///oa/G7/8j/////////yAzMzMzMzMzEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Image>
+    <moz:SearchForm>https://m.baidu.com/</moz:SearchForm>
+    <Url type="text/html" method="GET" template="https://m.baidu.com/s">
+        <Param name="word" value="{searchTerms}"/>
+    </Url>
+    <Url type="application/x-suggestions+json" method="GET" template="https://m.baidu.com/su">
+        <Param name="wd" value="{searchTerms}"/>
+        <Param name="action" value="opensearch"/>
+        <Param name="ie" value="UTF-8"/>
+        <Param name="from" value="iphone"/>
+    </Url>
+</OpenSearchDescription>
