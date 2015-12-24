@@ -13,15 +13,16 @@
 127.0.0.1 t4u.stat.v-56.com
 #CNTV
 127.0.0.1 terren.cntv.cn
-127.0.0.1 a.cctv
+127.0.0.1 a.cctv.com
 127.0.0.1 a.cntv.cn
-127.0.0.1 ad.cctv
+127.0.0.1 ad.cctv.com
 127.0.0.1 d.cntv.cn
 127.0.0.1 log.vdn.apps.cntv.cn
-127.0.0.1 adguanggao.eee114
-127.0.0.1 cctv.adsunion
-127.0.0.1 js.bmgad
-127.0.0.1 med.soodao
+127.0.0.1 adguanggao.eee114.com
+127.0.0.1 cctv.adsunion.com
+127.0.0.1 js.bmgad.com
+127.0.0.1 med.soodao.com
+127.0.0.1 cntv.wrating.com
 #Ku6
 127.0.0.1 analytics.ku6.com
 127.0.0.1 pq.stat.ku6.com
@@ -114,6 +115,7 @@
 127.0.0.1 n.miaozhen.atm.youku.com
 127.0.0.1 c.miaozhen.atm.youku.com
 127.0.0.1 cm.miaozhen.atm.youku.com
+127.0.0.1 n.miaozhen.atm.youku.com
 127.0.0.1 count.atm.youku.com
 127.0.0.1 dl.m.youku.com
 127.0.0.1 e.stat.youku.com
@@ -123,17 +125,16 @@
 127.0.0.1 mf.atm.youku.com
 127.0.0.1 mi.atm.youku.com
 127.0.0.1 mp.atm.youku.com
-127.0.0.1 n.miaozhen.atm.youku.com
 127.0.0.1 p-log.ykimg.com
 127.0.0.1 passport-log.youku.com
 127.0.0.1 push.m.youku.com
-127.0.0.1 rec.api.gamex.mobile.youku.com
 127.0.0.1 speed.lstat.youku.com
 127.0.0.1 stat.youku.com
 127.0.0.1 static.atm.youku.com
 127.0.0.1 static.lstat.youku.com
 127.0.0.1 td.atm.youku.com
 127.0.0.1 test.gamex.mobile.youku.com
+127.0.0.1 rec.api.gamex.mobile.youku.com
 127.0.0.1 urchin.lstat.youku.com
 127.0.0.1 v2html.atm.youku.com
 127.0.0.1 valb.atm.youku.com
@@ -146,9 +147,16 @@
 127.0.0.1 vid.atm.youku.com
 127.0.0.1 walp.atm.youku.com
 127.0.0.1 ykimg.com
-127.0.0.1 yj.youku.com
+127.0.0.1 ads.youku.com
+127.0.0.1 dl.m.youku.com
+127.0.0.1 p.l.youku.com
+#127.0.0.1 r.l.youku.com
+#127.0.0.1 v.l.youku.com
+127.0.0.1 notify.youku.com
+127.0.0.1 hz.youku.com
+#127.0.0.1 irs01.com
+127.0.0.1 comments.youku.com
 #Tudou
-127.0.0.1 union.tudou.com
 127.0.0.1 ad.api.3g.tudou.com
 127.0.0.1 adcontrol.tudou.com
 127.0.0.1 adextensioncontrol.tudou.com
@@ -164,12 +172,25 @@
 127.0.0.1 stats.tudou.com
 127.0.0.1 tdap.tudou.com
 127.0.0.1 tdcm.tudou.com
+127.0.0.1 tracker.live.tudou.com
 127.0.0.1 tudouflv.dnion.com
 127.0.0.1 tvp.tudou.com
 127.0.0.1 union.tudou.com
 127.0.0.1 wwwtest.tudou.com
 #优酷屏蔽设备列表
 #127.0.0.1 bms.xl.api.3g.cp31.ott.cibntv.net
+#cibn
+#127.0.0.1 atm.cp31.ott.cibntv.net
+127.0.0.1 val.atm.cp31.ott.cibntv.net
+127.0.0.1 valb.atm.cp31.ott.cibntv.net
+127.0.0.1 valc.atm.cp31.ott.cibntv.net
+127.0.0.1 valf.atm.cp31.ott.cibntv.net
+127.0.0.1 valo.atm.cp31.ott.cibntv.net
+127.0.0.1 valp.atm.cp31.ott.cibntv.net
+127.0.0.1 vhtml.atm.cp31.ott.cibntv.net
+127.0.0.1 vhtml.cp31.ott.cibntv.net
+127.0.0.1 vid.atm.cp31.ott.cibntv.net
+127.0.0.1 walp.atm.cp31.ott.cibntv.net
 #letv
 127.0.0.1 ark.letv.com
 127.0.0.1 dc.letv.com
@@ -238,3 +259,7 @@
 127.0.0.1 store.iqiyi.com
 127.0.0.1 mall.qiyipic.com
 127.0.0.1 mall1.qiyipic.com
+#union
+127.0.0.1 trjoy.dnion.com
+127.0.0.1 i1.dnion.com
+127.0.0.1 alog.umeng.com
