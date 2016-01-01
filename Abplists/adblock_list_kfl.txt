@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2016-1-1 10:40
+!  Last Modified:  2016-1-2 00:40
 !  Coding: utf-8
 !  Expires: 2 days
 !  Homepage: https://github.com/kongfl888/Surfing-the-Internet/tree/master/Abplists
@@ -84,6 +84,7 @@ www.baidu.com##A[href^="http://w.x.baidu.com/go/"]
 www.baidu.com##A[class="sam_iebrowser_download"]
 www.baidu.com##i[class="c-icon sam_baiduapp_logo"]
 www.baidu.com##DIV[class="s-skin-activity-tips"]
+baidu.com##div[class*="xpath-log"]
 ||bdstatic.com/r/www/cache/static/global/js/ie6banner_*$script
 !加了下面一句之后，搜索建议就会消失，图片结构也不会显示，open.baidu.com的结果也不会显示，一下就回到了原始时代，首页登陆也会失败（必须先随便搜索个页面）
 !（新版chrome显示空白，搜索引擎要修改为https://www.baidu.com/s?ie={inputEncoding}&tn=baidu&bar=&wd=%s）
