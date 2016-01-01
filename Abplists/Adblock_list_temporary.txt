@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_temporary  
-!  Last Modified:  2015-11-12 00:00
+!  Last Modified:  2016-1-1 10:00
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888/Surfing-the-Internet/tree/master/Abplists
@@ -24,3 +24,9 @@
 ! 临时
 ||js.tv.itc.cn/*/webpush*.js
 ||push.my.tv.sohu.com^
+
+!百度搜索（不计后果霸道的屏蔽规则）
+||baidu.com/cache/aladdin/ui/scrollbarv/scrollbarv.js?*
+||baidu.com/*/c.gif
+||bdstatic.com/*/baiduia/baiduia_*.js
+||bdstatic.com/*/baiduia/JSocket*
