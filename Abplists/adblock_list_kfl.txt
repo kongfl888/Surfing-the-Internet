@@ -96,6 +96,8 @@ www.baidu.com##DIV[class="s-skin-activity-tips"]
 ||bdstatic.com/*/sug/js/bdsug_async_*.js
 !搜索右栏
 baidu.com###content_right
+!搜索建议
+baidu.com##div[class*="c-recommend"]
 http://www.baidu.com/ur/submit/urreward
 ||baidu.com/cache/fpid/o.swf
 ||pups.baidu.com/advert/js/advert.js
