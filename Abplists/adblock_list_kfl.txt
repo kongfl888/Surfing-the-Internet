@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2016-1-1 10:40
+!  Last Modified:  2016-1-4 15:00
 !  Coding: utf-8
 !  Expires: 2 days
 !  Homepage: https://github.com/kongfl888/Surfing-the-Internet/tree/master/Abplists
@@ -105,6 +105,8 @@ http://www.baidu.com/ur/submit/urreward
 ||bdstatic.com/*/nu_instant_search_*.js
 ||baidu.com/*/chromelib_*.js
 ||sclick.baidu.com
+!!移除邪恶的白板
+baidu.com##div[class*="result-op xpath-log"][style*="position: fixed; left: 0px; background: rgb(255, 255, 255)"]
 ! 百度贴吧
 tieba.baidu.com##DIV[id^="game_"]
 tieba.baidu.com##DIV[class^="game_"]
