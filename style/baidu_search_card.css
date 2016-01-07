@@ -12,12 +12,13 @@
 
   /*背景色*/
   body,#wrapper,#head{
-    background-color: rgb(199,237,204)!important;/*豆绿色#cce8cf*/
+    background-color: #C7EDCC!important;/*豆绿色#cce8cf*/
     border-bottom: none;}
   /*背景图*/
   div#wrapper_wrapper{    
     /*需要图片可自行设置*/
-    /*background-image: url("http://e.picphotos.baidu.com/album/w%3D1458%3Bq%3D90/sign=c9ccb514900a304e5222a4fee4f09cf7/63d0f703918fa0ec3c29a51d219759ee3d6ddb30.jpg");*/
+
+    /*[[nHaveImg]]*/
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size:cover;
@@ -41,18 +42,18 @@
     box-shadow: 0 0px 0px 2px transparent, 0 1px 5px 0px rgba(0,0,0,0.7);
   }
   
-  /*奇数行美化*/
+  /*奇数行*/
   div#content_left>:nth-child(2n+1){padding:8px 10px!important;margin-top: 3px!important;
-    background-color: transparent!important;
+    background:rgba(255,255,255,0.5)!important;
     -webkit-border-radius:5px;
     -moz-transform: translate(0px, -3px);
 	  -webkit-transform: translate(0px, -3px);
 		-moz-transition: all 0.3s;
 		box-shadow: 0 0px 0px 3px transparent, 0 3px 12px 0px rgba(0,0,0,0.7);
   }
-  /*偶数行美化*/
+  /*偶数行*/
   div#content_left>:nth-child(2n+2){padding:8px 10px!important;margin-top: 2px!important;
-    background-color: transparent!important;
+    background:rgba(255,255,255,0.5)!important;
     -webkit-border-radius:5px;
     -moz-transform: translate(0px, -2px);
 	  -webkit-transform: translate(0px, -2px);
@@ -62,15 +63,14 @@
  
   /*相关搜索 下一页 底部*/
   #rs,div#page, div.fk, div.pc,#foot,#help{background-color: transparent!important;border: none;}
-  
-  /*搜索结果表格美化*/
-  div.c-border, div.op_best_answer_content, td.plf, td.op_wiseapp_f{width:auto!important;} table.result, table.result-op{width:100%!important;} td.f, td.op_wiseapp_f{padding:8px 10px!important;} table.subLink_factory_right{width:50%!important;}
 
   /*搜索结果文字*/
-  h3.t{font-family: 方正兰亭黑,微软雅黑 !important;font-size:18px!important;font-weight:bold!important;border-bottom: thin solid #ccc;padding-bottom: 1px!important;} div.c-span18, div.c-span21, div.c-abstract, p.f13, div.f13, div.c-offset, span.c-showurl, div.c-gap-top-small, div.c-offset td.c-default{font-size:16px!important;}
+  h3.t{font-family: 微软雅黑,Arial !important;font-size:18pt!important; font-weight:bold!important;border-bottom: thin solid #ccc;padding-bottom: 1px!important;} div.c-span18, div.c-span21, div.c-abstract, p.f13, div.f13, div.c-offset, span.c-showurl, div.c-gap-top-small, div.c-offset td.c-default{font-size:16pt!important;}
   h3.t>a{
-   color: blueviolet;
+   color: #8A2BE2;
   }
+  /*========================================*/
+  /*@kongfl888: 2016-01-07 改全透为半透（或自定义透）*/
   /*@kongfl888: 2016-01-02 替换为卡片式阴影*/
   /*License:GPL2.0*/
 }
