@@ -62,7 +62,12 @@
   }
  
   /*相关搜索 下一页 底部*/
-  #rs,div#page, div.fk, div.pc,#foot,#help{background-color: transparent!important;border: none;}
+  div#page, div.fk, div.pc,#foot,#help{background-color: transparent!important;border: none;}
+  #rs,#page a{background:rgba(255,255,255,0.5)!important;}
+  #page strong{background:rgba(255,255,255,0.7)!important;}
+  #page .n,#page .pc{border:1px solid transparent;}
+
+  /*搜索结果表格*/div.c-border, div.op_best_answer_content, td.plf, td.op_wiseapp_f{width:auto!important;} table.result, table.result-op{width:100%!important;} td.f, td.op_wiseapp_f{padding:8px 10px!important;} table.subLink_factory_right{width:50%!important;}
 
   /*搜索结果文字*/
   h3.t{font-family: 微软雅黑,Arial !important;font-size:18pt!important; font-weight:bold!important;border-bottom: thin solid #ccc;padding-bottom: 1px!important;} div.c-span18, div.c-span21, div.c-abstract, p.f13, div.f13, div.c-offset, span.c-showurl, div.c-gap-top-small, div.c-offset td.c-default{font-size:16pt!important;}
