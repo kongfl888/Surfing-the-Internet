@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2016-1-4 15:00
+!  Last Modified:  2016-1-·1 22:40
 !  Coding: utf-8
 !  Expires: 2 days
 !  Homepage: https://github.com/kongfl888/Surfing-the-Internet/tree/master/Abplists
@@ -408,6 +408,8 @@ fc2tw.com##body
 ##img[src$="960-90.gif"]
 /bbs/*/tu/960-90.
 /bbs/*/tu/xy.jpg
+!P1屏蔽是网页背景图
+||p*.qhimg.com/d/inn/*/bg.png
 !
 !白名单
 @@|https://fireeye.ijinshan.com/|$document
