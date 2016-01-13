@@ -8,7 +8,7 @@
   div.c-span18:not(.op-movievideo-right){width:auto!important;float:none!important;}
 
   /*对日历针对性处理*/div.op-calendar-new-box,div.op-calendar-new-holidaytip{width: 700px;}
-  /*对百度图片结果特殊处理*/#ala_img_results{min-height: 200px!important;}
+  /*对百度图片结果特殊处理*/#ala_img_results{min-height: 180px!important;}
   /*右栏隐藏*/div#content_right, div#content_left>br{display:none!important;}
 
   /*背景色*/
