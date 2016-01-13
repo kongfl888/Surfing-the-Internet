@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2016-1-12 22:40
+!  Last Modified:  2016-1-13 22:40
 !  Coding: utf-8
 !  Expires: 2 days
 !  Homepage: https://github.com/kongfl888/Surfing-the-Internet/tree/master/Abplists
@@ -241,6 +241,13 @@ finance.gucheng.com##div[class="piclist"]
 finance.gucheng.com##div[class="n_s_r"]
 ||s.lianmeng.360.cn/media/news/union_mt_*.js$third-party
 ||800tu.com^$third-party
+!其他新闻屏蔽
+zdface.com###show_zw_r
+news.youth.cn##.main_r
+qianyan001.com##div[class*="cnpic"]
+news.cri.cn##.sidebar
+cri.cn##div[class*="section-con"]
+cri.cn##div[class*="ad-main"]
 !皇冠网fengsha
 !/^.*hg(\d)+.*$/
 ##a[href^="http://"][href*="hg"]$domain=~baidu.com|~sina.com|~weibo.com|~weibo.cn|~so.com|~163.com|~github.com|~ifeng.com|~youku.com|~tudou.com|~letv.com|~iqiyi.com|~qq.com|~pptv.com|~xunlei.com|~kankan.com|~360.cn|~bdstatic.com|~taobao.com|~tmall.com|~alipay.com
