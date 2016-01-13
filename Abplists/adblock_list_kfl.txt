@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2016-1-·1 22:40
+!  Last Modified:  2016-1-12 22:40
 !  Coding: utf-8
 !  Expires: 2 days
 !  Homepage: https://github.com/kongfl888/Surfing-the-Internet/tree/master/Abplists
