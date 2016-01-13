@@ -8,6 +8,7 @@
   div.c-span18:not(.op-movievideo-right){width:auto!important;float:none!important;}
 
   /*对日历针对性处理*/div.op-calendar-new-box,div.op-calendar-new-holidaytip{width: 700px;}
+  /*对百度图片结果特殊处理*/#ala_img_results{min-height: 200px!important;}
   /*右栏隐藏*/div#content_right, div#content_left>br{display:none!important;}
 
   /*背景色*/
@@ -17,7 +18,7 @@
   /*背景图*/
   div#wrapper_wrapper{
     /*需要图片可自行设置*/
-
+    
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size:cover;
@@ -86,6 +87,7 @@
    color: #8A2BE2;
   }
   /*========================================*/
+  /*@kongfl888: 2016-01-13 修正部分百度图片错位的现象*
   /*@kongfl888: 2016-01-08 移除对百度首页的设置*/
   /*@kongfl888: 2016-01-07 改全透为半透（或自定义透）*/
   /*@kongfl888: 2016-01-02 替换为卡片式阴影*/
