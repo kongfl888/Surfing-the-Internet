@@ -1,0 +1,5 @@
+<ttp_lrcsvr query_url="http://tffans.duapp.com/ttlyrics/api/svrlist/">
+    <server name="TFFans 增强服务器" url="http://tffans.duapp.com/ttlyrics/api/lrc/" />
+    <server name="TTPlayer 电信服务器" url="http://ttlrcct2.qianqian.com/dll/lyricsvr.dll" />
+    <extra title="点击此处访问项目主页" url="http://tffans.duapp.com/app/web/ttplayer/" />
+</ttp_lrcsvr>
