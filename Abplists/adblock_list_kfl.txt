@@ -401,6 +401,7 @@ fc2live.us##body
 chenghuavideo.asia##body
 fc2cn.com##body
 fc2tw.com##body
+##a[href*="union.ctfile.com"]$third-party
 ! 临时
 ##img[width="1000" height="60" src$=".gif"]
 ##img[width="985" height="60" src$=".gif"]
