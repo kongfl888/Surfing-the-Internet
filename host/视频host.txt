@@ -1,0 +1,18 @@
+﻿#molitv
+127.0.0.1 ad.molitv.cn
+#影视快搜
+127.0.0.1 update.tvapk.com
+127.0.0.1 img.znds.com
+127.0.0.1 app.znds.com
+#CIBN
+#127.0.0.1 s.logger.ott.cibntv.net
+#127.0.0.1 s.tms.ott.cibntv.net
+#taobao ad
+127.0.0.1 apoll.m.taobao.com
+127.0.0.1 amdc.m.taobao.com
+127.0.0.1 hao23456.taobao.com
+127.0.0.1 lovesix.taobao.com
+#GAME
+127.0.0.1 j.doudao.cn
+127.0.0.1 s.gdatacube.net
+127.0.0.1 cf.gdatacube.net
