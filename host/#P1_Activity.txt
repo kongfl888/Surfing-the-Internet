@@ -1,0 +1,150 @@
+#荣耀盒子更新检测
+127.0.0.1 query.pthw.gitv.tv
+127.0.0.1 pthw.gitv.tv
+127.0.0.1 beckham.pthvcdn.gitv.tv
+#封小朋友
+#127.0.0.1 m.so.com
+#127.0.0.1 m.baidu.com
+#127.0.0.1 m.sogou.com
+#127.0.0.1 p.gdown.baidu.com
+#union
+127.0.0.1 trjoy.dnion.com
+127.0.0.1 i1.dnion.com
+127.0.0.1 alog.umeng.com
+127.0.0.1 alog.umeng.co
+127.0.0.1 alog.umengcloud.com
+127.0.0.1 au.umeng.com
+127.0.0.1 vqq.admaster.com.cn
+127.0.0.1 secure-chn.imrworldwide.com
+#qq
+127.0.0.1 pgdt.gtimg.cn
+#百度网盘主动host
+#180.149.145.241 pan.baidu.com
+#58.217.200.64 pcs.baidu.com
+#molitv
+127.0.0.1 ad.molitv.cn
+127.0.0.1 td.mpush.cn
+127.0.0.1 log.tv.moliv.cn
+127.0.0.1 log1.molitv.cn
+#影视快搜
+127.0.0.1 update.tvapk.com
+127.0.0.1 img.znds.com
+127.0.0.1 app.znds.com
+#CIBN
+#127.0.0.1 s.logger.ott.cibntv.net
+#127.0.0.1 s.tms.ott.cibntv.net
+#taobao ad
+127.0.0.1 apoll.m.taobao.com
+127.0.0.1 amdc.m.taobao.com
+127.0.0.1 hao23456.taobao.com
+127.0.0.1 lovesix.taobao.com
+#GAME
+127.0.0.1 j.doudao.cn
+127.0.0.1 s.gdatacube.net
+127.0.0.1 cf.gdatacube.net
+#toqic taijie Start
+127.0.0.1 cdn.ad.video.51togic.com
+127.0.0.1 customstat.video.51togic.com
+#toqic taijie End
+# QQ TV Start
+127.0.0.1 tracking.ad-survey.com
+127.0.0.1 btrace.qq.com
+127.0.0.1 bla.gtimg.com
+#↓important
+127.0.0.1 lives.l.ott.video.qq.com
+#↑important
+127.0.0.1 sv-video.play.ott.video.qq.com
+127.0.0.1 imc.l.ott.video.qq.com
+127.0.0.1 livep.l.ott.video.qq.com
+127.0.0.1 mcgi.play.ott.video.qq.com
+127.0.0.1 vv.play.ott.video.qq.com
+127.0.0.1 p.tencentmind.com
+127.0.0.1 vmindhls.tc.qq.com
+# QQ TV End
+# CIBN VST Start
+127.0.0.1 lives.l.cp81.ott.cibntv.net
+127.0.0.1 imc.l.cp81.ott.cibntv.net
+127.0.0.1 sv-video.play.cp81.ott.cibntv.net
+#↓test
+127.0.0.1 api.cp33.ott.cibntv.net
+127.0.0.1 up.cp33.ott.cibntv.net
+#↑test
+# CIBN VST End
+#miaozhen Start
+127.0.0.1 sd.cn.miaozhen.com
+127.0.0.1 g.dtv.cn.miaozhen.com
+#miaozhen End
+#atianqi Start
+127.0.0.1 vv.play.aiseet.atianqi.com
+127.0.0.1 ip.aiseejapp.atianqi.com
+127.0.0.1 api.eyeprotect.aiseejapp.atianqi.com
+127.0.0.1 tv.aiseet.atianqi.com
+#atianqi End
+# xiaomi Start
+127.0.0.1 api.ad.xiaomi.com
+127.0.0.1 upgrade.mishop.pandora.xiaomi.com
+# xiaomi End
+#youku
+127.0.0.1 ad.api.3g.youku.com
+127.0.0.1 statis.api.3g.youku.com
+127.0.0.1 static.atm.youku.com
+127.0.0.1 static.lstat.youku.com
+127.0.0.1 ad.atm.youku.com
+127.0.0.1 api.gamex.mobile.youku.com
+127.0.0.1 val.atm.youku.com
+127.0.0.1 valb.atm.youku.com
+127.0.0.1 valc.atm.youku.com
+127.0.0.1 valf.atm.youku.com
+127.0.0.1 valo.atm.youku.com
+127.0.0.1 valp.atm.youku.com
+127.0.0.1 tv.api.3g.youku.com
+#127.0.0.1 xl.api.3g.youku.com
+127.0.0.1 yus.navi.youku.com
+127.0.0.1 r.l.youku.com
+127.0.0.1 irs01.com
+127.0.0.1 stats.tudou.com
+127.0.0.1 adash.m.taobao.com
+127.0.0.1 val.atm.cp31.ott.cibntv
+127.0.0.1 valf.atm.cp31.ott.cibntv
+127.0.0.1 p.cp31.ott.cibntv.net
+127.0.0.1 desktop.cp31.ott.cibntv.net
+127.0.0.1 v.admaster.com.cn
+127.0.0.1 vyk.admaster.com.cn
+127.0.0.1 store.tv.api.3g.youku.com
+#127.0.0.1 pl.youku.com
+127.0.0.1 store.xl.api.3g.youku.com
+#优酷屏蔽设备列表
+127.0.0.1 bms.xl.api.3g.cp31.ott.cibntv.net
+#youku-cibn Start
+127.0.0.1 atm.cp31.ott.cibntv.net
+127.0.0.1 statis.api.3g.cp31.ott.cibntv.net
+127.0.0.1 val.atm.cp31.ott.cibntv.net
+127.0.0.1 valb.atm.cp31.ott.cibntv.net
+127.0.0.1 valc.atm.cp31.ott.cibntv.net
+127.0.0.1 valf.atm.cp31.ott.cibntv.net
+127.0.0.1 valo.atm.cp31.ott.cibntv.net
+127.0.0.1 valp.atm.cp31.ott.cibntv.net
+127.0.0.1 vhtml.atm.cp31.ott.cibntv.net
+127.0.0.1 vhtml.cp31.ott.cibntv.net
+127.0.0.1 vid.atm.cp31.ott.cibntv.net
+127.0.0.1 walp.atm.cp31.ott.cibntv.net
+#youku-cibn End
+#YunOS Start
+127.0.0.1 tvupgrade.yunos.com
+127.0.0.1 osupdate.aliyun.com
+127.0.0.1 osfota.cdn.aliyun.com
+127.0.0.1 osupdateservice.yunos.com
+127.0.0.1 yunos.com
+127.0.0.1 aliyun.com
+127.0.0.1 api.cloudapp.aliyun.com
+127.0.0.1 client.aliyun.com
+127.0.0.1 cmns.mobile.aliyun.com
+127.0.0.1 galitv.alicdn.com
+127.0.0.1 ic.tv.aliyun.com
+127.0.0.1 tvadvert.yunos.com
+127.0.0.1 tvapps.yunos.com
+127.0.0.1 tvacs.yunos.com
+127.0.0.1 upgrade.tv.yunos.com
+127.0.0.1 adash.m.taobao.com
+127.0.0.1 agoodm.m.taobao.com
+#YunOS End
