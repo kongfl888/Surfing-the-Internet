@@ -1,0 +1,4 @@
+#ÈÙÒ«ºĞ×Ó¸üĞÂ¼ì²â
+127.0.0.1 query.pthw.gitv.tv
+127.0.0.1 pthw.gitv.tv
+127.0.0.1 beckham.pthvcdn.gitv.tv
