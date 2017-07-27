@@ -2,7 +2,7 @@
 127.0.0.1 query.pthw.gitv.tv
 127.0.0.1 pthw.gitv.tv
 127.0.0.1 beckham.pthvcdn.gitv.tv
-#封小朋友
+#封boy
 #127.0.0.1 m.so.com
 #127.0.0.1 m.baidu.com
 #127.0.0.1 m.sogou.com
@@ -14,8 +14,16 @@
 127.0.0.1 alog.umeng.co
 127.0.0.1 alog.umengcloud.com
 127.0.0.1 au.umeng.com
+127.0.0.1 irs01.com
+127.0.0.1 m.irs01.com
+127.0.0.1 h.irs01.com
 127.0.0.1 vqq.admaster.com.cn
 127.0.0.1 secure-chn.imrworldwide.com
+127.0.0.1 q.i.gdt.qq.com
+127.0.0.1 gdt.qq.com
+127.0.0.1 v.gdt.qq.com
+127.0.0.1 c.gdt.qq.com
+127.0.0.1 rh.qq.com
 #qq
 127.0.0.1 pgdt.gtimg.cn
 #百度网盘主动host
@@ -66,13 +74,14 @@
 127.0.0.1 imc.l.cp81.ott.cibntv.net
 127.0.0.1 sv-video.play.cp81.ott.cibntv.net
 #↓test
-127.0.0.1 api.cp33.ott.cibntv.net
-127.0.0.1 up.cp33.ott.cibntv.net
+#127.0.0.1 api.cp33.ott.cibntv.net
+#127.0.0.1 up.cp33.ott.cibntv.net
 #↑test
 # CIBN VST End
 #miaozhen Start
 127.0.0.1 sd.cn.miaozhen.com
 127.0.0.1 g.dtv.cn.miaozhen.com
+#127.0.0.1 yktd.m.cn.miaozhen.com
 #miaozhen End
 #atianqi Start
 127.0.0.1 vv.play.aiseet.atianqi.com
@@ -101,7 +110,6 @@
 #127.0.0.1 xl.api.3g.youku.com
 127.0.0.1 yus.navi.youku.com
 127.0.0.1 r.l.youku.com
-127.0.0.1 irs01.com
 127.0.0.1 stats.tudou.com
 127.0.0.1 adash.m.taobao.com
 127.0.0.1 val.atm.cp31.ott.cibntv
