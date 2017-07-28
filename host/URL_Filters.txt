@@ -1,10 +1,10 @@
 query.pthw.gitv.tv
 pthw.gitv.tv
 beckham.pthvcdn.gitv.tv
+bms.xl.api.3g.cp31.ott.cibntv.net
+lives.l.ott.video.qq.com
+lives.l.cp81.ott.cibntv.net
+sv-video.play.ott.video.qq.com/playlist.m3u8
+sv-video.play.cp81.ott.cibntv.net
 118.194.60.160
 tv.cp81.ott.cibntv.net/i-tvbin/upgrade_apk/get_app_upgrade_info
-sv-video.play.cp81.ott.cibntv.net
-lives.l.cp81.ott.cibntv.net
-lives.l.ott.video.qq.com
-sv-video.play.ott.video.qq.com/playlist.m3u8
-bms.xl.api.3g.cp31.ott.cibntv.net
