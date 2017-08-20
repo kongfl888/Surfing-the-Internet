@@ -8,3 +8,8 @@ sv-video.play.ott.video.qq.com/playlist.m3u8
 sv-video.play.cp81.ott.cibntv.net
 118.194.60.160
 tv.cp81.ott.cibntv.net/i-tvbin/upgrade_apk/get_app_upgrade_info
+s.tms.ott.cibntv.net/userCenter/tms/v40/auth/program!getUpgradeInfor.action
+ams.ott.cibntv.net/apps
+xl.api.3g.youku.com/openapi-wireless/initial?pid=adc807ba829578e4
+xl.api.3g.youku.com/xl/client/update
+tds.ott.cp31.ott.cibntv.net/download/0-xl

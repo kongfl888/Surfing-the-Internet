@@ -1,8 +1,8 @@
-#荣耀盒子更新检测
+#Honer box update
 127.0.0.1 query.pthw.gitv.tv
 127.0.0.1 pthw.gitv.tv
 127.0.0.1 beckham.pthvcdn.gitv.tv
-#封boy
+#block boy
 #127.0.0.1 m.so.com
 #127.0.0.1 m.baidu.com
 #127.0.0.1 m.sogou.com
@@ -26,7 +26,7 @@
 127.0.0.1 rh.qq.com
 #qq
 127.0.0.1 pgdt.gtimg.cn
-#百度网盘主动host
+#Baidu Pan redirect host
 #180.149.145.241 pan.baidu.com
 #58.217.200.64 pcs.baidu.com
 #molitv
@@ -34,7 +34,7 @@
 127.0.0.1 td.mpush.cn
 127.0.0.1 log.tv.moliv.cn
 127.0.0.1 log1.molitv.cn
-#影视快搜
+#kuai so movie
 127.0.0.1 update.tvapk.com
 127.0.0.1 img.znds.com
 127.0.0.1 app.znds.com
@@ -121,7 +121,7 @@
 127.0.0.1 store.tv.api.3g.youku.com
 #127.0.0.1 pl.youku.com
 127.0.0.1 store.xl.api.3g.youku.com
-#优酷屏蔽设备列表
+#YouKu Block devices checker
 127.0.0.1 bms.xl.api.3g.cp31.ott.cibntv.net
 #youku-cibn Start
 127.0.0.1 atm.cp31.ott.cibntv.net
