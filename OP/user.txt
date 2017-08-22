@@ -44,6 +44,13 @@ https://m.v.qq.com/*/cover/*/*.html*$s@</head>@<script src="https://coding.net/u
 ! ---CIBN Movie
 ||s.tms.ott.cibntv.net/userCenter/tms/v40/auth/program!getUpgradeInfor.action
 ||ams.ott.cibntv.net/apps
+! ------QQ TV / Taijie--------
+|http://lives.l.ott.video.qq.com/livemsg^*&ad_type=
+|http://sv-video.play.ott.video.qq.com/playlist.m3u8^
+|http://imc.l.ott.video.qq.com/click^*&ad_type=
+|http://livew.l.qq.com/livemsg?ty=web&ad_type=LD|KB&pf=in&pt=0
+|http://livew.l.qq.com/livemsg?ty=web&ad_type=ZT&pf=in&pt=0
+|http://lview.3g.qq.com/lview?c=www&loc=QQ3G_stream&ad_cnt=
 ! ---Youku xl Update
 ||xl.api.3g.youku.com/openapi-wireless/initial?pid=adc807ba829578e4
 ||xl.api.3g.youku.com/xl/client/update
@@ -52,6 +59,10 @@ https://m.v.qq.com/*/cover/*/*.html*$s@</head>@<script src="https://coding.net/u
 http://img.szsqhby.com/img/*/*/$image
 http://www.sytcyf.com/blog/*
 http://api.svip.baiyug.cn##[id*="F24"]
+!
+! ==============URL Redirect==============
+! -----QQ TV AD--
+!http://sv-video.play.ott.video.qq.com/playlist.m3u8$r@vid?=*@vids=0@
 !
 ! ===========hosts========================
 ! ---Honer box update
@@ -115,13 +126,13 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ||btrace.qq.com
 ||bla.gtimg.com
 ! ---↓important
-||lives.l.ott.video.qq.com
+!!!!||lives.l.ott.video.qq.com
 ! ---↑important
-||sv-video.play.ott.video.qq.com
-||imc.l.ott.video.qq.com
-||livep.l.ott.video.qq.com
-||mcgi.play.ott.video.qq.com
-||vv.play.ott.video.qq.com
+!!!!||sv-video.play.ott.video.qq.com
+!!!!||imc.l.ott.video.qq.com
+!!!!||livep.l.ott.video.qq.com
+!!!!||mcgi.play.ott.video.qq.com
+!!!!||vv.play.ott.video.qq.com
 ||p.tencentmind.com
 ||vmindhls.tc.qq.com
 ! --- QQ TV End
