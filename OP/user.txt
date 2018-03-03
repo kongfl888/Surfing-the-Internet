@@ -2,29 +2,28 @@
 ! -------
 ! ---
 ! ===============Proxy=================
-|http://v.youku.com/v_show/*$s@</head>@<script src="http://koolshare.b0.upaiyun.com/vip/vip.js"></script></head>@
+|http://v.youku.com/v_show/*$s@</head>@<script src="https://coding.net/u/qq583455189/p/Koolproxy/git/raw/master/vip.js"></script></head>@
 |http://v.youku.com/v_show/*$s@</body>@<script>insVIP('fns','player');</script></body>@
 ||v.youku.com/v_show/*###player:not([style])>iframe{height:calc(100% - 50px)}csshack
-|http://www.tudou.com/albumplay/*.html$s@</head>@<script src="http://koolshare.b0.upaiyun.com/vip/vip.js"></script></head>@
+|http://www.tudou.com/albumplay/*.html$s@</head>@<script src="https://coding.net/u/qq583455189/p/Koolproxy/git/raw/master/vip.js"></script></head>@
 |http://www.tudou.com/albumplay/*.html$s@</body>@<script>insVIP('tab_nav fix','player');</script></body>@
 |http://www.tudou.com/albumplay/*.html##.tab_nav.fix select{margin-top:11px;font-size: 15px}csshack
-|http://www.iqiyi.com/v_*$s@</head>@<script src="http://koolshare.b0.upaiyun.com/vip/vip_iqiyi.js"></script></head>@
+
+|http://www.iqiyi.com/v_*$s@</head>@<script src="https://coding.net/u/Carseason/p/koolproxy/git/raw/master/vip_iqiyi.js"></script></head>@
 |http://www.iqiyi.com/v_*$s@</body>@<script>insVIP('mod-play-tit','flashbox');</script></body>@
 |http://www.iqiyi.com/v_*##div[style*="absolute"][style*="visibility"]
-|http://www.le.com/$s@</head>@<script src="http://koolshare.b0.upaiyun.com/vip/vip.js"></script></head>@
+|http://www.le.com/$s@</head>@<script src="https://coding.net/u/qq583455189/p/Koolproxy/git/raw/master/vip.js"></script></head>@
 |http://www.le.com/$s@</body>@<script>insVIP('j-video-name video-name','fla_box');</script></body>@
 ||sohu.com/crossdomain.xml$c
-||https://sohu.com/album/$s@</head>@<script src="https://koolshare.b0.upaiyun.com/vip/vip.js"></script></head>@
+||https://sohu.com/album/$s@</head>@<script src="https://coding.net/u/qq583455189/p/Koolproxy/git/raw/master/vip.js"></script></head>@
 ||https://sohu.com/album/$s@</body>@<script>insVIP('player-content-info','playerWrap');</script></body>@
 ||https://sohu.com/album/##.player-content-info>select{margin-top:20px;font-size: 15px}csshack
-|https://v.qq.com/x/*.html*$s@</head>@<script src="https://koolshare.b0.upaiyun.com/vip/vip_qq.js"></script></head>@
+|https://v.qq.com/x/*.html*$s@</head>@<script src="https://coding.net/u/qq583455189/p/Koolproxy/git/raw/master/vip_qq.js"></script></head>@
 |https://v.qq.com/x/*.html*$s@</body>@<script>insVIPssl('action_wrap cf','tenvideo_player');</script></body>@
 |https://v.qq.com/x/*.html*##[class="action_wrap cf"]>select{margin-top:18px}[class="action_item action_count"] .icon_text
-|http://www.mgtv.com/b/*$s@</head>@<script src="http://koolshare.b0.upaiyun.com/vip/vip.js"></script></head>@
+|http://www.mgtv.com/b/*$s@</head>@<script src="https://coding.net/u/qq583455189/p/Koolproxy/git/raw/master/vip.js"></script></head>@
 |http://www.mgtv.com/b/*$s@</body>@<script>insVIP("v-panel-count","mgtv-player-wrap");</script></body>@
-!--------baidu yun--------
-|https://pan.baidu.com$s@</body>@<script src="https://koolshare.b0.upaiyun.com/vip/yunpan.js"></script></body>@
-|http://pan.baidu.com$s@</body>@<script src="http://koolshare.b0.upaiyun.com/vip/yunpan.js"></script></body>@
+
 !--------douyu style--------
 |https://www.douyu.com/crossdomain.xml$c
 |https://res.douyucdn.cn/crossdomain.xml$c
@@ -34,25 +33,31 @@
 !
 !---------------mobiele VIP-------------
 !---------------Force Rute need https support
-!------youku
-|http://m.youku.com/video/id_*$s@</head>@<script src="https://coding.net/u/Carseason/p/koolproxy/git/raw/master/mobie.js"></script></head>@
-!------TX
-https://m.v.qq.com/cover/*/*.html*$s@</head>@<script src="https://coding.net/u/Carseason/p/koolproxy/git/raw/master/mobiele1.js"></script></head>@
-https://m.v.qq.com/*/cover/*/*.html*$s@</head>@<script src="https://coding.net/u/Carseason/p/koolproxy/git/raw/master/mobiele1.js"></script></head>@
+--- white rules ---
+@@!http://galitv.alicdn.com/product/image/
+--- white rules End---
 ! ---
 ! ==============URL Filter==============
 ! ---CIBN Movie
 ||s.tms.ott.cibntv.net/userCenter/tms/v40/auth/program!getUpgradeInfor.action
 ||ams.ott.cibntv.net/apps
+! --CIBN VST
+||tv.cp81.ott.cibntv.net/i-tvbin/upgrade_apk/get_app_upgrade_info
+|http://lives.l.cp81.ott.cibntv.net/livemsg^*&ad_type=
+|http://lives.l.cp81.ott.cibntv.net/livemsg
 ! ------QQ TV / Taijie--------
 |http://lives.l.ott.video.qq.com/livemsg^*&ad_type=
+|http://lives.l.ott.video.qq.com/livemsg
 |http://sv-video.play.ott.video.qq.com/playlist.m3u8^
 |http://imc.l.ott.video.qq.com/click^*&ad_type=
 |http://livew.l.qq.com/livemsg?ty=web&ad_type=LD|KB&pf=in&pt=0
 |http://livew.l.qq.com/livemsg?ty=web&ad_type=ZT&pf=in&pt=0
 |http://lview.3g.qq.com/lview?c=www&loc=QQ3G_stream&ad_cnt=
+! ----Taijie--------
+|http://ad.video.51togic.com
+|http://customstat.video.51togic.com
 ! ---Youku xl Update
-||xl.api.3g.youku.com/openapi-wireless/initial?pid=adc807ba829578e4
+||xl.api.3g.youku.com/openapi-wireless/initial?pid=adc807ba829578e4*
 ||xl.api.3g.youku.com/xl/client/update
 ||tds.ott.cp31.ott.cibntv.net/download/0-xl
 ! --union
@@ -120,6 +125,7 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ! ---toqic taijie Start
 ||cdn.ad.video.51togic.com
 ||customstat.video.51togic.com
+||ad.video.51togic.com
 ! ---toqic taijie End
 ! --- QQ TV Start
 ||tracking.ad-survey.com
@@ -137,7 +143,7 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ||vmindhls.tc.qq.com
 ! --- QQ TV End
 ! --- CIBN VST Start
-||lives.l.cp81.ott.cibntv.net
+!||lives.l.cp81.ott.cibntv.net
 ||imc.l.cp81.ott.cibntv.net
 ||sv-video.play.cp81.ott.cibntv.net
 ! ---↓test
@@ -162,7 +168,7 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ! --- xiaomi End
 ! ---youku
 ||ad.api.3g.youku.com
-||statis.api.3g.youku.com
+! --||statis.api.3g.youku.com
 ||static.atm.youku.com
 ||static.lstat.youku.com
 ||ad.atm.youku.com
@@ -173,7 +179,7 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ||valf.atm.youku.com
 ||valo.atm.youku.com
 ||valp.atm.youku.com
-||tv.api.3g.youku.com
+! --||tv.api.3g.youku.com
 ! ---127.0.0.1 xl.api.3g.youku.com
 ||yus.navi.youku.com
 ||r.l.youku.com
@@ -181,8 +187,8 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ||adash.m.taobao.com
 ||val.atm.cp31.ott.cibntv
 ||valf.atm.cp31.ott.cibntv
-||p.cp31.ott.cibntv.net
-||desktop.cp31.ott.cibntv.net
+!--||p.cp31.ott.cibntv.net
+!--||desktop.cp31.ott.cibntv.net
 ||v.admaster.com.cn
 ||vyk.admaster.com.cn
 ||store.tv.api.3g.youku.com
@@ -192,7 +198,7 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ||bms.xl.api.3g.cp31.ott.cibntv.net
 ! ---youku-cibn Start
 ||atm.cp31.ott.cibntv.net
-||statis.api.3g.cp31.ott.cibntv.net
+!--||statis.api.3g.cp31.ott.cibntv.net
 ||val.atm.cp31.ott.cibntv.net
 ||valb.atm.cp31.ott.cibntv.net
 ||valc.atm.cp31.ott.cibntv.net
@@ -210,16 +216,19 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ||osfota.cdn.aliyun.com
 ||osupdateservice.yunos.com
 ||yunos.com
-||aliyun.com
+!--||aliyun.com
 ||api.cloudapp.aliyun.com
 ||client.aliyun.com
 ||cmns.mobile.aliyun.com
-||galitv.alicdn.com
+!--||galitv.alicdn.com
 ||ic.tv.aliyun.com
 ||tvadvert.yunos.com
 ||tvapps.yunos.com
 ||tvacs.yunos.com
 ||upgrade.tv.yunos.com
-||adash.m.taobao.com
-||agoodm.m.taobao.com
+!--||adash.m.taobao.com
+!--||agoodm.m.taobao.com
 ! ---YunOS End
+! ---ieonline microsoft Start
+||ieonline.microsoft.com^
+! ---ieonline microsoft End

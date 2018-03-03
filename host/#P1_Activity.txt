@@ -53,6 +53,7 @@
 #toqic taijie Start
 127.0.0.1 cdn.ad.video.51togic.com
 127.0.0.1 customstat.video.51togic.com
+127.0.0.1 ad.video.51togic.com
 #toqic taijie End
 # QQ TV Start
 127.0.0.1 tracking.ad-survey.com
@@ -147,12 +148,15 @@
 127.0.0.1 api.cloudapp.aliyun.com
 127.0.0.1 client.aliyun.com
 127.0.0.1 cmns.mobile.aliyun.com
-127.0.0.1 galitv.alicdn.com
+#127.0.0.1 galitv.alicdn.com
 127.0.0.1 ic.tv.aliyun.com
 127.0.0.1 tvadvert.yunos.com
 127.0.0.1 tvapps.yunos.com
 127.0.0.1 tvacs.yunos.com
 127.0.0.1 upgrade.tv.yunos.com
-127.0.0.1 adash.m.taobao.com
-127.0.0.1 agoodm.m.taobao.com
+#127.0.0.1 adash.m.taobao.com
+#127.0.0.1 agoodm.m.taobao.com
 #YunOS End
+#ieonline microsoft Start
+127.0.0.1 ieonline.microsoft.com
+#ieonline microsoft End
