@@ -182,6 +182,7 @@
 127.0.0.1 vyk.admaster.com.cn
 127.0.0.1 g.dtv.cn.miaozhen.com
 127.0.0.1 pl.youku.com
+
 #Tudou
 127.0.0.1 ad.api.3g.tudou.com
 127.0.0.1 adcontrol.tudou.com
@@ -274,6 +275,7 @@
 #toqic taijie Start
 127.0.0.1 cdn.ad.video.51togic.com
 127.0.0.1 customstat.video.51togic.com
+127.0.0.1 ad.video.51togic.com
 #toqic taijie End
 # QQ TV Start
 127.0.0.1 tracking.ad-survey.com
@@ -293,18 +295,26 @@
 127.0.0.1 imc.l.cp81.ott.cibntv.net
 127.0.0.1 sv-video.play.cp81.ott.cibntv.net
 #¡ýtest
-127.0.0.1 api.cp33.ott.cibntv.net
-127.0.0.1 up.cp33.ott.cibntv.net
+#127.0.0.1 api.cp33.ott.cibntv.net
+#127.0.0.1 up.cp33.ott.cibntv.net
 #¡ütest
+127.0.0.1 ad.tvblack.com
+127.0.0.1 ad.advst.cp33.ott.cibntv.net
+127.0.0.1 adx.tvblack.com
 # CIBN VST End
+# CIBN PPTV Start
+127.0.0.1 de.as.cp61.ott.cibntv.net
+127.0.0.1 asimgs.cp61.ott.cibntv.net
+# CIBN PPTV End
 #miaozhen Start
 127.0.0.1 sd.cn.miaozhen.com
 127.0.0.1 g.dtv.cn.miaozhen.com
+127.0.0.1 yktd.m.cn.miaozhen.com
 #miaozhen End
 #atianqi Start
-127.0.0.1 vv.play.aiseet.atianqi.com
+#127.0.0.1 vv.play.aiseet.atianqi.com
 127.0.0.1 ip.aiseejapp.atianqi.com
-127.0.0.1 tv.aiseet.atianqi.com
+#127.0.0.1 tv.aiseet.atianqi.com
 #atianqi End
 
 # xiaomi Start

@@ -45,6 +45,8 @@
 ||tv.cp81.ott.cibntv.net/i-tvbin/upgrade_apk/get_app_upgrade_info
 |http://lives.l.cp81.ott.cibntv.net/livemsg^*&ad_type=
 |http://lives.l.cp81.ott.cibntv.net/livemsg
+! -------CIBN PPTV
+|http://de.as.cp61.ott.cibntv.net/ikandelivery/vast/*
 ! ------QQ TV / Taijie--------
 |http://lives.l.ott.video.qq.com/livemsg^*&ad_type=
 |http://lives.l.ott.video.qq.com/livemsg
@@ -150,17 +152,24 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ! ---127.0.0.1 api.cp33.ott.cibntv.net
 ! ---127.0.0.1 up.cp33.ott.cibntv.net
 ! ---↑test
+||ad.tvblack.com
+||ad.advst.cp33.ott.cibntv.net
+||adx.tvblack.com
 ! --- CIBN VST End
+! --- CIBN PPTV Start
+||de.as.cp61.ott.cibntv.net
+||asimgs.cp61.ott.cibntv.net
+! --- CIBN PPTV End
 ! ---miaozhen Start
 ||sd.cn.miaozhen.com
 ||g.dtv.cn.miaozhen.com
 ! ---127.0.0.1 yktd.m.cn.miaozhen.com
 ! ---miaozhen End
 ! ---atianqi Start
-||vv.play.aiseet.atianqi.com
+!--||vv.play.aiseet.atianqi.com
 ||ip.aiseejapp.atianqi.com
 ||api.eyeprotect.aiseejapp.atianqi.com
-||tv.aiseet.atianqi.com
+!--||tv.aiseet.atianqi.com
 ! ---atianqi End
 ! --- xiaomi Start
 ||api.ad.xiaomi.com
