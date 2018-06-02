@@ -43,12 +43,15 @@
 ||ams.ott.cibntv.net/apps
 ! --CIBN VST
 ||tv.cp81.ott.cibntv.net/i-tvbin/upgrade_apk/get_app_upgrade_info
+|http://api.cp33.ott.cibntv.net/cibnvst-api/update/^*.dat
+||up.cp33.ott.cibntv.net/apk/cibnvst/updateDownload/
+|http://api.cp33.ott.cibntv.net/cibnvst-api/advertise/
 |http://lives.l.cp81.ott.cibntv.net/livemsg^*&ad_type=
 |http://lives.l.cp81.ott.cibntv.net/livemsg
 |http://ad.advst.cp33.ott.cibntv.net/sdk/update
 |http://ad.advst.cp33.ott.cibntv.net/ott/^*/get^*
-|https://api.cp33.ott.cibntv.net/cibnvst-api/notice/channel_91vst/^*.dat
-|https://img.cp33.ott.cibntv.net//pic/cibnvst/advertise/pic/
+||api.cp33.ott.cibntv.net/cibnvst-api/notice/channel_91vst/^*.dat
+||img.cp33.ott.cibntv.net//pic/cibnvst/advertise/pic/
 ! -------CIBN PPTV
 |http://de.as.cp61.ott.cibntv.net/ikandelivery/vast/*
 ! ------QQ TV / Taijie--------
