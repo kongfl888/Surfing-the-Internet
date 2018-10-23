@@ -41,11 +41,14 @@
 ! ---CIBN Movie
 ||s.tms.ott.cibntv.net/userCenter/tms/v40/auth/program!getUpgradeInfor.action
 ||ams.ott.cibntv.net/apps
+|http://api.adv.ott.cibntv.net^
+|http://agn.aty.cp45.ott.cibntv.net/m?prot=
 ! --CIBN VST
 ||tv.cp81.ott.cibntv.net/i-tvbin/upgrade_apk/get_app_upgrade_info
 |http://api.cp33.ott.cibntv.net/cibnvst-api/update/^*.dat
 ||up.cp33.ott.cibntv.net/apk/cibnvst/updateDownload/
 |http://api.cp33.ott.cibntv.net/cibnvst-api/advertise/
+|http://img.cp33.ott.cibntv.net/vst/pic/photo/2.5/advertise/
 |http://lives.l.cp81.ott.cibntv.net/livemsg^*&ad_type=
 |http://lives.l.cp81.ott.cibntv.net/livemsg
 |http://ad.advst.cp33.ott.cibntv.net/sdk/update
@@ -55,8 +58,11 @@
 ! -------CIBN PPTV
 |http://de.as.cp61.ott.cibntv.net/ikandelivery/vast/*
 ! ------QQ TV / Taijie--------
+|http://lives.l.aiseet.atianqi.com/livemsg^
 |http://lives.l.ott.video.qq.com/livemsg^*&ad_type=
 |http://lives.l.ott.video.qq.com/livemsg
+|http://livew.l.qq.com/livemsg?ty=web&ad_type=LD|KB&pf=in&pt=0
+|http://livew.l.qq.com/livemsg?ty=web&ad_type=ZT&pf=in&pt=0
 |http://sv-video.play.ott.video.qq.com/playlist.m3u8^
 |http://imc.l.ott.video.qq.com/click^*&ad_type=
 |http://livew.l.qq.com/livemsg?ty=web&ad_type=LD|KB&pf=in&pt=0
@@ -65,10 +71,24 @@
 ! ----Taijie--------
 |http://ad.video.51togic.com
 |http://customstat.video.51togic.com
-! ---Youku xl Update
+|http://apk.upgrade.video.51togic.com/upgrade/query?name=^*
+! ---tvmao
+|http://jsres1.tvmao.com/blog/i201*.php?z=
+||libs.tvmao.cn/$script
+tvmao.com##.ggadlt,.adsbygoogle
+tvmao.com##[ad],[class$="_ad"]
+||m.tvmao.com/$s@function addAD@function xxx@
+! ---Youku
 ||xl.api.3g.youku.com/openapi-wireless/initial?pid=adc807ba829578e4*
 ||xl.api.3g.youku.com/xl/client/update
 ||tds.ott.cp31.ott.cibntv.net/download/0-xl
+|http://pl2.cp31.ott.cibntv.net/playlist/m3u8?ids=
+|http://pl2.youku.com/playlist/m3u8?ids=
+! --iqiyi
+|http://am.cupid.iqiyi.com/am
+||ssports.iqiyi.com/play/$s@var adid = "0";@var adid = "-1";@
+|http://iface2.iqiyi.com/php/xyz/entry/$s@"ad_str":@"":@
+||api.cupid.iqiyi.com/policy2
 ! --union
 http://img.szsqhby.com/img/*/*/$image
 http://www.sytcyf.com/blog/*
@@ -225,6 +245,7 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ||vhtml.cp31.ott.cibntv.net
 ||vid.atm.cp31.ott.cibntv.net
 ||walp.atm.cp31.ott.cibntv.net
+||qr.cp31.ott.cibntv.net
 ! ---youku-cibn End
 ! ---YunOS Start
 ||tvupgrade.yunos.com
