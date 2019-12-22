@@ -1,4 +1,4 @@
-! https://github.com/koolproxy/koolproxy_rules/blob/master/user.txt
+! https://github.com/koolproxy/merlin-koolproxy/blob/master/koolproxy/koolproxy/data/rules/user.txt
 ! -------
 ! ---
 ! ===============Proxy=================
@@ -45,16 +45,28 @@
 |http://agn.aty.cp45.ott.cibntv.net/m?prot=
 ! --CIBN VST
 ||tv.cp81.ott.cibntv.net/i-tvbin/upgrade_apk/get_app_upgrade_info
-|http://api.cp33.ott.cibntv.net/cibnvst-api/update/^*.dat
 ||up.cp33.ott.cibntv.net/apk/cibnvst/updateDownload/
+||api.cp33.ott.cibntv.net/cibnvst-api/update/^*.dat
+||api.cp33.ott.cibntv.net/cibnvst-api/notice/
+||api.cp33.ott.cibntv.net/cibnvst-api/options/keys_ad_strategy.dat
+||api.cp33.ott.cibntv.net/cibnvst-api/checkstartadvertise/*
+||img.cp33.ott.cibntv.net//pic/cibnvst/advertise/pic/
+||ad.advst.cp33.ott.cibntv.net
+||ex.advst.cp33.ott.cibntv.net
+|http://user.cp33.ott.cibntv.net/cibnvst-user-api-read/pushaction
 |http://api.cp33.ott.cibntv.net/cibnvst-api/advertise/
-|http://img.cp33.ott.cibntv.net/vst/pic/photo/2.5/advertise/
+|http://img.cp33.ott.cibntv.net/vst/pic/photo/*/advertise/
+|http://mediation.tvblack.com/config
+|http://stat.basic.info.tvblack.com/hqtc/get_config
+|http://mediation.tvblack.com/report?ad_location^*&ad_type=
+|http://stat.v2.cp33.ott.cibntv.net/action/advertisement
+|http://api.yfcloud.com/1v1token/api/v1/miner/vst/ip_match?u=vst_
+|http://dsp.advst.cp33.ott.cibntv.net/adx/*
 |http://lives.l.cp81.ott.cibntv.net/livemsg^*&ad_type=
 |http://lives.l.cp81.ott.cibntv.net/livemsg
+|http://lives.l.cp33.ott.cibntv.net/livemsg^*&ad_type=
 |http://ad.advst.cp33.ott.cibntv.net/sdk/update
 |http://ad.advst.cp33.ott.cibntv.net/ott/^*/get^*
-||api.cp33.ott.cibntv.net/cibnvst-api/notice/channel_91vst/^*.dat
-||img.cp33.ott.cibntv.net//pic/cibnvst/advertise/pic/
 ! -------CIBN PPTV
 |http://de.as.cp61.ott.cibntv.net/ikandelivery/vast/*
 ! ------QQ TV / Taijie--------
@@ -82,8 +94,22 @@ tvmao.com##[ad],[class$="_ad"]
 ||xl.api.3g.youku.com/openapi-wireless/initial?pid=adc807ba829578e4*
 ||xl.api.3g.youku.com/xl/client/update
 ||tds.ott.cp31.ott.cibntv.net/download/0-xl
-|http://pl2.cp31.ott.cibntv.net/playlist/m3u8?ids=
-|http://pl2.youku.com/playlist/m3u8?ids=
+|http://p*.cp31.ott.cibntv.net/playlist/m3u8*ids=*
+|http://p*.cp31.ott.cibntv.net/playlist/m3u8?ev=
+|http://p*.youku.com/playlist/m3u8?ids=
+|http://p*.youku.com/playlist/m3u8?ev=
+|http://p*.cp12.wasu.tv/playlist/m3u8?ids=
+||p*.cp31.ott.cibntv.net/playlist/m3u8^*keyframe=^*ctype=50^*
+||p*.youku.com/playlist/m3u8^*keyframe=^*ctype=50^*
+||p*.cp12.wasu.tv/playlist/m3u8^*keyframe=^*ctype=50^*
+|http://topapi.cp*.ott.cibntv.net/router/rest^*method=yunos.tv.advert.site.unified.get^*
+|http://cibn.api.3g.cp31.ott.cibntv.net/adv/startpage
+|http://cibn.api.3g.cp31.ott.cibntv.net/tv/v*/client/update
+https://acs.cp12.ott.cibntv.net/gw/mtop.yunos.alitvvideo.tvirs.globalpush
+||dorangesource.alicdn.com
+|http://httpdns.danuoyi.tbcache.com/multi_dns_resolve
+|http://42.156.162.8/multi_dns_resolve
+||advst.cp33.ott.cibntv.net
 ! --iqiyi
 |http://am.cupid.iqiyi.com/am
 ||ssports.iqiyi.com/play/$s@var adid = "0";@var adid = "-1";@
@@ -93,10 +119,62 @@ tvmao.com##[ad],[class$="_ad"]
 http://img.szsqhby.com/img/*/*/$image
 http://www.sytcyf.com/blog/*
 http://api.svip.baiyug.cn##[id*="F24"]
+! -----QQ TV --
+|http://wa.gtimg.com/website/*/*_L1LTS*
+|http://tv.aiseet.atianqi.com/i-tvbin/pay/vip_status_line?&Q-UA=QV
+|http://tv.aiseet.atianqi.com/i-tvbin/qtv_video/video_recommend/get_recommend_url?
+|http://tv.aiseet.atianqi.com/i-tvbin/qtv_video/video_recommend/exit_app_recommend*
+|http://p*.play.aiseet.atianqi.com/*loc=*_ads*
+|http://p*.play.aiseet.atianqi.com/*loc=*_Ads*
+|http://tv.aiseet.atianqi.com/i-tvbin/upgrade_apk/get_app_upgrade_info*
 !
+! ----mogu---
+|http://down.mgff.com/*/*.apk
+|http://down.mgff.com/*/*.so
+! -----7to-----
+|http://package.7to.cn/uploads/*.apk
+|http://package.7to.cn/uploads/*.so
+|http://tfile.7to.cn/*.apk
+|http://tfile.7to.cn/*.so
 ! ==============URL Redirect==============
-! -----QQ TV AD--
-!http://sv-video.play.ott.video.qq.com/playlist.m3u8$r@vid?=*@vids=0@
+! -----QQ TV--
+||news-l.play.aiseet.atianqi.com/app$s@"loc":"TV_screensavers_ads"@"loc":"kp"@
+||news-l.play.aiseet.atianqi.com/app$s@"loc":"*_ads"@"loc":"kp"@
+|http://sv-video.play.ott.video.qq.com/playlist.m3u8$r@vid?=*@vids=0@
+! QQTV VIP TEST
+||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"isVip":false@"isVip":true@
+||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"start":*,@"start":1541001600,@
+||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"end":*,@"end":1604160000,@
+||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"start_s":"*"@"start_s":"2018-11-01"@
+||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"end_s":"*"@"end_s":"2020-11-01"@
+||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"show_end_s":"*"@"show_end_s":"2020-11-01"@
+||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"isOpended":false@"isOpended":true@
+||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"isBasic":false@"isBasic":true@
+||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"highlight":false@"highlight":true@
+||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"update_month":0@"update_month":12@
+!
+||tv.aiseet.atianqi.com/ktweb/pay/tvmine/get_user_vipinfo_by_fields*$s@"VipInfo":null@"VipInfo":"ok"@
+||tv.aiseet.atianqi.com/ktweb/pay/tvmine/get_user_vipinfo_by_fields*$s@"AutoPayButtonHiden":false@"AutoPayButtonHiden":true@
+!
+||tspayback.test.atianqi.com/boss/jgauth$s@"returncode": "*"@"returncode": "000"@
+! --- CIBN VIP ----
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"isVip":false@"isVip":true@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"start":*,@"start":1541001600,@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"end":*,@"end":1604160000,@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"start_s":"*"@"start_s":"2018-11-01"@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"end_s":"*"@"end_s":"2020-11-01"@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"show_end_s":"*"@"show_end_s":"2020-11-01"@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"isOpended":false@"isOpended":true@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"isBasic":false@"isBasic":true@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"highlight":false@"highlight":true@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"update_month":0@"update_month":12@
+! --- YouKu redirect--
+!!--- https work ---
+||heyi-acs.cp31.ott.cibntv.net/gw/mtop.alidme.xottp.member.profile.get/*/?data=*vipVersion*$s@"memberIdentitySummary":"*"@"memberIdentitySummary":""@
+||heyi-acs.cp31.ott.cibntv.net/gw/mtop.alidme.xottp.member.profile.get/*/?data=*vipVersion*$s@"vip":"NOT"@"vip":"YES"@
+||heyi-acs.cp31.ott.cibntv.net/gw/mtop.youku.vip.xtop.member.profile.get/*/?data=*vipVersion*$s@"tipInfo":"*"@"tipInfo":""@
+||heyi-acs.cp31.ott.cibntv.net/gw/mtop.youku.vip.xtop.member.profile.get/*/?data=*vipVersion*$s@"is_vip":"0"@"is_vip":"1"@
+||heyi-acs.cp31.ott.cibntv.net/gw/mtop.alidme.xottp.pay.cashierdesk.get/*/?data=*vipVersion*$s@"vip":"NOT"@"vip":"YES"@
 !
 ! ===========hosts========================
 ! ---Honer box update
@@ -109,6 +187,12 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ! ---127.0.0.1 m.sogou.com
 ! ---127.0.0.1 p.gdown.baidu.com
 ! ---union
+||adx.dlads.cn
+||dlads.cn
+||sdqoi2d.com
+||xiang7.vip
+||mmstat.com
+||chushoushijian.cn
 ||trjoy.dnion.com
 ||i1.dnion.com
 ||alog.umeng.com
