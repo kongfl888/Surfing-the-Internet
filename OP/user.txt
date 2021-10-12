@@ -2,42 +2,15 @@
 ! -------
 ! ---
 ! ===============Proxy=================
-|http://v.youku.com/v_show/*$s@</head>@<script src="https://coding.net/u/qq583455189/p/Koolproxy/git/raw/master/vip.js"></script></head>@
-|http://v.youku.com/v_show/*$s@</body>@<script>insVIP('fns','player');</script></body>@
-||v.youku.com/v_show/*###player:not([style])>iframe{height:calc(100% - 50px)}csshack
-|http://www.tudou.com/albumplay/*.html$s@</head>@<script src="https://coding.net/u/qq583455189/p/Koolproxy/git/raw/master/vip.js"></script></head>@
-|http://www.tudou.com/albumplay/*.html$s@</body>@<script>insVIP('tab_nav fix','player');</script></body>@
-|http://www.tudou.com/albumplay/*.html##.tab_nav.fix select{margin-top:11px;font-size: 15px}csshack
 
-|http://www.iqiyi.com/v_*$s@</head>@<script src="https://coding.net/u/Carseason/p/koolproxy/git/raw/master/vip_iqiyi.js"></script></head>@
-|http://www.iqiyi.com/v_*$s@</body>@<script>insVIP('mod-play-tit','flashbox');</script></body>@
-|http://www.iqiyi.com/v_*##div[style*="absolute"][style*="visibility"]
-|http://www.le.com/$s@</head>@<script src="https://coding.net/u/qq583455189/p/Koolproxy/git/raw/master/vip.js"></script></head>@
-|http://www.le.com/$s@</body>@<script>insVIP('j-video-name video-name','fla_box');</script></body>@
-||sohu.com/crossdomain.xml$c
-||https://sohu.com/album/$s@</head>@<script src="https://coding.net/u/qq583455189/p/Koolproxy/git/raw/master/vip.js"></script></head>@
-||https://sohu.com/album/$s@</body>@<script>insVIP('player-content-info','playerWrap');</script></body>@
-||https://sohu.com/album/##.player-content-info>select{margin-top:20px;font-size: 15px}csshack
-|https://v.qq.com/x/*.html*$s@</head>@<script src="https://coding.net/u/qq583455189/p/Koolproxy/git/raw/master/vip_qq.js"></script></head>@
-|https://v.qq.com/x/*.html*$s@</body>@<script>insVIPssl('action_wrap cf','tenvideo_player');</script></body>@
-|https://v.qq.com/x/*.html*##[class="action_wrap cf"]>select{margin-top:18px}[class="action_item action_count"] .icon_text
-|http://www.mgtv.com/b/*$s@</head>@<script src="https://coding.net/u/qq583455189/p/Koolproxy/git/raw/master/vip.js"></script></head>@
-|http://www.mgtv.com/b/*$s@</body>@<script>insVIP("v-panel-count","mgtv-player-wrap");</script></body>@
-
-!--------douyu style--------
-|https://www.douyu.com/crossdomain.xml$c
-|https://res.douyucdn.cn/crossdomain.xml$c
-|https://www.douyu.com/$s@</head>@<script src="https://koolshare.b0.upaiyun.com/js/douyu.js"></script></head>@
-!--------youku H5(1080P)--------
-|http://v.youku.com/$s@</head>@<script src="http://koolshare.b0.upaiyun.com/js/youku_h5.js"></script></head>@
-!
-!---------------mobiele VIP-------------
 !---------------Force Rute need https support
---- white rules ---
+!--- white rules ---
 @@!http://galitv.alicdn.com/product/image/
---- white rules End---
+!--- white rules End---
 ! ---
 ! ==============URL Filter==============
+/advertise/
+/ad/
 ! ---CIBN Movie
 ||s.tms.ott.cibntv.net/userCenter/tms/v40/auth/program!getUpgradeInfor.action
 ||ams.ott.cibntv.net/apps
@@ -69,17 +42,6 @@
 |http://ad.advst.cp33.ott.cibntv.net/ott/^*/get^*
 ! -------CIBN PPTV
 |http://de.as.cp61.ott.cibntv.net/ikandelivery/vast/*
-! ------QQ TV / Taijie--------
-|http://lives.l.aiseet.atianqi.com/livemsg^
-|http://lives.l.ott.video.qq.com/livemsg^*&ad_type=
-|http://lives.l.ott.video.qq.com/livemsg
-|http://livew.l.qq.com/livemsg?ty=web&ad_type=LD|KB&pf=in&pt=0
-|http://livew.l.qq.com/livemsg?ty=web&ad_type=ZT&pf=in&pt=0
-|http://sv-video.play.ott.video.qq.com/playlist.m3u8^
-|http://imc.l.ott.video.qq.com/click^*&ad_type=
-|http://livew.l.qq.com/livemsg?ty=web&ad_type=LD|KB&pf=in&pt=0
-|http://livew.l.qq.com/livemsg?ty=web&ad_type=ZT&pf=in&pt=0
-|http://lview.3g.qq.com/lview?c=www&loc=QQ3G_stream&ad_cnt=
 ! ----Taijie--------
 |http://ad.video.51togic.com
 |http://customstat.video.51togic.com
@@ -93,6 +55,8 @@ tvmao.com##[ad],[class$="_ad"]
 ! ---Youku
 ||xl.api.3g.youku.com/openapi-wireless/initial?pid=adc807ba829578e4*
 ||xl.api.3g.youku.com/xl/client/update
+||appupgrade.cp12.ott.cibntv.net
+||orange.cp12.ott.cibntv.net/checkUpdate
 ||tds.ott.cp31.ott.cibntv.net/download/0-xl
 |http://p*.cp31.ott.cibntv.net/playlist/m3u8*ids=*
 |http://p*.cp31.ott.cibntv.net/playlist/m3u8?ev=
@@ -115,18 +79,49 @@ https://acs.cp12.ott.cibntv.net/gw/mtop.yunos.alitvvideo.tvirs.globalpush
 ||ssports.iqiyi.com/play/$s@var adid = "0";@var adid = "-1";@
 |http://iface2.iqiyi.com/php/xyz/entry/$s@"ad_str":@"":@
 ||api.cupid.iqiyi.com/policy2
+! --qiyiguo--gitv
+||cupid.ptqy.gitv.tv/mixer
+||ptqy.gitv.tv/advertise/*
+||data.video.ptqy.gitv.tv/videos/other/ $media
 ! --union
 http://img.szsqhby.com/img/*/*/$image
 http://www.sytcyf.com/blog/*
 http://api.svip.baiyug.cn##[id*="F24"]
 ! -----QQ TV --
+|http://lives.l.aiseet.atianqi.com/livemsg^
+|http://lives.l.ott.video.qq.com/livemsg^*&ad_type=
+|http://lives.l.ott.video.qq.com/livemsg
+|http://live*.l.qq.com/livemsg*ad_*
+|http://sv-video.play.ott.video.qq.com/playlist.m3u8^
+|http://imc.l.ott.video.qq.com/click^*&ad_type=
+|http://lview.3g.qq.com/lview*ad_*
 |http://wa.gtimg.com/website/*/*_L1LTS*
 |http://tv.aiseet.atianqi.com/i-tvbin/pay/vip_status_line?&Q-UA=QV
 |http://tv.aiseet.atianqi.com/i-tvbin/qtv_video/video_recommend/get_recommend_url?
-|http://tv.aiseet.atianqi.com/i-tvbin/qtv_video/video_recommend/exit_app_recommend*
-|http://p*.play.aiseet.atianqi.com/*loc=*_ads*
-|http://p*.play.aiseet.atianqi.com/*loc=*_Ads*
+|http://tv.aiseet.atianqi.com/i-tvbin/qtv_video/video_recommend/exit_*
+||sdkconfig.play.aiseet.atianqi.com
+|http://p*.play.aiseet.atianqi.com/*loc=*_ad*
+|http://p*.play.aiseet.atianqi.com/*loc=*_Ad*
+|http://p*.play.aiseet.atianqi.com/*pvLimit=*
+|http://p*.play.aiseet.atianqi.com/*pvFcs=*
+|http://p*.play.aiseet.atianqi.com/*pv_type=*
+|http://live*.l.aiseet.atianqi.com/livemsg*adtype*
+|http://live*.l.aiseet.atianqi.com/livemsg*ad_*
+|http://rpt-gdt.play.aiseet.atianqi.com/livemsg*ad_*
+|http://rpt-gdt.play.aiseet.atianqi.com/livemsg*adtype*
 |http://tv.aiseet.atianqi.com/i-tvbin/upgrade_apk/get_app_upgrade_info*
+|https://tv.aiseet.atianqi.com/i-tvbin/upgrade_apk/get_app_upgrade_info
+|http://h5vv.video.qq.com/getlogo?
+|https://tv.aiseet.atianqi.com/i-tvbin/qtv_video/popup*
+|https://tv.aiseet.atianqi.com/i-tvbin/pay/trial_act*
+|https://tv.aiseet.atianqi.com/i-tvbin/qtv_video/operation_*
+||vmat.gtimg.com/kt/common/video/material/*_upgrade_logo.png
+||vt.ipinyou.com
+||tencent-dtv.m.cn.miaozhen.com
+||play.aiseet.atianqi.com/qqnews
+||otheve.play.aiseet.atianqi.com
+||othstr.play.aiseet.atianqi.com
+||mtrace.play.aiseet.atianqi.com
 !
 ! ----mogu---
 |http://down.mgff.com/*/*.apk
@@ -136,34 +131,40 @@ http://api.svip.baiyug.cn##[id*="F24"]
 |http://package.7to.cn/uploads/*.so
 |http://tfile.7to.cn/*.apk
 |http://tfile.7to.cn/*.so
+! -Honer M321 -
+|https://epg.cp13.ott.cibntv.net/cloudservice/record/getSystemConfig
 ! ==============URL Redirect==============
 ! -----QQ TV--
 ||news-l.play.aiseet.atianqi.com/app$s@"loc":"TV_screensavers_ads"@"loc":"kp"@
 ||news-l.play.aiseet.atianqi.com/app$s@"loc":"*_ads"@"loc":"kp"@
+||news-l.play.aiseet.atianqi.com/app$s@"order":@"order_kp":@
 |http://sv-video.play.ott.video.qq.com/playlist.m3u8$r@vid?=*@vids=0@
 ! QQTV VIP TEST
-||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"isVip":false@"isVip":true@
-||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"start":*,@"start":1541001600,@
-||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"end":*,@"end":1604160000,@
-||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"start_s":"*"@"start_s":"2018-11-01"@
-||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"end_s":"*"@"end_s":"2020-11-01"@
-||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"show_end_s":"*"@"show_end_s":"2020-11-01"@
-||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"isOpended":false@"isOpended":true@
-||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"isBasic":false@"isBasic":true@
-||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"highlight":false@"highlight":true@
-||tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"update_month":0@"update_month":12@
+|https://tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"isVip":false@"isVip":true@
+|https://tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"start":*,@"start":1559484226,@
+|https://tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"end":*,@"end":1685714626,@
+|https://tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"start_s":"*"@"start_s":"2019-06-03"@
+|https://tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"end_s":"*"@"end_s":"2023-06-02"@
+|https://tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"show_end_s":"*"@"show_end_s":"2023-06-02"@
+|https://tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"isOpended":false@"isOpended":true@
+|https://tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"isBasic":false@"isBasic":true@
+|https://tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"highlight":false@"highlight":true@
+|https://tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"isRenewal":false@"isRenewal":true@
+|https://tv.aiseet.atianqi.com/i-tvbin/pay/vip_info?format=json*$s@"update_month":0@"update_month":12@
 !
-||tv.aiseet.atianqi.com/ktweb/pay/tvmine/get_user_vipinfo_by_fields*$s@"VipInfo":null@"VipInfo":"ok"@
-||tv.aiseet.atianqi.com/ktweb/pay/tvmine/get_user_vipinfo_by_fields*$s@"AutoPayButtonHiden":false@"AutoPayButtonHiden":true@
+|http://tv.aiseet.atianqi.com/ktweb/pay/tvmine/get_user_vipinfo_by_fields*$s@"VipInfo":null@"VipInfo":"ok"@
+|http://tv.aiseet.atianqi.com/ktweb/pay/tvmine/get_user_vipinfo_by_fields*$s@"AutoPayButtonHiden":false@"AutoPayButtonHiden":true@
+|https://tv.aiseet.atianqi.com/ktweb/pay/tvmine/get_user_vipinfo_by_fields*$s@"VipInfo":null@"VipInfo":"ok"@
+|https://tv.aiseet.atianqi.com/ktweb/pay/tvmine/get_user_vipinfo_by_fields*$s@"AutoPayButtonHiden":false@"AutoPayButtonHiden":true@
 !
 ||tspayback.test.atianqi.com/boss/jgauth$s@"returncode": "*"@"returncode": "000"@
 ! --- CIBN VIP ----
 ||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"isVip":false@"isVip":true@
-||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"start":*,@"start":1541001600,@
-||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"end":*,@"end":1604160000,@
-||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"start_s":"*"@"start_s":"2018-11-01"@
-||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"end_s":"*"@"end_s":"2020-11-01"@
-||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"show_end_s":"*"@"show_end_s":"2020-11-01"@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"start":*,@"start":1559484226,@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"end":*,@"end":1685714626,@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"start_s":"*"@"start_s":"2019-06-03"@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"end_s":"*"@"end_s":"2023-06-02"@
+||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"show_end_s":"*"@"show_end_s":"2023-06-02"@
 ||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"isOpended":false@"isOpended":true@
 ||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"isBasic":false@"isBasic":true@
 ||tv.cp81.ott.cibntv.net/i-tvbin/pay/vip_info?format=json*$s@"highlight":false@"highlight":true@
@@ -175,17 +176,31 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ||heyi-acs.cp31.ott.cibntv.net/gw/mtop.youku.vip.xtop.member.profile.get/*/?data=*vipVersion*$s@"tipInfo":"*"@"tipInfo":""@
 ||heyi-acs.cp31.ott.cibntv.net/gw/mtop.youku.vip.xtop.member.profile.get/*/?data=*vipVersion*$s@"is_vip":"0"@"is_vip":"1"@
 ||heyi-acs.cp31.ott.cibntv.net/gw/mtop.alidme.xottp.pay.cashierdesk.get/*/?data=*vipVersion*$s@"vip":"NOT"@"vip":"YES"@
+! -----jiguangtv---
+||test.yhhkk.top/app/p.png
+||m202.cdn.jiasucdn.cn:8080/*/web/app/p.png
+||m202.cdn.jiasucdn.cn/*/web/app/p.png
 !
+! -----360router/netcore  -----
+||cloud.netcoretec.com
+! -- toutiao
+|https://api-access.pangolin-sdk-toutiao.com/api/ad
+!
+! ----- xiaomi tv---
+||amdc.cp12.ott.cibntv.net/amdc
+||video.market.xiaomi.com/download/AdCenter
+||market.xiaomi.com/download/AdCenter
+|http://api.ad.xiaomi.com/ott/fetchAds
+|http://api.ad.xiaomi.com/ott/uploadLogAdSDK
+||t.track.ad.xiaomi.com/task
+
 ! ===========hosts========================
 ! ---Honer box update
 ||query.pthw.gitv.tv
 ||pthw.gitv.tv
 ||beckham.pthvcdn.gitv.tv
-! ---block boy
-! ---127.0.0.1 m.so.com
-! ---127.0.0.1 m.baidu.com
-! ---127.0.0.1 m.sogou.com
-! ---127.0.0.1 p.gdown.baidu.com
+||health.pthw.gitv.tv
+||ad.gitv.tv
 ! ---union
 ||adx.dlads.cn
 ||dlads.cn
@@ -196,7 +211,7 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ||trjoy.dnion.com
 ||i1.dnion.com
 ||alog.umeng.com
-||alog.umeng.co
+||alog.umeng.cc
 ||alog.umengcloud.com
 ||au.umeng.com
 ||irs01.com
@@ -204,16 +219,22 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ||h.irs01.com
 ||vqq.admaster.com.cn
 ||secure-chn.imrworldwide.com
+||report.adview.cn
+||cm.adkmob.com
+||ssdk.adkmob.com
+||adsunflower.com
+||bigdata.adsunflower.com
+||folder.adsunflower.com
+||bigdata.adups.com
+||fota4.adups.cn
+||union.dbba.cn
+! ---qq
 ||q.i.gdt.qq.com
 ||gdt.qq.com
 ||v.gdt.qq.com
 ||c.gdt.qq.com
 ||rh.qq.com
-! ---qq
 ||pgdt.gtimg.cn
-! ---Baidu Pan redirect host
-! ---180.149.145.241 pan.baidu.com
-! ---58.217.200.64 pcs.baidu.com
 ! ---molitv
 ||ad.molitv.cn
 ||td.mpush.cn
@@ -244,25 +265,12 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ||tracking.ad-survey.com
 ||btrace.qq.com
 ||bla.gtimg.com
-! ---↓important
-!!!!||lives.l.ott.video.qq.com
-! ---↑important
-!!!!||sv-video.play.ott.video.qq.com
-!!!!||imc.l.ott.video.qq.com
-!!!!||livep.l.ott.video.qq.com
-!!!!||mcgi.play.ott.video.qq.com
-!!!!||vv.play.ott.video.qq.com
 ||p.tencentmind.com
 ||vmindhls.tc.qq.com
 ! --- QQ TV End
 ! --- CIBN VST Start
-!||lives.l.cp81.ott.cibntv.net
 ||imc.l.cp81.ott.cibntv.net
 ||sv-video.play.cp81.ott.cibntv.net
-! ---↓test
-! ---127.0.0.1 api.cp33.ott.cibntv.net
-! ---127.0.0.1 up.cp33.ott.cibntv.net
-! ---↑test
 ||ad.tvblack.com
 ||adx.tvblack.com
 !--||ad.advst.cp33.ott.cibntv.net
@@ -270,6 +278,7 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ! --- CIBN PPTV Start
 ||de.as.cp61.ott.cibntv.net
 ||asimgs.cp61.ott.cibntv.net
+||adv.ott.cibntv.net
 ! --- CIBN PPTV End
 ! ---miaozhen Start
 ||sd.cn.miaozhen.com
@@ -284,7 +293,17 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ! ---atianqi End
 ! --- xiaomi Start
 ||api.ad.xiaomi.com
-||upgrade.mishop.pandora.xiaomi.com
+!||upgrade.mishop.pandora.xiaomi.com
+||ad.xiaomi.com
+||ad1.xiaomi.com
+||ad.mi.com
+||api.ad.xiaomi.com
+||adv.sec.miui.com
+||a.union.mi.com
+||test.ad.xiaomi.com
+||test.api.xlmc.sandai.net
+||test.e.ad.xiaomi.com
+||t.track.ad.xiaomi.com
 ! --- xiaomi End
 ! ---youku
 ||ad.api.3g.youku.com
@@ -347,9 +366,35 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ||tvapps.yunos.com
 ||tvacs.yunos.com
 ||upgrade.tv.yunos.com
-!--||adash.m.taobao.com
 !--||agoodm.m.taobao.com
 ! ---YunOS End
 ! ---ieonline microsoft Start
 ||ieonline.microsoft.com^
 ! ---ieonline microsoft End
+||ad.lflucky.com
+! ----honglajiao----
+||onlinebiz.oo523.com
+||service-market.oo523.com
+||service-safemgr.yy845.com
+||service-freemeoscamera.yy845.com
+||service-userlog.yy845.com
+||yy845.com
+||ads.adroi.com
+||adm.adroi.com
+||adroi.com
+||ads.droibaas.com
+||api.droibaas.com
+||spb.yy845.com
+||211.151.183.152
+||175.25.22.149
+||211.151.209.102
+||58.32.237.57
+! ---google
+||google-analytics.com
+fonts.googleapis.com
+! -- lebo
+||adeng.hpplay.cn
+||adcdn.hpplay.cn
+||sl.hpplay.cn
+||rp.hpplay.cn
+||lebo.cn
