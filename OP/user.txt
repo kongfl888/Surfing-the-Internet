@@ -293,6 +293,7 @@ http://api.svip.baiyug.cn##[id*="F24"]
 ! ---atianqi End
 ! --- xiaomi Start
 ||api.ad.xiaomi.com
+||sdkconfig.ad.xiaomi.com
 !||upgrade.mishop.pandora.xiaomi.com
 ||ad.xiaomi.com
 ||ad1.xiaomi.com
