@@ -3,6 +3,7 @@
 0.0.0.0   pthw.gitv.tv
 0.0.0.0   ptqy.gitv.tv
 0.0.0.0   beckham.pthvcdn.gitv.tv
+0.0.0.0   health.pthw.gitv.tv
 0.0.0.0   tvupgrade.yunos.com
 0.0.0.0   osupdate.aliyun.com
 0.0.0.0   osfota.cdn.aliyun.com
@@ -38,9 +39,12 @@
 0.0.0.0   trjoy.dnion.com
 0.0.0.0   i1.dnion.com
 0.0.0.0   alog.umeng.com
+0.0.0.0   ulogs.umeng.com
 0.0.0.0   alog.umeng.co
 0.0.0.0   alog.umengcloud.com
 0.0.0.0   au.umeng.com
+0.0.0.0   errlog.umeng.com
+0.0.0.0   aaid.umeng.com
 0.0.0.0   union.maccms.com
 0.0.0.0   irs01.com
 0.0.0.0   m.irs01.com
@@ -65,3 +69,35 @@
 0.0.0.0   lebo.cn
 0.0.0.0   t.track.ad.xiaomi.com
 0.0.0.0   api.ad.xiaomi.com
+###dianshijia
+0.0.0.0   ad-template.kuyun.com
+0.0.0.0   adash.man.aliyuncs.com
+0.0.0.0   download.dianshijia.cn
+0.0.0.0   share.mydianshijia.com
+###hunantv
+0.0.0.0   adlive.da.mgtv.com
+0.0.0.0   as.mgtv.com
+0.0.0.0   v1.da.mgtv.com
+0.0.0.0   v2.da.mgtv.com
+0.0.0.0   x.da.mgtv.com
+0.0.0.0   y.da.mgtv.com
+0.0.0.0   ys.da.mgtv.com
+0.0.0.0   img.da.mgtv.com
+0.0.0.0   x.da.hunantv.com
+0.0.0.0   y.da.hunantv.com
+0.0.0.0   ottupdate.api.mgtv.com
+0.0.0.0   ottupdate2.api.mgtv.com
+0.0.0.0   ottupdate3.api.mgtv.com
+0.0.0.0   ott.da.mgtv.com
+0.0.0.0   ott2.da.mgtv.com
+0.0.0.0   ott3.da.mgtv.com
+0.0.0.0   pmpmonitor.365dmp.com
+0.0.0.0   hunantv-mipdx.cn.miaozhen.com
+0.0.0.0   inottput.api.mgtv.com
+0.0.0.0   inottput2.api.mgtv.com
+0.0.0.0   inottput3.api.mgtv.com
+0.0.0.0   update.tvapk.com
+0.0.0.0   tracking.ad-survey.com
+0.0.0.0   ad.lflucky.com
+0.0.0.0   iqiyi.m.cn.miaozhen.com
+
