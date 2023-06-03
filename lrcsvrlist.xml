@@ -1,6 +1,5 @@
-<ttp_lrcsvr query_url="https://fastly.jsdelivr.net/gh/kongfl888/Surfing-the-Internet/lrcsvrlist.xml" >
+<ttp_lrcsvr query_url="http://www.ksite.cn/lrcsvr/" >
     <server name="本地服务器:89" url="http://127.0.0.1:89/" />
-    <server name="在线服务器(测试)" url="http://yun.rangotec.com:86/qianqian" />
-    <!-- server name="在线服务器(测试)" url="http://ttplayer.moeinn.com/lrc/" />-->
+    <server name="在线服务器(测试)" url="http://www.ksite.cn/lrcsvr/" />
     <!-- extra title="点击此处访问项目主页" url="" />-->
 </ttp_lrcsvr>
